@@ -1,0 +1,25 @@
+<div webc:root="override" class="section intro-section" :class="[isHome ? `intro-section--home` : '', isFullHeight ? 'intro-section--full-height' : ''].join(' ')">
+	<div class="container">
+		<img webc:if="logo && logoWidth && logoHeight" class="intro-section__logo" :src="logo" :width="logoWidth" :height="logoHeight"  alt="">
+		<ul webc:if="tags" class="intro-section__tags">
+			<li webc:for="tag of tags" class="intro-section__tag" @text="tag.text" :style="`--color:${tag.color}`;"></li>
+		</ul>
+		<hgroup class="intro-section__headings text-gradient">
+			<app-heading class="intro-section__heading" @structure-level="1" @visual-level="1" :content="heading"></app-heading>
+			<p webc:if="subheading" class="intro-section__subheading" @text="subheading"></p>
+		</hgroup>
+		<p webc:if="description" class="intro-section__description" @text="description"></p>
+		<app-button webc:if="button" class="intro-section__button" data-modal="contact">Contact us</app-button>
+	</div>
+
+	<template webc:if="isHome" webc:nokeep>
+		<app-decorative src="/src/assets/images/backgrounds/background34d.png" class="intro-section__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background34m.png" class="intro-section__decorative-4"></app-decorative>	
+	</template>
+	<template webc:else webc:nokeep>
+		<app-decorative src="/src/assets/images/backgrounds/background01d.png" class="intro-section__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background01m.png" class="intro-section__decorative-2"></app-decorative>	
+	</template>
+	
+	<slot></slot>
+</div>

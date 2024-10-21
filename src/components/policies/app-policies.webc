@@ -1,0 +1,6 @@
+<div webc:root="override" class="policies" role="group" aria-label="Policies">
+	<a href="user-agreement.html" class="policies__link hover-line hover-line--reverse">User agreements</a>
+	<a href="aml-policy.html" class="policies__link hover-line hover-line--reverse">AML policy</a>
+	<a href="privacy-policy.html" class="policies__link hover-line hover-line--reverse">Privacy policy</a>
+	<a href="cookiePolicy.html" class="policies__link hover-line hover-line--reverse">Cookie policy</a>
+</div>

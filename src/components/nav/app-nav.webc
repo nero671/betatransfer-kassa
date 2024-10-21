@@ -1,0 +1,312 @@
+<script webc:setup>
+	const desktopMenu = [
+		{
+			name: 'Kassa',
+			href: '#',
+            special: true,
+		},
+		{
+			name: 'Exchanger',
+			href: '#'
+		},
+		{
+			name: 'Wallet',
+			href: '#'
+		},
+		{
+			name: 'Blog',
+			href: 'https://html.miks-soft.com/betatransfer/blog.html'
+		},
+		{
+			name: 'Help',
+			href: '#',
+			child: [
+				{
+					name: 'How to integrate',
+					href: 'how-to-integrate.html'
+				},
+				{
+					name: 'Connection requirements',
+					href: 'сonnection-requirements.html'
+				},
+				{
+					name: 'For developers',
+					href: 'for-developers.html'
+				},
+				{
+					name: 'Documentation',
+					href: 'api-documentation.html'
+				}
+			]
+		},
+		{
+			name: 'About us',
+			href: '#',
+			child: [
+				{
+					name: 'About company',
+					href: 'about-us.html'
+				},
+				{
+					name: 'Cases',
+					href: 'cases.html'
+				},
+				{
+					name: 'Career',
+					href: 'career.html'
+				},
+				{
+					name: 'Partner program',
+					href: 'partner-program.html'
+				},
+				{
+					name: 'Brand materials',
+					href: 'brand-materials.html'
+				},
+				{
+					name: 'Charity',
+					href: 'charity.html'
+				}
+			]
+		}
+	];
+
+	const mobileMenu = [
+		{
+			name: 'Kassa',
+			href: '#',
+
+			child: [
+				{
+					name: 'Payment products',
+					href: '#',
+					child: [
+						{
+							icon: 'payment-bot',
+							name: 'Payment bot',
+							href: 'payment-bot.html'
+						},
+						{
+							icon: 'routing',
+							name: 'Routing',
+							href: 'routing.html'
+						},
+						{
+							icon: 'localisation',
+							name: 'Localisation',
+							href: 'localisation.html'
+						},
+						{
+							icon: 'cascading',
+							name: 'Cascading',
+							href: 'cascading.html'
+						},
+						{
+							icon: 'crypto',
+							name: 'Crypto',
+							href: 'crypto.html'
+						}
+					]
+				},
+				{
+					name: 'Industries',
+					href: '#',
+					child: [
+						{
+							name: 'Betting',
+							href: 'betting.html'
+						},
+						{
+							name: 'Gambling',
+							href: 'gambling.html'
+						},
+						{
+							name: 'Investment',
+							href: 'investment.html'
+						},
+						{
+							name: 'Dating',
+							href: 'dating.html'
+						},
+						{
+							name: 'Soft',
+							href: 'soft.html'
+						},
+						{
+							name: 'Crypto',
+							href: 'crypto-industry.html'
+						},
+						{
+							name: 'Adult',
+							href: 'adult.html'
+						},
+						{
+							name: 'Infoproducts',
+							href: 'infoproducts.html'
+						},
+						{
+							name: 'Gaming',
+							href: 'gaming.html'
+						}
+					]
+				},
+				{
+					name: 'Payment methods',
+					href: '#',
+					child: [
+						{
+							name: 'Acquiring',
+							href: 'acquiring.html'
+						},
+						{
+							name: 'Alternative methods',
+							href: 'alternative-methods.html'
+						},
+						{
+							name: 'Ewallets',
+							href: 'ewallets.html'
+						},
+						{
+							name: 'Crypto',
+							href: 'crypto-method.html'
+						}
+					]
+				}
+			]
+		},
+		{
+			name: 'Exchanger',
+			href: '#'
+		},
+		{
+			name: 'Wallet',
+			href: '#'
+		},
+		{
+			name: 'Blog',
+			href: 'https://html.miks-soft.com/betatransfer/blog.html'
+		},
+		{
+			name: 'Help',
+			href: '#',
+			child: [
+				{
+					name: 'How to integrate',
+					href: 'how-to-integrate.html'
+				},
+				{
+					name: 'Connection requirements',
+					href: 'сonnection-requirements.html'
+				},
+				{
+					name: 'For developers',
+					href: 'for-developers.html'
+				},
+				{
+					name: 'Documentation',
+					href: 'api-documentation.html'
+				}
+			]
+		},
+		{
+			name: 'About us',
+			href: '#',
+			child: [
+				{
+					name: 'About company',
+					href: 'about-us.html'
+				},
+				{
+					name: 'Cases',
+					href: 'cases.html'
+				},
+				{
+					name: 'Career',
+					href: 'career.html'
+				},
+				{
+					name: 'Partner program',
+					href: 'partner-program.html'
+				},
+				{
+					name: 'Brand materials',
+					href: 'brand-materials.html'
+				},
+				{
+					name: 'Charity',
+					href: 'charity.html'
+				}
+			]
+		}
+	];
+</script>
+<nav webc:root="override" class="nav">
+    <a href="https://html.miks-soft.com/betatransfer/" class="redirect-link">
+        <img src="/src/assets/images/r.svg">
+    </a>
+	<ul webc:if="type === 'desktop'" class="nav__list">
+		<li webc:for="item of desktopMenu" class="nav__item">
+			<button webc:if="item.special" type="button" class="nav__button hover-line" aria-haspopup="dialog" aria-expanded="false" data-menu-drawer-toggle="desktop">
+				<app-icon @name="menu-closed" class="nav__icon nav__icon--closed" width="12" height="12"></app-icon>
+				<app-icon @name="menu-opened" class="nav__icon nav__icon--opened" width="22" height="4"></app-icon>
+				<span @text="item.name" webc:nokeep></span>
+			</button>
+
+			<sl-dropdown webc:elseif="Array.isArray(item.child) && item.child.length > 0" class="nav__dropdown">
+				<button type="button" slot="trigger" class="nav__button hover-line">
+					<span webc:nokeep @text="item.name"></span>
+					<app-icon @name="chevron" class="nav__icon nav__icon--chevron" width="12" height="7"></app-icon>
+				</button>
+				<ul class="nav__sublist">
+					<li webc:for="subitem of item.child" class="nav__subitem">
+						<a :href="subitem.href" class="nav__sublink hover-line" @text="subitem.name"></a>
+					</li>
+				</ul>
+			</sl-dropdown>
+
+			<a webc:else :href="item.href" class="nav__link hover-line" @text="item.name"></a>
+		</li>
+	</ul>
+
+	<ul webc:elseif="type === 'mobile'" class="nav__list">
+		<li webc:for="item of mobileMenu" class="nav__item">
+			<sl-details webc:if="Array.isArray(item.child) && item.child.length > 0" class="nav__accordion" :class="item.special ? 'nav__accordion--icon_start' : ''">
+				<div slot="summary" class="nav__button" @text="item.name"></div>
+
+				<template webc:if="item.special" webc:nokeep>
+					<app-icon @name="menu-closed" slot="expand-icon" class="nav__icon" width="12" height="12"></app-icon>
+					<app-icon @name="menu-opened" slot="collapse-icon" class="nav__icon" width="22" height="4"></app-icon>
+				</template>
+
+
+
+				<ul class="nav__sublist">
+					<li webc:for="subitem of item.child" class="nav__subitem">
+						<sl-details webc:if="Array.isArray(subitem.child) && subitem.child.length > 0" class="nav__accordion nav__accordion--child">
+							<div slot="summary" class="nav__button" @text="subitem.name"></div>
+
+							<ul class="nav__sublist">
+								<li webc:for="subsubitem of subitem.child" class="nav__subitem">
+									<a :href="subsubitem.href" class="nav__sublink">
+										<app-icon webc:if="subsubitem.icon" :@name="subsubitem.icon" class="nav__icon" width="16" height="16"></app-icon>
+										<span webc:nokeep @text="subsubitem.name"></span>
+									</a>
+								</li>
+							</ul>
+						</sl-details>
+
+						<a webc:else :href="subitem.href" class="nav__sublink">
+							<app-icon webc:if="subitem.icon" :@name="subitem.icon" class="nav__icon" width="16" height="16"></app-icon>
+							<span webc:nokeep @text="subitem.name"></span>
+						</a>
+					</li>
+				</ul>
+			</sl-details>
+
+			<a webc:else :href="item.href" class="nav__link">
+				<app-icon webc:if="item.icon" :@name="item.icon" class="nav__icon" width="24" height="24"></app-icon>
+				<span webc:nokeep @text="item.name"></span>
+			</a>
+		</li>
+	</ul>
+</nav>

@@ -1,0 +1,30 @@
+.download-section__block {
+	display: flex;
+	align-items: start;
+	gap: 6.25rem;
+	max-width: 51rem;
+	margin-inline-start: auto;
+}
+
+.download-section__heading {
+	color: var(--color-sunny);
+	text-align: left;
+}
+
+.download-section__link {
+	flex: 0 0 auto;
+}
+
+
+@media (max-width: 900px) {
+	.downloads-list-section__heading {
+		margin-block-end: 3.75rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.download-section__block {
+		gap: 1.125rem;
+		align-items: center;
+	}
+}

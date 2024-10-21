@@ -1,0 +1,17 @@
+<article 
+	webc:root="override" 
+	class="figure-card" 
+	:class="(orientation ? `figure-card--${orientation}` : '') + (size ? ` figure-card--icon_${size}` : '')"
+>
+	<img 
+		:src="icon" 
+		class="figure-card__icon" 
+		loading="lazy"
+		decoding="async"
+		alt=""
+	>
+	<hgroup class="figure-card__headings">
+		<app-heading webc:if="heading" class="figure-card__heading" @structure-level="3" @visual-level="6" :content="heading"></app-heading>
+		<p webc:if="description" class="figure-card__text" @text="description"></p>
+	</hgroup>
+</article>

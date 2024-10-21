@@ -1,0 +1,155 @@
+.text-content {
+	font: var(--font-inter-tight-sub2);
+	letter-spacing: -0.02em;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 253px 0;
+}
+
+.text-content p {
+	opacity: 0.8;
+	text-align: left;
+}
+
+.text-content p:not(:last-child) {
+	margin-block-end: 1.2em;
+}
+
+.text-content :is(h2, h3, h4, h5, h6) {
+	border-block-end: 0.0625rem solid rgba(255,255,255,0.4);
+}
+
+.text-content h2 {
+	padding-block-end: 2.5rem;
+	margin-block-end: 2.5rem;
+	font: var(--font-craftwork-grotesk-heading-2);
+	letter-spacing: -0.02em;
+	width: 100%;
+	text-align: left;
+}
+
+.text-content h2:not(:first-child) {
+	margin-block-start: 8.75rem;
+}
+
+.text-content h3 {
+	padding-block-end: 2.25rem;
+	margin-block-end: 2.25rem;
+	font: var(--font-craftwork-grotesk-heading-3);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.text-content h3:not(:first-child) {
+	margin-block-start: 7.5rem;
+}
+
+.text-content h4 {
+	padding-block-end: 2rem;
+	margin-block-end: 2rem;
+	font: var(--font-craftwork-grotesk-heading-4);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.text-content h4:not(:first-child) {
+	margin-block-start: 6.25rem;
+}
+
+.text-content h5 {
+	padding-block-end: 1.725rem;
+	margin-block-end: 1.725rem;
+	font: var(--font-craftwork-grotesk-heading-5);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.text-content h5:not(:first-child) {
+	margin-block-start: 5rem;
+}
+
+.text-content h6 {
+	padding-block-end: 1.725rem;
+	margin-block-end: 1.725rem;
+	font: var(--font-craftwork-grotesk-heading-6);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.text-content h6:not(:first-child) {
+	margin-block-start: 3.75rem;
+}
+
+.text-content a {
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	text-underline-offset: 0.25rem;
+}
+
+.text-content ul {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	align-items: flex-start;
+}
+
+.cookie-policy__intro-section,
+.aml-policy__intro-section {
+	margin-bottom: 10rem;
+}
+
+.privacy-policy__intro-section h1 {
+
+}
+
+@media (max-width: 900px) {
+	.text-content {
+		font: var(--font-inter-tight-base);
+	}
+
+	.text-content h2 {
+		padding-block-end: 1.875rem;
+		margin-block-end: 1.875rem;
+	}
+
+	.text-content h2:not(:first-child) {
+		margin-block-start: 5rem;
+	}
+
+	.text-content h3 {
+		padding-block-end: 1.5rem;
+		margin-block-end: 1.5rem;
+	}
+
+	.text-content h3:not(:first-child) {
+		margin-block-start: 3.75rem;
+	}
+
+	.text-content h4 {
+		padding-block-end: 1.25rem;
+		margin-block-end: 1.25rem;
+	}
+
+	.text-content h4:not(:first-child) {
+		margin-block-start: 3.5rem;
+	}
+
+	.text-content h5 {
+		padding-block-end: 1rem;
+		margin-block-end: 1rem;
+	}
+
+	.text-content h5:not(:first-child) {
+		margin-block-start: 2rem;
+	}
+
+	.text-content h6 {
+		padding-block-end: 0.625rem;
+		margin-block-end: 0.625rem;
+	}
+
+	.text-content h6:not(:first-child) {
+		margin-block-start: 1.25rem;
+	}
+}

@@ -1,0 +1,3 @@
+.accordion-list__item:not(:last-child)::part(base) {
+	border-block-end: 0.0625rem solid rgba(255,255,255,0.4);
+}

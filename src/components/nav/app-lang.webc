@@ -1,0 +1,21 @@
+<div webc:root="override" class="nav">
+	<div class="nav__item">
+		<sl-dropdown class="nav__dropdown">
+			<button type="button" slot="trigger" class="nav__button">
+				Eng
+				<app-icon @name="chevron" class="nav__icon nav__icon--chevron" width="12" height="7"></app-icon>
+			</button>
+			<ul class="nav__sublist">
+				<li class="nav__subitem">
+					<a href="?lang=en" class="nav__sublink" hreflang="en">Eng</a>
+				</li>
+				<li class="nav__subitem">
+					<a href="?lang=ru" class="nav__sublink" hreflang="ru">Rus</a>
+				</li>
+				<li class="nav__subitem">
+					<a href="?lang=de" class="nav__sublink" hreflang="de">Ukr</a>
+				</li>
+			</ul>
+		</sl-dropdown>
+	</div>
+</div>

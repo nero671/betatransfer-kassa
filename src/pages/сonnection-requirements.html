@@ -1,0 +1,159 @@
+<script webc:setup>
+	const policyText = `
+		<h2>1. Technical Requirements</h2>
+		<h3>1.1 API Integration:</h3>
+		<ul>
+		<li>Ensure access to the payment system's API endpoints.</li>
+		<li>Use HTTPS for all API requests to guarantee secure data transmission.</li>
+		<li>Implement OAuth 2.0 for authentication and authorization.</li>
+		</ul>
+
+		<h3>1.2 Network Requirements:</h3>
+		<ul>
+		<li>Stable internet connection with minimum bandwidth of 1 Mbps.</li>
+		<li>Open ports: 443 (HTTPS) and other specific ports as per API documentation.</li>
+		</ul>
+
+		<h3>1.3 Data Format:</h3>
+		<ul>
+		<li>JSON for request and response payloads.</li>
+		<li>UTF-8 encoding for all data.</li>
+		</ul>
+
+		<h3>1.4 Development Environment:</h3>
+		<ul>
+		<li>Compatible programming languages: Java, Python, PHP, .NET, Node.js.</li>
+		<li>SDKs and libraries provided by the payment system (if available).</li>
+		</ul>
+
+
+		<h2>2. Security Requirements</h2>
+		<h3>2.1 Data Encryption:</h3>
+		<ul>
+		<li>Use TLS 1.2 or higher for encrypting data in transit.</li>
+		<li>Store sensitive data (like API keys) securely using environment variables or a secrets management system.</li>
+
+		</ul>
+
+		<h3>2.2 Compliance:</h3>
+		<ul>
+		<li>Ensure compliance with PCI DSS (Payment Card Industry Data Security Standard).</li>
+		<li>Follow GDPR (General Data Protection Regulation) for handling personal data if applicable.</li>
+		</ul>
+
+		<h3>2.3 Security Best Practices:</h3>
+		<ul>
+			<li>Regularly update software to patch security vulnerabilities.</li>
+			<li>Implement rate limiting to protect against DDoS attacks.</li>
+			<li>Use IP whitelisting for API access.</li>
+		</ul>
+
+
+		<h2>3. Operational Requirements</h2>
+		<h3>3.1 Transaction Limits:</h3>
+		<ul>
+		<li>Ensure adherence to transaction limits set by the payment system.</li>
+		<li>Implement logic to handle transactions exceeding these limits gracefully.</li>
+
+		</ul>
+
+		<h3>3.2 Monitoring and Logging:</h3>
+		<ul>
+		<li>Enable detailed logging for all API requests and responses.</li>
+		<li>Set up monitoring for transaction success rates, error rates, and latency.</li>
+		</ul>
+
+		<h3>3.3 Backup and Recovery:</h3>
+		<ul>
+			<li>Implement regular backups of transaction data.</li>
+			<li>Develop a disaster recovery plan to ensure continuity in case of failures.</li>
+		</ul>
+
+
+
+		<h2>4. Documentation and Support</h2>
+		<h3>4.1 API Documentation:</h3>
+		<ul>
+		<li>Thoroughly read and understand the payment system's API documentation.</li>
+		<li>Follow integration guides and sample codes provided.</li>
+
+		</ul>
+
+		<h3>4.2 Support:</h3>
+		<ul>
+		<li>Enable detailed logging for all API requests and responses.</li>
+		<li>Set up monitoring for transaction success rates, error rates, and latency.</li>
+		</ul>
+
+		<h2>5. Testing and Certification</h2>
+		<h3>5.1 Sandbox Environment:</h3>
+		<ul>
+		<li>Use the provided sandbox environment for testing the integration.</li>
+		<li>Conduct comprehensive testing including edge cases and failure scenarios.</li>
+
+		</ul>
+
+		<h3>5.2 Certification:</h3>
+		<ul>
+		<li>Complete any certification processes required by the payment system.</li>
+		<li>Ensure successful test transactions before going live.</li>
+		</ul>
+
+
+		<h2>6.  User Experience</h2>
+		<h3>6.1 User Interface:</h3>
+		<ul>
+		<li>Provide a seamless and intuitive payment interface for users.</li>
+		<li>Ensure mobile compatibility and responsiveness.</li>
+
+		</ul>
+
+		<h3>6.2 Error Handling:</h3>
+		<ul>
+		<li>Implement clear and user-friendly error messages.</li>
+		<li>Provide instructions for users to resolve common issues.</li>
+		</ul>
+
+
+		<h2>7. Legal and Compliance</h2>
+		<h3>7.1 Agreements:</h3>
+		<ul>
+		<li>Review and agree to the payment system's terms and conditions.</li>
+		<li>Ensure all legal agreements are signed and submitted.</li>
+
+		</ul>
+
+		<h3>7.2 Data Privacy:</h3>
+		<ul>
+		<li>Implement policies to protect user data privacy.</li>
+		<li>Provide a privacy policy to users outlining data handling practices.</li>
+		</ul>
+	`;
+</script>
+
+<app-base webc:nokeep @title="Connection Requirements for Payment System Integration" @page-class="privacy-policy">
+	<app-intro-section
+			@heading="Connection Requirements for Payment System Integration"
+			class="connection__intro-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background25.png" class="privacy-policy__decorative-1"></app-decorative>
+	</app-intro-section>
+
+	<app-text-content-section
+			:@content="policyText"
+			class="connection__text-content-section"
+	>
+
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="privacy-policy__decorative-2"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="privacy-policy__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background26.png" class="privacy-policy__decorative-4"></app-decorative>
+	</app-text-content-section>
+
+	<app-contact-form-section
+			@heading="We are in touch 24/7"
+			@subheading="Any other questions? Contact us!"
+			:@stars="true"
+			class="privacy-policy__contact-form-section"
+	>
+	</app-contact-form-section>
+</app-base>

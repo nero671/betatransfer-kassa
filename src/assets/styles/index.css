@@ -1,0 +1,162 @@
+/* Common styles */
+@import url('/src/assets/styles/fonts.css');
+@import url('/src/assets/styles/variables.css');
+@import url('/src/assets/styles/base.css');
+@import url('/node_modules/sal.js/dist/sal.css');
+
+/* Common components */
+@import url('/src/components/icon/app-icon.css');
+@import url('/src/components/button/app-button.css');
+@import url('/src/components/header/app-header.css');
+@import url('/src/components/nav/app-nav.css');
+@import url('/src/components/desktop-menu-drawer/app-desktop-menu-drawer.css');
+@import url('/src/components/mobile-menu-drawer/app-mobile-menu-drawer.css');
+@import url('/src/components/menu/app-menu.css');
+@import url('/src/components/chat/app-chat.css');
+@import url('/src/components/heading/app-heading.css');
+@import url('/src/components/input/app-input.css');
+@import url('/src/components/cookie/app-cookie.css');
+@import url('/src/components/decorative/app-decorative.css');
+@import url('/src/components/figure-card/app-figure-card.css');
+@import url('/src/components/figure-card-grid/app-figure-card-grid.css');
+@import url('/src/components/figure-card-grid-section/app-figure-card-grid-section.css');
+@import url('/src/components/text-columns/app-text-columns.css');
+@import url('/src/components/text-columns-section/app-text-columns-section.css');
+@import url('/src/components/icon-card/app-icon-card.css');
+@import url('/src/components/icon-card-carousel/app-icon-card-carousel.css');
+@import url('/src/components/icon-card-carousel-section/app-icon-card-carousel-section.css');
+@import url('/src/components/marquee/app-marquee.css');
+@import url('/src/components/marquee-section/app-marquee-section.css');
+@import url('/src/components/logo-marquees/app-logo-marquees.css');
+@import url('/src/components/logo-marquees-section/app-logo-marquees-section.css');
+@import url('/src/components/media-card/app-media-card.css');
+@import url('/src/components/media-carousel/app-media-carousel.css');
+@import url('/src/components/media-carousel-section/app-media-carousel-section.css');
+@import url('/src/components/filter/app-filter.css');
+@import url('/src/components/footer/app-footer.css');
+@import url('/src/components/payments/app-payments.css');
+@import url('/src/components/socials/app-socials.css');
+@import url('/src/components/policies/app-policies.css');
+@import url('/src/components/animations/animation.css');
+
+/* Home page */
+@import url('/src/pages/home.css');
+@import url('/src/components/intro-section/app-intro-section.css');
+
+@import url('/src/components/contact-form/app-contact-form.css');
+@import url('/src/components/contact-form-section/app-contact-form-section.css');
+@import url('/src/components/contact-form-modal/app-contact-form-modal.css');
+
+/* Gambling page */
+@import url('/src/pages/gambling.css');
+@import url('/src/components/figure-card-columns/app-figure-card-columns.css');
+@import url('/src/components/figure-card-columns-section/app-figure-card-columns-section.css');
+
+/* How to integrate page */
+@import url('/src/pages/how-to-integrate.css');
+@import url('/src/components/steps/app-steps.css');
+@import url('/src/components/steps-section/app-steps-section.css');
+
+/* Payment bot page */
+@import url('/src/pages/payment-bot.css');
+
+/* Acquiring */
+@import url('/src/pages/acquiring.css');
+
+/* About page */
+@import url('/src/pages/about-us.css');
+@import url('/src/components/alternating-blocks/app-alternating-blocks.css');
+@import url('/src/components/alternating-blocks-section/app-alternating-blocks-section.css');
+
+/* Case page */
+@import url('/src/pages/case.css');
+@import url('/src/components/heading-description-section/app-heading-description-section.css');
+
+/* Privacy polixy page */
+@import url('/src/pages/privacy-policy.css');
+@import url('/src/assets/styles/text-content.css');
+@import url('/src/components/text-content-section/app-text-content-section.css');
+
+/* For developers page */
+@import url('/src/pages/for-developers.css');
+@import url('/src/components/downloads-list/app-downloads-list.css');
+@import url('/src/components/downloads-list-section/app-downloads-list-section.css');
+
+/* API documentation page */
+@import url('/src/pages/api-documentation.css');
+
+/* Routing */
+@import url('/src/pages/routing.css');
+@import url('/src/components/scheme-section/app-scheme-section.css');
+
+/* Cascading page */
+@import url('/src/pages/cascading.css');
+
+/* Localisation page */
+@import url('/src/pages/localisation.css');
+
+/* FAQ page */
+@import url('/src/pages/faq.css');
+@import url('/src/components/accordion/app-accordion.css');
+@import url('/src/components/accordion-list/app-accordion-list.css');
+@import url('/src/components/accordion-list-section/app-accordion-list-section.css');
+
+/* Crypto method page */
+@import url('/src/pages/crypto-method.css');
+@import url('/src/components/text-lines/app-text-lines.css');
+@import url('/src/components/text-lines-section/app-text-lines-section.css');
+
+/* Ewallets page */
+@import url('/src/pages/ewallets.css');
+
+/* Betting page */
+@import url('/src/pages/betting.css');
+
+/* Alternative methods page */
+@import url('/src/pages/alternative-methods.css');
+
+/* Cases page */
+@import url('/src/pages/cases.css');
+
+/* Crypto page */
+@import url('/src/pages/crypto.css');
+
+/* Dating page */
+@import url('/src/pages/dating.css');
+
+/* Charity page */
+@import url('/src/pages/charity.css');
+
+/* Partner program page */
+@import url('/src/pages/partner-program.css');
+@import url('/src/components/download-section/app-download-section.css');
+
+/* Career page */
+@import url('/src/pages/career.css');
+@import url('/src/components/media-list/app-media-list.css');
+@import url('/src/components/media-list-section/app-media-list-section.css');
+
+/* Brand materials page */
+@import url('/src/pages/brand-materials.css');
+
+/* Infoproducts page */
+@import url('/src/pages/infoproducts.css');
+
+/* Gaming page */
+@import url('/src/pages/gaming.css');
+
+/* Crypto industry page */
+@import url('/src/pages/crypto-industry.css');
+
+/* Investment page */
+@import url('/src/pages/investment.css');
+
+/* Soft page */
+@import url('/src/pages/soft.css');
+
+/* Adult page */
+@import url('/src/pages/adult.css');
+
+/* 404 page */
+@import url('/src/pages/not-found.css');
+@import url('/src/components/not-found-section/app-not-found-section.css');

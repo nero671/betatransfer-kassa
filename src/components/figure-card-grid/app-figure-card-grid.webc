@@ -1,0 +1,13 @@
+<div class="figure-card-grid">
+	<div webc:for="row of items" class="figure-card-grid__row">
+		<div webc:for="item of row" class="figure-card-grid__cell">
+			<app-figure-card
+				:@orientation="item.orientation"
+				:@icon="item.icon"
+				:@size="item.size"
+				:@heading="item.heading"
+				:@description="item.description"
+			></app-figure-card>
+		</div>
+	</div>
+</div>

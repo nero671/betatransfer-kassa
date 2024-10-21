@@ -1,0 +1,74 @@
+<script webc:setup>
+    const alternatingBlocks = [
+        {
+            heading: 'Challenge for Betatransfer',
+            text: 'The company\'s team came in with a problem of low GGR in a few geographies. The performance on these geographies was critical. The funds invested didn\'t bring the proper result. Though the geographies had great potential. The problem was low payment throughput on the existing gateway and the lack of payment methods popular in these regions.',
+            figure: '/src/assets/images/figure26.png'
+        },
+        {
+            heading: 'Solution',
+            text: 'The Betatransfer team integrated high-transit gateways for the selected geographies. And made recommendations to improve the design of the payment form. To make it look the most familiar and convenient for the markets in these regions.',
+            figure: '/src/assets/images/figure27.png'
+        }
+    ]
+</script>
+<app-base webc:nokeep @title="Industry: Investment" @page-class="case">
+    <app-intro-section
+            :@is-full-height="true"
+            @logo="/src/assets/images/utip.svg"
+            @logo-width="180"
+            @logo-height="71"
+            @heading="Industry: Investment"
+            @subheading="Case of 1WIN. How we increased GGR by 30%"
+            @description="If you work in the igaming market you definitely heard about 1Win. Even if you don't, you have heard of it. This is a licensed platform with gambling entertainment. The guys have been in the market since 2016. Now the 1Win brand is one of the best known in the global igaming market."
+            @button="true"
+            class="industry-investment__intro-section"
+    >
+        <app-decorative src="/src/assets/video/23_Investment.mp4" class="investment__decorative-1 investment-industry__decorative-1"></app-decorative>
+        <app-decorative src="/src/assets/video/23_Investment.mp4" class="investment__decorative-2 investment-industry__decorative-2"></app-decorative>
+
+    </app-intro-section>
+
+    <app-alternating-blocks-section
+            :@items="alternatingBlocks"
+            @reverse="true"
+            class="case__alternating-blocks-section"
+    >
+        <app-decorative src="/src/assets/images/backgrounds/background09.png" class="case__decorative-3"></app-decorative>
+        <app-decorative src="/src/assets/images/backgrounds/background09.png" class="case__decorative-4"></app-decorative>
+    </app-alternating-blocks-section>
+
+    <app-heading-description-section
+            @heading="Result"
+            @description="Our work has resulted in a 30% increase in turnover profits across these geographies."
+            class="case__heading-description-section"
+    >
+        <app-decorative src="/src/assets/images/backgrounds/background27.png" class="case__decorative-5"></app-decorative>
+
+        <app-decorative src="/src/assets/images/decorative34.png" class="case__decorative-6"></app-decorative>
+        <app-decorative src="/src/assets/images/decorative34.png" class="case__decorative-7"></app-decorative>
+        <app-decorative src="/src/assets/images/decorative35.png" class="case__decorative-8"></app-decorative>
+    </app-heading-description-section>
+
+    <app-contact-form-section
+            @heading="Such growth in metrics is possible in your company"
+            @subheading="Let's discuss!"
+            :@stars="true"
+            class="case__contact-form-section"
+    ></app-contact-form-section>
+
+    <app-media-carousel-section
+            @heading="Other cases in Gambling"
+            @button-href="cases.html"
+            @button-text="More cases"
+            class="case__media-carousel-section"
+    >
+        <app-decorative src="/src/assets/images/backgrounds/background27.png" class="case__decorative-9"></app-decorative>
+    </app-media-carousel-section>
+
+    <app-contact-form-modal
+            @heading="Such growth in metrics is possible in your company"
+            @subheading="Let's discuss!"
+    >
+    </app-contact-form-modal>
+</app-base>

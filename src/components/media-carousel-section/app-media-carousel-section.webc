@@ -1,0 +1,14 @@
+<section webc:root="override" class="section media-carousel-section">
+	<div class="container container--full">
+		<app-heading class="media-carousel-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+
+		<search webc:if="filters" class="media-carousel-section__filter">
+			<app-filter webc:for="filter of filters" :@name="filter.name" :@items="filter.items"></app-filter>
+		</search>
+
+		<app-media-carousel class="media-carousel-section__carousel"></app-media-carousel>
+
+		<app-button webc:if="buttonHref && buttonText" href="cases.html" class="media-carousel-section__more" :@content="buttonText"></app-button>
+	</div>
+	<slot></slot>
+</section>

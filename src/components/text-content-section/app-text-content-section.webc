@@ -1,0 +1,5 @@
+<div webc:root="override" class="section text-content-section">
+	<div class="container text-content" @html="content"></div>
+
+	<slot></slot>
+</div>

@@ -1,0 +1,33 @@
+.cookie {
+	position: fixed;
+	bottom: 2.5rem;
+	left: 50%;
+	translate: -50% 0;
+	z-index: 1;
+	display: grid;
+	gap: 0.5rem;
+	grid-template-areas: 'text accept reject';
+	grid-template-columns: 1fr min-content min-content;
+	align-items: center;
+	max-width: 57.125rem;
+	width: 100%;
+	padding: 0.5rem 0.5rem 0.5rem 2.25rem;
+	background-color: var(--color-dark-imperial-blue);
+	border-radius: 3.125rem;
+	margin-inline: auto;
+}
+
+.cookie__text {
+	grid-area: text;
+	max-width: 25.9375rem;
+}
+
+.cookie__button--accept {
+	grid-area: accept;
+	
+}
+
+.cookie__button--reject {
+	grid-area: reject;
+	justify-self: end;
+}

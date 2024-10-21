@@ -1,0 +1,155 @@
+.localisation__intro-section {
+	margin-block-end: 31.875rem;
+}
+
+.localisation__figure-card-columns-section {
+	margin-block-end: 20.75rem;
+}
+
+.localisation__scheme-section {
+	/*margin-block-end: 19.1875rem;*/
+	margin-block-end: -45rem;
+}
+
+.localisation__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.localisation__decorative-1 {
+	top: 17.875rem;
+	left: -15.25rem;
+	width: 43.25rem;
+	height: 43.25rem;
+	mix-blend-mode: lighten;
+}
+
+.localisation__decorative-2 {
+	top: 3.3125rem;
+	right: -6.625rem;
+	width: 33rem;
+	height: 33rem;
+	mix-blend-mode: lighten;
+}
+
+.localisation__decorative-3 {
+	top: -54rem;
+	left: 50%;
+	translate: -49% 0;
+}
+
+.localisation__decorative-3-1 {
+	top: 10rem;
+	left: 20rem;
+	translate: -49% 0;
+}
+
+.localisation__decorative-4 {
+	bottom: -40rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.localisation__decorative-5 {
+	top: 4.4375rem;
+	right: 50%;
+	translate: 73% 0;
+	width: 51rem;
+	height: 51rem;
+	opacity: 0.5;
+	mix-blend-mode: lighten;
+}
+
+.localisation-img__wrapper {
+	top: -15rem !important;
+}
+
+@media(max-width: 1650px) {
+	.localisation__scheme-section {
+		margin-block-end: -35rem;
+	}
+
+	.localisation-img__wrapper {
+		top: -10rem !important;
+	}
+}
+
+@media (max-width: 1300px) {
+	.localisation__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.localisation__decorative-2 {
+		top: 3.25rem;
+		right: -5.8125rem;
+		width: 19.3125rem;
+		height: 19.3125rem;
+		opacity: 0.53;
+	}
+
+	.localisation__scheme-section {
+		margin-block-end: -18rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.localisation__intro-section {
+		margin-block-end: 21rem;
+	}
+
+	.localisation__decorative-1 {
+		top: 37rem;
+	}
+
+	.localisation__figure-card-columns-section {
+		margin-block-end: 17rem;
+	}
+
+	.localisation__scheme-section {
+		/*margin-block-end: 28.875rem;*/
+		margin-block-end: -10rem;
+	}
+
+	.localisation__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.localisation__decorative-3 {
+		top: -50rem;
+		right: -20rem;
+		left: unset;
+		translate: unset;
+		width: 92.9375rem;
+		height: auto;
+	}
+
+	.localisation__decorative-4 {
+		display: none;
+	}
+
+	.localisation__decorative-5 {
+		top: 57%;
+		right: -9.5rem;
+		translate: unset;
+		width: 21.375rem;
+		height: 21.375rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.localisation__scheme-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.localisation__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.localisation-img__wrapper {
+		top: -5rem !important;
+	}
+}

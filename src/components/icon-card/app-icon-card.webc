@@ -1,0 +1,11 @@
+<article class="icon-card">
+	<img 
+		:src="icon" 
+		width="48" 
+		height="48" 
+		class="icon-card__icon" 
+		alt=""
+	>
+	<h3 class="icon-card__heading" @text="heading"></h3>
+	<p class="icon-card__text"><slot></slot></p>
+</article>

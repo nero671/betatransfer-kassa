@@ -1,0 +1,17 @@
+<div webc:root="override" class="socials" role="group" aria-label="Socials">
+	<a href="https://www.facebook.com/" class="socials__link" target="_blank" rel="noreferrer">
+		<img src="/src/assets/images/facebook.svg" class="socials__icon" width="48" height="48" loading="lazy" decoding="async" alt="Facebook.">
+	</a>
+	<a href="https://www.instagram.com/" class="socials__link" target="_blank" rel="noreferrer">
+		<img src="/src/assets/images/instagram.svg" class="socials__icon" width="48" height="48" loading="lazy" decoding="async" alt="Instagram.">
+	</a>
+	<a href="https://www.youtube.com/" class="socials__link" target="_blank" rel="noreferrer">
+		<img src="/src/assets/images/youtube.svg" class="socials__icon" width="48" height="48" loading="lazy" decoding="async" alt="YouTube.">
+	</a>
+	<a href="https://www.tiktok.com/" class="socials__link" target="_blank" rel="noreferrer">
+		<img src="/src/assets/images/tiktok.svg" class="socials__icon" width="48" height="48" loading="lazy" decoding="async" alt="TikTok.">
+	</a>
+	<a href="https://telegram.org/" class="socials__link" target="_blank" rel="noreferrer">
+		<img src="/src/assets/images/telegram.svg" class="socials__icon" width="48" height="48" loading="lazy" decoding="async" alt="Telegram.">
+	</a>
+</div>

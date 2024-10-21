@@ -1,0 +1,8 @@
+<section webc:root="override" class="section text-lines-section">
+	<div class="container">
+		<app-heading class="text-lines-section__heading" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+
+		<app-text-lines class="text-lines-section__text" :@lines="lines"></app-text-lines>
+	</div>
+	<slot></slot>
+</section>

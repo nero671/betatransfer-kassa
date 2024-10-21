@@ -1,0 +1,18 @@
+.socials {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.socials__link {
+	transition-property: scale;
+	transition-duration: var(--base-transition);
+}
+
+.socials__link:is(:hover, :focus-visible) {
+	scale: 1.1;
+}
+
+.socials__icon {
+	width: 3rem;
+	height: 3rem;
+}

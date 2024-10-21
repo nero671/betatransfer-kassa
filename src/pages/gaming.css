@@ -1,0 +1,145 @@
+.gaming__intro-section {
+	margin-block-end: 20.9375rem;
+}
+
+.gaming__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.gaming__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.gaming__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.gaming__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.gaming__decorative-1 {
+	top: 40.5rem;
+	left: 3.3125rem;
+	width: 35rem;
+	height: 35rem;
+	mix-blend-mode: lighten;
+}
+
+.gaming__decorative-2 {
+	width: 35rem;
+	height: 35rem;
+	top: 4.5rem;
+	right: -0.3125rem;
+	mix-blend-mode: lighten;
+}
+
+.gaming__decorative-3 {
+	bottom: -40.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.gaming__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.gaming__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+@media(min-width: 2000px) {
+	.gaming__decorative-1 {
+		top: 50.25rem;
+	}
+}
+
+@media (max-width: 1800px) {
+	.gaming__decorative-1 {
+		top: 37.5rem;
+		left: -3.3125rem;
+		mix-blend-mode: lighten;
+	}
+
+	.gaming__decorative-2 {
+		right: -4.3125rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.gaming__decorative-1 {
+		top: unset;
+		bottom: -8.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+	}
+
+	.gaming__decorative-2 {
+		top: 9.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.gaming__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.gaming__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.gaming__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.gaming__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.gaming__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.gaming__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.gaming__decorative-4 {
+		display: none;
+	}
+
+	.gaming__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    left: -36rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.gaming__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.gaming__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+
+	.gaming__decorative-2 {
+		width: 15.1875rem;
+		height: 15.1875rem;
+		top: 5.25rem;
+	}
+}

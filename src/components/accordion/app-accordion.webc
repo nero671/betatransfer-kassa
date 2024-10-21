@@ -1,0 +1,6 @@
+<sl-details webc:root="override" class="accordion">
+	<span slot="summary" @html="heading"></span>
+	<span webc:if="details" @text="details"></span>
+	<slot name="content"></slot>
+
+</sl-details>

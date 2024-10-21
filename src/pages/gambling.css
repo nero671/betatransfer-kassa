@@ -1,0 +1,127 @@
+.gambling__intro-section {
+	margin-block-end: 25.75rem;
+}
+
+.gambling__figure-card-columns-section {
+	margin-block-end: 27rem;
+}
+
+.gambling__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.gambling__media-carousel-section {
+	margin-block-end: 19.5rem;
+}
+
+.gambling__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.gambling__decorative-1 {
+	width: 44.75rem;
+	height: 44.75rem;
+	top: 9.375rem;
+	left: -18.5625rem;
+	scale: -1 1;
+}
+
+.gambling__decorative-2 {
+	width: 44.75rem;
+	height: 44.75rem;
+	top: 9.375rem;
+	right: -18.5625rem;
+}
+
+.gambling__decorative-3 {
+	top: -6rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.figure-card-columns__item {
+	position: relative;
+
+	a {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+}
+
+.figure-card-columns__item h3 {
+	text-align: center !important;
+}
+
+.figure-card-columns__item p {
+	text-align: center;
+}
+
+@media (max-width: 1300px) {
+	.gambling__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.gambling__decorative-2 {
+		top: 3.25rem;
+		right: -5.8125rem;
+		width: 19.3125rem;
+		height: 19.3125rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.gambling__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.gambling__decorative-1 {
+		top: 40rem;
+	}
+
+
+	.gambling__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.gambling__logo-marquees-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.gambling__media-carousel-section {
+		margin-block-end: 14.25rem;
+	}
+
+	.gambling__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.gambling__decorative-3 {
+		top: -2rem;
+		width: 63.125rem;
+		height: auto;
+	}
+}
+
+@media(max-width: 600px) {
+	.gambling__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.gambling__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+
+	.gambling__decorative-2 {
+		width: 15.1875rem;
+		height: 15.1875rem;
+	}
+}

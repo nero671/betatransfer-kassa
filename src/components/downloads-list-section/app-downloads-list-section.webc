@@ -1,0 +1,11 @@
+<section webc:root="override" class="section downloads-list-section">
+	<div class="container">
+		<app-heading webc:if="hiddenHeading" class="downloads-list-section__heading visually-hidden" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+		<app-heading webc:else class="downloads-list-section__heading" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+
+		<span @text="hiddenHeading"></span>
+
+		<app-downloads-list class="downloads-list-section__list" :@items="items" :@button-href="buttonHref" :@button-text="buttonText"></app-downloads-list>
+	</div>
+	<slot></slot>
+</section>

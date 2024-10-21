@@ -1,0 +1,7 @@
+<div webc:root="override" class="menu">
+	<h2 webc:if="heading" class="menu__heading" @text="heading"></h2>
+	<a webc:for="link of links" :href="link.href" class="menu__link hover-line" :class="link.bigger ? 'menu__link--bigger' : ''">
+		<app-icon webc:if="link.icon" :@name="link.icon" class="menu__icon" width="24" height="24"></app-icon>
+		<span webc:nokeep @text="link.name"></span>
+	</a>
+</div>

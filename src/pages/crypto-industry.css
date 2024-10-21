@@ -1,0 +1,131 @@
+.crypto-industry__intro-section {
+	margin-block-end: 23.3125rem;
+}
+
+.crypto-industry__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.crypto-industry__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.crypto-industry__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.crypto-industry__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.crypto-industry__decorative-1 {
+	top: 0;
+	left: -12.375rem;
+	width: 44.125rem;
+	height: 44.125rem;
+	scale: -1 1;
+}
+
+.crypto-industry__decorative-2 {
+	top: 8.625rem;
+	right: -16.125rem;
+	width: 47.125rem;
+	height: 47.125rem;
+}
+
+.crypto-industry__decorative-3 {
+	bottom: -30.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.crypto-industry__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.crypto-industry__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+@media(max-width: 1750px) {
+	.crypto-industry__decorative-1 {
+		left: -22.75rem;
+	}
+
+	.crypto-industry__decorative-2 {
+		right: -22.75rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.crypto-industry__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.crypto-industry__decorative-2 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.crypto-industry__intro-section {
+		margin-block-end: 17rem;
+	}
+
+	.crypto-industry__decorative-1 {
+		top: 38rem;
+	}
+
+	.crypto-industry__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.crypto-industry__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.crypto-industry__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.crypto-industry__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.crypto-industry__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.crypto-industry__decorative-4 {
+		display: none;
+	}
+
+	.crypto-industry__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    left: -36rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.crypto-industry__decorative-1 {
+		bottom: -6.75rem;
+	}
+}

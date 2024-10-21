@@ -1,0 +1,12 @@
+<app-contact-form-modal>
+	<sl-dialog class="contact-form-modal">
+		<button type="button" slot="header-actions" class="contact-form-modal__close" data-modal-close aria-label="Close">
+			<app-icon @name="cross" width="30" height="30"></app-icon>
+		</button>
+		<app-contact-form 
+			:@heading="heading"
+			:@subheading="subheading"
+			class="contact-form-section__form"
+		></app-contact-form>
+	</sl-dialog>
+</app-contact-form-modal>

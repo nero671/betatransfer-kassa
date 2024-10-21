@@ -1,0 +1,20 @@
+<ol webc:root="override" class="steps">
+	<li webc:for="(step, index) of steps" class="steps__item" :class="step.glass ? 'steps__item--image' : ''">
+		<app-decorative webc:if="step.glass" src="/src/assets/images/decorative33.png" class="steps__decorative" :style="`rotate: ${step.glassRotate ? step.glassRotate : 0}deg`" data-sal="zoom-in" data-sal-duration="700"></app-decorative>
+
+		<span class="steps__number" data-sal="slide-up" data-sal-duration="700">Step </span>
+		<app-heading class="steps__heading" @structure-level="3" @visual-level="6" :@content="step.heading" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200"></app-heading>
+		<p webc:if="step.text" class="steps__text" @text="step.text" data-sal="slide-up" data-sal-duration="700" data-sal-delay="400"></p>
+		
+		<svg width="312" height="242" class="steps__line" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700">
+			<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" :stroke="`url(#paint-${uid}-${index})`" stroke-width="2" stroke-linecap="round"/>
+			<defs>
+				<linearGradient :id="`paint-${uid}-${index}`" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+					<stop stop-color="white" stop-opacity="0"/>
+					<stop offset="0.500021" stop-color="white"/>
+					<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</linearGradient>
+			</defs>
+		</svg>
+	</li>
+</ol>

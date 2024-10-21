@@ -1,0 +1,24 @@
+<h1 webc:if="structureLevel === '1'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h1>
+<h2 webc:elseif="structureLevel === '2'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h2>
+<h3 webc:elseif="structureLevel === '3'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h3>
+<h4 webc:elseif="structureLevel === '4'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h4>
+<h5 webc:elseif="structureLevel === '5'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h5>
+<h6 webc:elseif="structureLevel === '6'" webc:root="override" class="heading" :class="`heading--level_${visualLevel ? visualLevel : 2 }`">
+	<span webc:if="content" webc:nokeep @html="content"></span>
+	<slot webc:else></slot>
+</h6>

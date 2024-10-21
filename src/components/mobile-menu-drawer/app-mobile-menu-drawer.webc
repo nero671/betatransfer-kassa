@@ -1,0 +1,180 @@
+<script webc:setup>
+	const paymentProductsLinks = [
+		{
+			href: '#',
+			icon: 'payment-bot',
+			text: 'Payment bot',
+			bigger: true
+		},
+		{
+			href: '#',
+			icon: 'routing',
+			text: 'Routing',
+			bigger: true
+		},
+		{
+			href: '#',
+			icon: 'localisation',
+			text: 'Localisation',
+			bigger: true
+		},
+		{
+			href: '#',
+			icon: 'cascading',
+			text: 'Cascading',
+			bigger: true
+		},
+		{
+			href: '#',
+			icon: 'crypto',
+			text: 'Crypto',
+			bigger: true
+		},
+	];
+
+	const industriesLinks = [
+		{
+			href: '#',
+			text: 'Betting'
+		},
+		{
+			href: '#',
+			text: 'Gambling'
+		},
+		{
+			href: '#',
+			text: 'Investment'
+		},
+		{
+			href: '#',
+			text: 'Dating'
+		},
+		{
+			href: '#',
+			text: 'Soft'
+		},
+		{
+			href: '#',
+			text: 'Crypto'
+		},
+		{
+			href: '#',
+			text: 'Adult'
+		},
+		{
+			href: 'infoproducts.html',
+			text: 'Infoproducts'
+		},
+		{
+			href: '#',
+			text: 'Gaming'
+		},
+	];
+
+	const paymentMethodsLinks = [
+		{
+			href: '#',
+			text: 'Acquiring'
+		},
+		{
+			href: '#',
+			text: 'Alternative methods'
+		},
+		{
+			href: '#',
+			text: 'Ewallets'
+		},
+		{
+			href: '#',
+			text: 'Crypto'
+		},
+	];
+
+	const helpLinks = [
+		{
+			href: '#',
+			text: 'How to integrate'
+		},
+		{
+			href: 'сonnection-requirements.html',
+			text: 'Connection requirements'
+		},
+		{
+			href: '#',
+			text: 'For developers'
+		},
+		{
+			href: '#',
+			text: 'Documentation'
+		},
+	];
+
+	const aboutUsLinks = [
+		{
+			href: '#',
+			text: 'About company'
+		},
+		{
+			href: '#',
+			text: 'Cases'
+		},
+		{
+			href: '#',
+			text: 'Career'
+		},
+		{
+			href: '#',
+			text: 'Partner program'
+		},
+		{
+			href: '#',
+			text: 'Brand materials'
+		},
+		{
+			href: '#',
+			text: 'Charity'
+		},
+	];
+
+	const socialLinks = [
+		{
+			href: '#',
+			icon: 'envelope-button',
+			text: 'Email'
+		},
+		{
+			href: '#',
+			icon: 'telegram-button',
+			text: 'Telegram'
+		},
+		{
+			href: '#',
+			icon: 'whatsapp-button',
+			text: 'Whats App'
+		},
+	]
+</script>
+<sl-drawer webc:root="override" class="mobile-menu-drawer drawer-placement-top" label="Drawer" placement="top" no-header>
+	<div class="mobile-menu-drawer__container container">
+
+
+
+		<app-nav type="mobile" class="mobile-menu-drawer__nav"></app-nav>
+
+
+		    <a href="https://html.miks-soft.com/betatransfer/">
+			<img src="/src/assets/images/r.svg">
+			</a>
+
+
+		<div class="mobile-menu-drawer__bottom">
+			<p class="mobile-menu-drawer__contact-text" id="menu-contacts">Any other questions?<br>Contact us!</p>
+			<div class="mobile-menu-drawer__contacts" role="group" aria-labelledby="menu-contacts">
+				<a webc:for="link of socialLinks" :href="link.href" class="mobile-menu-drawer__link hover-line">
+					<app-icon :@name="link.icon" class="mobile-menu-drawer__icon" width="24" height="24"></app-icon>
+					<span webc:nokkeep @text="link.text"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</sl-drawer>

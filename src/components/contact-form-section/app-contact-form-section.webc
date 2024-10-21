@@ -1,0 +1,13 @@
+<aside webc:root="override" class="section contact-form-section" id="contact">
+	<app-contact-form 
+		:@heading="heading"
+		:@subheading="subheading"
+		class="container contact-form-section__form"
+	></app-contact-form>
+	
+	<app-decorative src="/src/assets/images/backgrounds/background02.png" class="contact-form-section__decorative-1"></app-decorative>
+	<app-decorative webc:if="stars" src="/src/assets/images/decorative29.png" class="contact-form-section__decorative-2"></app-decorative>
+	<app-decorative webc:if="stars" src="/src/assets/images/decorative29.png" class="contact-form-section__decorative-3"></app-decorative>
+
+	<slot></slot>
+</aside>

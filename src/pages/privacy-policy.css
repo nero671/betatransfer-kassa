@@ -1,0 +1,133 @@
+.privacy-policy__intro-section {
+	margin-block-end: 9.625rem;
+}
+
+.privacy-policy__text-content-section {
+	margin-block-end: 28.25rem;
+}
+
+@media(min-width: 1350px) {
+	.intro-section h1 {
+		font-size: 87px;
+	}
+}
+
+
+.privacy-policy__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.privacy-policy__decorative-1 {
+	top: -14rem;
+	left: 50%;
+	translate: -44% 0;
+}
+
+.privacy-policy__decorative-2 {
+	top: 19%;
+	left: -36rem;
+}
+
+.privacy-policy__decorative-3 {
+	right: -56rem;
+	bottom: 16%;
+}
+
+.privacy-policy__decorative-4 {
+	bottom: -50rem;
+	left: 50%;
+	translate: -44% 0;
+}
+
+.user-agreement__intro-section h1,
+.connection__intro-section h1,
+.cookie-policy__intro-section h1 {
+	border-bottom: 0;
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.user-agreement__intro-section .intro-section__headings,
+.connection__intro-section .intro-section__headings,
+.cookie-policy__intro-section .intro-section__headings {
+	max-width: 100%;
+	margin-bottom: 5rem;
+}
+
+.user-agreement__intro-section .intro-section__headings:after,
+.connection__intro-section .intro-section__headings:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 1px;
+	width: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(255,255,255,0.8);
+}
+
+.cookie-policy__intro-section .intro-section__subheading {
+	max-width: 65rem;
+	margin: 0 auto;
+	border-top: 1px solid rgba(255,255,255,0.8);
+	padding-top: 40px;
+}
+
+.cookie-policy__text-content-section .text-content h2:not(:first-child),
+.aml__text-content-section .text-content h2:not(:first-child) {
+	margin-block-start: 4.5rem;
+}
+.cookie-policy__text-content-section .text-content h4:not(:first-child),
+.aml__text-content-section .text-content h4:not(:first-child) {
+	margin-block-start: 2.25rem;
+	font-size: 32px;
+}
+
+.connection__text-content-section .text-content h3,
+.aml__text-content-section .text-content h3 {
+	font-size: 32px;
+}
+
+.connection__text-content-section .text-content h3:not(:first-child),
+.aml__text-content-section .text-content h3:not(:first-child) {
+	margin-block-start: 2.5rem;
+}
+
+.text-content-section .text-content {
+	margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+	.privacy-policy__text-content-section {
+		margin-block-end: 14.25rem;
+	}
+
+	.privacy-policy__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.privacy-policy__decorative-1 {
+		display: none;
+	}
+
+	.privacy-policy__decorative-2 {
+		width: 43.4375rem;
+		height: auto;
+		left: -18rem;
+	}
+
+	.privacy-policy__decorative-3 {
+		width: 43.4375rem;
+		height: auto;
+		right: -18rem;
+	}
+
+	.privacy-policy__decorative-4 {
+		bottom: -18rem;
+		left: 50%;
+		translate: -50%;
+		width: 68.5rem;
+		height: auto;
+	}
+}

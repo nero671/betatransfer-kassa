@@ -1,0 +1,21 @@
+.media-list {
+	--media-list-columns: 3; 
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(var(--media-list-columns), minmax(0, 1fr));
+	gap: 3.75rem 2.5rem;
+}
+
+@media (max-width: 900px) {
+	.media-list {
+		--media-list-columns: 2;
+		gap: 1.875rem 1.25rem;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.media-list {
+		--media-list-columns: 1;
+	}
+}

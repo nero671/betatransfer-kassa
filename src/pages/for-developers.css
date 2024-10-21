@@ -1,0 +1,44 @@
+.for-developers__intro-section {
+	margin-block-end: 18rem;
+}
+
+.for-developers__downloads-list-section {
+	margin-block-end: 36.875rem;
+}
+
+.for-developers__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.for-developers__decorative-1 {
+	top: -4rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.for-developers__decorative-2 {
+	bottom: -50rem;
+	left: -70rem;
+}
+
+@media (max-width: 900px) {
+	.for-developers__downloads-list-section {
+		margin-block-end: 14.25rem;
+	}
+	
+	.for-developers__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.for-developers__decorative-1 {
+		display: none;
+	}
+
+	.for-developers__decorative-2 {
+		bottom: -30rem;
+		left: 50%;
+		translate: -50% 0;
+		width: 91rem;
+		height: auto;	
+	}
+}

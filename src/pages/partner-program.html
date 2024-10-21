@@ -1,0 +1,159 @@
+<script webc:setup>
+	const partnerProgramBasis = [
+		{
+			icon: '/src/assets/images/figure51.png',
+			size: 'medium',
+			description: 'You bring a client - you get paid. This is not a one-time bonus for a new client. Our partners receive a percentage of all transactions of the brought client'
+		},
+		{
+			icon: '/src/assets/images/figure41.png',
+			size: 'medium',
+			description: 'You sell our product at a higher price, and the price difference is paid to you after each transaction is completed'
+		},
+		{
+			icon: '/src/assets/images/figure42.png',
+			size: 'medium',
+			description: 'As long as your client works with us, you get funds. This is the passive income everyone is talking about'
+		}
+	];
+
+	const becomeAPartner = [
+		{
+			heading: 'Contact our support managers to clarify all the details'
+		},
+		{
+			heading: 'Create a personal account on the site. Make your login in the profile consonant with your site or name'
+		},
+		{
+			heading: 'Get a referral link in your profile'
+		},
+		{
+			heading: 'Report the login to your support manager'
+		},
+		{
+			heading: 'Look for clients and get a percentage of their transactions'
+		},
+	];
+
+	const downloads = [
+		{
+			heading: 'We have created a special training programme for agents.',
+			href: '/src/assets/images/bt-kassa.svg'
+		}
+	];
+</script>
+<app-base webc:nokeep @title="Partner program" @page-class="partner-program">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Partner program"
+		@subheading="Are you self-employed or do you have your own business? You can become our agent. Regardless of your profession and experience you can earn with us."
+		@button="true"
+		class="partner-program__intro-section"
+	>
+		<app-decorative src="/src/assets/video/16_PartnerProgramm.mp4" class="partner-program__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/16_PartnerProgramm.mp4" class="partner-program__decorative-2"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background12.png" class="partner-program__decorative-3"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-columns-section
+		@heading="Partner program basis"
+		:@items="partnerProgramBasis"
+		@size="big"
+		@justify="space-between"
+		class="partner-program__figure-card-columns-section"
+	>
+	</app-figure-card-columns-section>
+
+<!--	<app-steps-section-->
+<!--		@heading="How to become a partner"-->
+<!--		:@steps="becomeAPartner"-->
+<!--		class="partner-program__steps-section"-->
+<!--	>-->
+<!--		<app-decorative src="/src/assets/images/backgrounds/background13.png" class="partner-program__decorative-4"></app-decorative>-->
+<!--		<app-decorative src="/src/assets/images/backgrounds/background13.png" class="partner-program__decorative-5"></app-decorative>-->
+<!--		<app-decorative src="/src/assets/images/backgrounds/background13.png" class="partner-program__decorative-6"></app-decorative>-->
+<!--	</app-steps-section>-->
+
+	<section class="partner-program__steps-section section steps-section"> <div class="container"> <h2 class="heading heading--level_2 steps-section__heading"> How to become a partner </h2> <ol class="steps steps-section__steps"> <li class="steps__item"> <span data-sal="slide-up" data-sal-duration="700" class="steps__number sal-animate">Step </span> <h3 data-sal="slide-up" data-sal-duration="700" data-sal-delay="200" class="heading heading--level_6 steps__heading sal-animate"> Contact our support managers to clarify all the details </h3>
+		<svg width="312" height="242" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700" class="steps__line sal-animate">
+			<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" stroke="url(#paint-webc-05bfS-2)" stroke-width="2" stroke-linecap="round"></path>
+			<defs>
+				<linearGradient id="paint-webc-05bfS-2" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+					<stop stop-color="white" stop-opacity="0"></stop>
+					<stop offset="0.500021" stop-color="white"></stop>
+					<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+				</linearGradient>
+			</defs>
+		</svg>
+	</li>
+		<li class="steps__item"> <span data-sal="slide-up" data-sal-duration="700" class="steps__number sal-animate">Step </span> <h3 data-sal="slide-up" data-sal-duration="700" data-sal-delay="200" class="heading heading--level_6 steps__heading sal-animate"> Create a personal account on the site. Make your login in the profile consonant with your site or name </h3>
+			<svg width="312" height="242" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700" class="steps__line sal-animate">
+				<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" stroke="url(#paint-webc-tgudi-1)" stroke-width="2" stroke-linecap="round"></path>
+				<defs>
+					<linearGradient id="paint-webc-tgudi-1" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+						<stop stop-color="white" stop-opacity="0"></stop>
+						<stop offset="0.500021" stop-color="white"></stop>
+						<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+					</linearGradient>
+				</defs>
+			</svg>
+		</li>
+		<li class="steps__item"> <span data-sal="slide-up" data-sal-duration="700" class="steps__number sal-animate">Step </span> <h3 data-sal="slide-up" data-sal-duration="700" data-sal-delay="200" class="heading heading--level_6 steps__heading sal-animate"> Get a referral link in your profile </h3>
+			<svg width="312" height="242" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700" class="steps__line sal-animate">
+				<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" stroke="url(#paint-webc-V6aUh-3)" stroke-width="2" stroke-linecap="round"></path>
+				<defs>
+					<linearGradient id="paint-webc-V6aUh-3" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+						<stop stop-color="white" stop-opacity="0"></stop>
+						<stop offset="0.500021" stop-color="white"></stop>
+						<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+					</linearGradient>
+				</defs>
+			</svg>
+		</li>
+		<li class="steps__item"> <span data-sal="slide-up" data-sal-duration="700" class="steps__number sal-animate">Step </span> <h3 data-sal="slide-up" data-sal-duration="700" data-sal-delay="200" class="heading heading--level_6 steps__heading sal-animate"> Report the login to your support manager </h3>
+			<svg width="312" height="242" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700" class="steps__line sal-animate">
+				<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" stroke="url(#paint-webc-tgudi-1)" stroke-width="2" stroke-linecap="round"></path>
+				<defs>
+					<linearGradient id="paint-webc-tgudi-1" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+						<stop stop-color="white" stop-opacity="0"></stop>
+						<stop offset="0.500021" stop-color="white"></stop>
+						<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+					</linearGradient>
+				</defs>
+			</svg>
+		</li>
+		<li class="steps__item"> <span data-sal="slide-up" data-sal-duration="700" class="steps__number sal-animate">Step </span> <h3 data-sal="slide-up" data-sal-duration="700" data-sal-delay="200" class="heading heading--level_6 steps__heading sal-animate"> Look for clients and get a percentage of their transactions </h3>
+			<svg width="312" height="242" viewBox="0 0 312 242" fill="none" xmlns="http://www.w3.org/2000/svg" data-sal="fade" data-sal-duration="700" class="steps__line sal-animate">
+				<path opacity="0.4" d="M311 241C153.621 241 1 199.09 1 1" stroke="url(#paint-webc-PqlA0-4)" stroke-width="2" stroke-linecap="round"></path>
+				<defs>
+					<linearGradient id="paint-webc-PqlA0-4" x1="-5.49999" y1="1" x2="311" y2="241" gradientUnits="userSpaceOnUse">
+						<stop stop-color="white" stop-opacity="0"></stop>
+						<stop offset="0.500021" stop-color="white"></stop>
+						<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+					</linearGradient>
+				</defs>
+			</svg>
+		</li>
+	</ol> </div> <img src="https://html.miks-soft.com/betatransfer-kassa/background13.d7be1c88.png" alt="" role="presentation" class="decorative partner-program__decorative-4"> <img src="https://html.miks-soft.com/betatransfer-kassa/background13.d7be1c88.png" alt="" role="presentation" class="decorative partner-program__decorative-5"> <img src="https://html.miks-soft.com/betatransfer-kassa/background13.d7be1c88.png" alt="" role="presentation" class="decorative partner-program__decorative-6"> </section>
+
+	<app-download-section
+		@heading="We have created a special training programme for agents."
+		@href="/src/assets/images/bt-kassa.svg"
+		class="partner-program__download-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background04.png" class="partner-program__decorative-7"></app-decorative>
+	</app-download-section>
+
+	<app-contact-form-section
+		@heading="Our managers will tell you how you can earn with us"
+		@subheading="Leave an request to find out the terms and conditions"
+		:@stars="true"
+		class="partner-program__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Our managers will tell you how you can earn with us"
+		@subheading="Leave an request to find out the terms and conditions"
+	>
+	</app-contact-form-modal>
+</app-base>

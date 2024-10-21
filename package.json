@@ -1,0 +1,51 @@
+{
+  "name": "beta-kassa",
+  "description": "Beta Kassa website static HTML.",
+  "private": "true",
+  "license": "UNLICENSED",
+  "type": "module",
+  "source": "src/pages/index.html",
+  "browserslist": "defaults",
+  "scripts": {
+    "cleanup": "rm -rf .parcel-cache dist static",
+    "dev": "npm run cleanup && npm run sprites && parcel serve",
+    "sprites": "node svg-sprite-generator.js",
+    "build": "npm run cleanup && npm run sprites && npm run build:default && npm run build:static",
+    "build:default": "parcel build --no-source-maps --target default",
+    "build:static": "parcel build --no-source-maps --target static",
+    "build:animations": "parcel build --no-source-maps --target animations"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./dist",
+      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa"
+    },
+    "static": {
+      "distDir": "./static",
+      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa"
+    },
+    "animations": {
+      "distDir": "./animations",
+      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa-animations"
+    }
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "customMedia": true
+    }
+  },
+  "devDependencies": {
+    "@11ty/webc": "^0.11.4",
+    "buffer": "^6.0.3",
+    "jsdom": "^24.0.0",
+    "parcel": "^2.12.0",
+    "sharp": "^0.31.3",
+    "svg-sprite": "^2.0.4",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.15.0",
+    "sal.js": "^0.8.5",
+    "swiper": "^11.1.1"
+  }
+}

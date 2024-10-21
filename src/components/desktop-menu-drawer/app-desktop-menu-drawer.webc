@@ -1,0 +1,187 @@
+<script webc:setup>
+	const paymentProductsLinks = [
+		{
+			href: 'payment-bot.html',
+			icon: 'payment-bot',
+			name: 'Payment bot',
+			bigger: true
+		},
+		{
+			href: 'routing.html',
+			icon: 'routing',
+			name: 'Routing',
+			bigger: true
+		},
+		{
+			href: 'localisation.html',
+			icon: 'localisation',
+			name: 'Localisation',
+			bigger: true
+		},
+		{
+			href: 'cascading.html',
+			icon: 'cascading',
+			name: 'Cascading',
+			bigger: true
+		},
+		{
+			href: 'crypto.html',
+			icon: 'crypto',
+			name: 'Crypto',
+			bigger: true
+		},
+	];
+
+	const industriesLinks = [
+		{
+			href: 'betting.html',
+			name: 'Betting'
+		},
+		{
+			href: 'gambling.html',
+			name: 'Gambling'
+		},
+		{
+			href: 'investment.html',
+			name: 'Investment'
+		},
+		{
+			href: 'dating.html',
+			name: 'Dating'
+		},
+		{
+			href: 'soft.html',
+			name: 'Soft'
+		},
+		{
+			href: 'crypto-industry.html',
+			name: 'Crypto'
+		},
+		{
+			href: 'adult.html',
+			name: 'Adult'
+		},
+		{
+			href: 'infoproducts.html',
+			name: 'Infoproducts'
+		},
+		{
+			href: 'gaming.html',
+			name: 'Gaming'
+		},
+	];
+
+	const paymentMethodsLinks = [
+		{
+			href: 'acquiring.html',
+			name: 'Acquiring'
+		},
+		{
+			href: 'alternative-methods.html',
+			name: 'Alternative methods'
+		},
+		{
+			href: 'ewallets.html',
+			name: 'Ewallets'
+		},
+		{
+			href: 'crypto-method.html',
+			name: 'Crypto'
+		},
+	];
+
+	const helpLinks = [
+		{
+			href: 'how-to-integrate.html',
+			name: 'How to integrate'
+		},
+		{
+			href: 'faq.html',
+			name: 'FAQ'
+		},
+		{
+			href: 'сonnection-requirements.html',
+			name: 'Connection requirements'
+		},
+		{
+			href: 'for-developers.html',
+			name: 'For developers'
+		},
+		{
+			href: 'api-documentation.html',
+			name: 'Documentation'
+		},
+	];
+
+	const aboutUsLinks = [
+		{
+			href: 'about-us.html',
+			name: 'About company'
+		},
+		{
+			href: 'cases.html',
+			name: 'Cases'
+		},
+		{
+			href: 'career.html',
+			name: 'Career'
+		},
+		{
+			href: 'partner-program.html',
+			name: 'Partner program'
+		},
+		{
+			href: 'brand-materials.html',
+			name: 'Brand materials'
+		},
+		{
+			href: 'charity.html',
+			name: 'Charity'
+		},
+	];
+
+	const socialLinks = [
+		{
+			href: '#',
+			icon: 'envelope-button',
+			name: 'Email'
+		},
+		{
+			href: '#',
+			icon: 'telegram-button',
+			name: 'Telegram'
+		},
+		{
+			href: '#',
+			icon: 'whatsapp-button',
+			name: 'Whats App'
+		},
+	]
+</script>
+<sl-drawer webc:root="override" class="desktop-menu-drawer drawer-placement-top" label="Drawer" placement="top" no-header>
+	<div class="container">
+		<div class="desktop-menu-drawer__top">
+			<app-menu @heading="Payment products" :@links="paymentProductsLinks"></app-menu>
+
+			<app-menu @heading="Industries" :@links="industriesLinks"></app-menu>
+
+			<app-menu @heading="Payment methods" :@links="paymentMethodsLinks"></app-menu>
+
+			<hr class="desktop-menu-drawer__separator">
+
+			<app-menu @heading="Help" :@links="helpLinks"></app-menu>
+
+			<app-menu @heading="About us" :@links="aboutUsLinks"></app-menu>
+		</div>
+
+		<div class="desktop-menu-drawer__bottom">
+			<p class="desktop-menu-drawer__contact-text" id="menu-contacts">Any other questions?<br>Contact us!</p>
+			<div class="desktop-menu-drawer__contacts" role="group" aria-labelledby="menu-contacts">
+				<a webc:for="link of socialLinks" :href="link.href" class="desktop-menu-drawer__link hover-line">
+					<app-icon :@name="link.icon" class="desktop-menu-drawer__icon" width="24" height="24"></app-icon>
+					<span webc:if="link.name" webc:nokeep @text="link.name"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</sl-drawer>

@@ -1,0 +1,16 @@
+.policies {
+	display: flex;
+	gap: 1.875rem;
+}
+
+@media (max-width: 600px) {
+	.policies {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.875rem 3.75rem;
+	}
+
+	.policies__link {
+		justify-self: center;
+	}
+}

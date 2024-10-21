@@ -1,0 +1,27 @@
+.figure-card-columns-section__headings {
+	margin-block-end: 9.125rem;
+	text-align: center;
+}
+
+.figure-card-columns-section__subheading {
+	background: var(--gradient-text);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	margin-block-start: 2.5rem;
+	font: var(--font-craftwork-grotesk-heading-6);
+	letter-spacing: -0.02em;
+}
+
+.figure-card-columns-section__columns + .figure-card-columns-section__columns {
+	margin-block-start: 0;
+}
+
+@media (max-width: 900px) {
+	.figure-card-columns-section__headings {
+		margin-block-end: 4.375rem;
+	}
+
+	.figure-card-columns-section__columns + .figure-card-columns-section__columns {
+		margin-block-start: 2.5rem;
+	}
+}

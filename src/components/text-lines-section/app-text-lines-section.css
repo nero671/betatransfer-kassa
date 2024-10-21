@@ -1,0 +1,15 @@
+.text-lines-section__heading {
+	margin-block-end: 7.5rem;
+	text-align: center;
+}
+
+.text-lines-section__text {
+	max-width: 36.25rem;
+	margin-inline: auto;
+}
+
+@media (max-width: 900px) {
+	.text-lines-section__heading {
+		margin-block-end: 4.375rem;
+	}
+}

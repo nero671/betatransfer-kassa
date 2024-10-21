@@ -1,0 +1,82 @@
+<script webc:setup>
+	const lines = [
+		'In our opinion cryptocurrency cannot be the sole payment acceptance method on the website',
+		'Novelty and unfamiliarity of the method',
+		'The still complicated buyer\'s journey of acquiring cryptocurrency'
+	];
+
+	const benefits = [
+	[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure37.png',
+				size: 'medium',
+				heading: 'High transaction throughput'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure38.png',
+				size: 'medium',
+				heading: 'Low fees, fast fund withdrawal'
+			},
+		],
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure39.png',
+				size: 'medium',
+				heading: 'High conversion. Our Binance Pay solution allows achieving almost a 100% conversion rate'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure40.png',
+				size: 'medium',
+				heading: 'No possibility of chargebacks'
+			},
+		]
+	]
+</script>
+
+<app-base webc:nokeep @title="Crypto method" @page-class="crypto-method">
+	<section class="animation-section crypto-method-animation-section">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Crypto method"
+		@subheading="The number of cryptocurrency holders is growing every year, in countries from Europe to Africa. Betatransfer Kassa can integrate payment acceptance on the website for all the most commonly used cryptocurrencies and stablecoins in the world: BTC, ETH, USDT etc."
+		@button="true"
+		class="crypto-method__intro-section decorative-animation"
+	>
+		<app-decorative src="/src/assets/video/Crypto.mp4" class="decorative-1 crypto-method__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/Crypto.mp4" class="decorative-2 crypto-method__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-grid-section
+		@heading="Benefits of the crypto method"
+		:items="benefits"
+		class="crypto-method__figure-card-grid-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background19.png" class="crypto-method__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background03.png" class="crypto-method__decorative-4"></app-decorative>
+	</app-figure-card-grid-section>
+
+	<app-text-lines-section
+		@heading="Drawbacks of the crypto method"
+		:@lines="lines"
+		class="crypto-method__text-lines-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background04.png" class="crypto-method__decorative-5"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background05.png" class="crypto-method__decorative-6"></app-decorative>
+	</app-text-lines-section>
+	</section>
+
+	<app-contact-form-section
+		@heading="Do you want to integrate the crypto method?"
+		:@stars="true"
+		class="crypto-method__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Do you want to integrate the crypto method?"
+	>
+	</app-contact-form-modal>
+</app-base>

@@ -1,0 +1,19 @@
+<div class="input" :class="wrapperClass ?? ''">
+	<input 
+		webc:if="['text', 'search', 'tel', 'url', 'email', 'password', 'number'].includes(type)" 
+		webc:root="override"
+		:placeholder="label"
+		class="input__field input__field--input"
+	>
+	<textarea
+		webc:else
+		webc:root="override"
+		:placeholder="label"
+		:rows="rows ?? 6"
+		class="input__field input__field--textarea"
+	></textarea>
+	<label :for="id" class="input__label">
+		<span class="input__label-text" @text="label"></span>
+		<span webc:if="required === ''" class="input__label-required" aria-hidden="true">*</span>
+	</label>
+</div>

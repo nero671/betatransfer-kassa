@@ -1,0 +1,79 @@
+<script webc:setup>
+	const needs = [
+		{
+			icon: '/src/assets/images/figure28.png',
+			size: 'big',
+			description: 'you generate a high traffic and it is important for you to spread the payment load'
+		},
+		{
+			icon: '/src/assets/images/figure29.png',
+			size: 'big',
+			description: 'you want to increase conversion rate and payment throughput'
+		},
+		{
+			icon: '/src/assets/images/figure30.png',
+			size: 'big',
+			description: 'you need your own financial processing strategy'
+		}
+	]
+</script>
+<app-base webc:nokeep @title="Routing" @page-class="routing">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Routing"
+		@subheading="Routing builds the most optimal route for a transaction in real time. The system determines which payment gateway to choose in each specific case to make the transaction cost as favourable as possible."
+		@button="true"
+		class="routing__intro-section"
+	>
+		<app-decorative src="/src/assets/video/07_Routing.mp4" class="routing__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/07_Routing.mp4" class="routing__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-columns-section
+		@heading="You need this product if"
+		:@items="needs"
+		@size="big"
+		@justify="space-between"
+		class="routing__figure-card-columns-section"
+	>
+	</app-figure-card-columns-section>
+
+	<app-scheme-section
+		@heading="How does it work"
+
+		class="routing__scheme-section"
+	>
+
+		<div class="scheme-section-img__wrapper routing-img__wrapper" >
+			<video autoplay loop muted playsinline role="presentation" class="desk">
+				<source src="/src/assets/video/RoutingDesk.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<video autoplay loop muted playsinline role="presentation" class="mob">
+				<source src="/src/assets/video/RoutingMob.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+<!--		<div class="container">-->
+<!--			<app-decorative src="/src/assets/video/RoutingDesk.mp4" class="decorative scheme-section-video desk routing-video routing__decorative-2"></app-decorative>-->
+<!--			<app-decorative src="/src/assets/video/RoutingMob.mp4" class="decorative scheme-section-video mob routing-video routing__decorative-2"></app-decorative>-->
+<!--		</div>-->
+		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="routing__decorative-3"></app-decorative>
+<!--		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="routing__decorative-3-1"></app-decorative>-->
+		<app-decorative src="/src/assets/images/backgrounds/background16.png" class="routing__decorative-4"></app-decorative>
+	</app-scheme-section>
+
+	<app-contact-form-section
+		@heading="Our managers know more about routing"
+		@subheading="Ask them"
+		:@stars="true"
+		class="routing__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Our managers know more about routing"
+		@subheading="Ask them"
+	>
+	</app-contact-form-modal>
+</app-base>

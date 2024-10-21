@@ -1,0 +1,8 @@
+<div webc:root="override" class="alternating-blocks" :class="reverse ? 'alternating-blocks--reverse' : ''">
+	<article webc:for="item of items" class="alternating-blocks__item">
+		<app-heading class="alternating-blocks__heading" @structure-level="3" @visual-level="2" :@content="item.heading"></app-heading>
+		<p class="alternating-blocks__text" @text="item.text"></p>
+		<img webc:if="item.figure.endsWith('.png') || item.figure.endsWith('.gif')" :src="item.figure" class="alternating-blocks__figure" loading="lazy" decoding="async" alt="">
+		<video webc:elseif="item.figure.endsWith('.mp4')" :src="item.figure" class="alternating-blocks__figure" autoplay loop muted playsinline></video>
+	</article>
+</div>

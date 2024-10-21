@@ -1,0 +1,12 @@
+/* Draft CSS Custom Media Queries syntax https://drafts.csswg.org/mediaqueries-5/#custom-mq */
+
+/* From 1300px and above */
+@custom-media --desktop (1300 <= width);
+/* From 1299px to 600px */
+@custom-media --tablet (900px <= width < 1300px);
+
+/* From 1299px to 600px */
+@custom-media --tablet (600px <= width < 900px);
+
+/* From 599px and below */
+@custom-media --phone (width < 600px); 

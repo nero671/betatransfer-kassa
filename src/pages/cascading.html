@@ -1,0 +1,84 @@
+<script webc:setup>
+	const needs = [
+		{
+			icon: '/src/assets/images/figure31.png',
+			size: 'big',
+			description: 'you want to increase conversion rate and the number of positive feedback from customers.'
+		},
+		{
+			icon: '/src/assets/images/figure32.png',
+			size: 'big',
+			description: 'you\'re tired of losing customers and blowing your marketing budget.'
+		},
+		{
+			icon: '/src/assets/images/figure33.png',
+			size: 'big',
+			description: 'you need to integrate several payment solutions into a single one.'
+		}
+	]
+</script>
+<app-base webc:nokeep @title="Cascading" @page-class="cascading">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Сascading"
+		@subheading="Сascading helps to solve the problem of payment provider failure. If the system fails, alternative routes are automatically selected. The search and selection procedure takes a few seconds."
+		@button="true"
+		class="cascading__intro-section"
+	>
+		<app-decorative src="/src/assets/video/CascadingCube.mp4" class="cascading__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/09_Cascading.mp4" class="cascading__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-columns-section
+		@heading="You need this product if"
+		:@items="needs"
+		@size="big"
+		@justify="space-between"
+		class="cascading__figure-card-columns-section"
+	>
+	</app-figure-card-columns-section>
+
+	<app-scheme-section
+		@heading="How does it work"
+		class="cascading__scheme-section"
+	>
+
+		<div class="scheme-section-img__wrapper routing-img__wrapper" >
+			<video autoplay loop muted playsinline role="presentation" class="desk">
+				<source src="/src/assets/video/Cascading.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<video autoplay loop muted playsinline role="presentation" class="mob">
+				<source src="/src/assets/video/CascadingMobile.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+
+<!--		<app-decorative src="/src/assets/video/Cascading.webp" class="decorative scheme-section-video desk cascading-video cascading__decorative-2"></app-decorative>-->
+<!--		<app-decorative src="/src/assets/video/CascadingMobile.mp4" class="decorative scheme-section-video mob cascading-video cascading__decorative-2"></app-decorative>-->
+
+		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="cascading__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="cascading__decorative-3-1"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background15.png" class="cascading__decorative-4"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="cascading__decorative-5"></app-decorative>
+<!--		<app-decorative src="/src/assets/images/backgrounds/background18.png" class="cascading__decorative-6"></app-decorative>-->
+		<app-decorative src="/src/assets/images/backgrounds/background08.png" class="cascading__decorative-7"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background05.png" class="cascading__decorative-8"></app-decorative>
+		<!-- <app-decorative src="/src/assets/images/background17.svg" :@inline="true" class="cascading__decorative-5"></app-decorative>
+		<app-decorative src="/src/assets/images/background28.svg" :@inline="true" class="cascading__decorative-6"></app-decorative> -->
+	</app-scheme-section>
+
+	<app-contact-form-section
+		@heading="Our managers know more about cascading"
+		@subheading="Ask them"
+		:@stars="true"
+		class="cascading__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Our managers know more about cascading"
+		@subheading="Ask them"
+	>
+	</app-contact-form-modal>
+</app-base>

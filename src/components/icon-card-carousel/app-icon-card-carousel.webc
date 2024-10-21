@@ -1,0 +1,27 @@
+<swiper-container webc:root="override" class="icon-card-carousel" slides-per-view="auto" mousewheel="true">
+  <swiper-slide class="icon-card-carousel__item">
+		<app-icon-card heading="Localization" icon="/src/assets/images/localisation.svg">
+			Adaptation to local payment methods and currencies. We enhance the conversion rate by analyzing payer behavior, language and offering a custom solution with native UI-UX.
+		</app-icon-card>
+	</swiper-slide>
+	<swiper-slide class="icon-card-carousel__item">
+		<app-icon-card heading="Payment bot" icon="/src/assets/images/payment-bot.svg">
+			Accepting payments in the interface of Telegram bot. A solution for small businesses that can’t yet afford a full-fledged online store but want to provide maximum usability.
+		</app-icon-card>
+	</swiper-slide>
+	<swiper-slide class="icon-card-carousel__item">
+		<app-icon-card heading="Cascading" icon="/src/assets/images/cascading.svg">
+			Cascading solves the problem of failure on the part of the payment provider. In case of failure, alternative routes are automatically selected. Search and selection takes milliseconds.
+		</app-icon-card>
+	</swiper-slide>
+	<swiper-slide class="icon-card-carousel__item">
+		<app-icon-card heading="Crypto" icon="/src/assets/images/crypto.svg">
+			Accepting payments in any of cryptocurrencies. We were the first to implement a solution that achieves 100% conversion rates.
+		</app-icon-card>
+	</swiper-slide>
+	<swiper-slide class="icon-card-carousel__item">
+		<app-icon-card heading="Routing" icon="/src/assets/images/routing.svg">
+			Routing predicts the most favorable route for a transaction in real time. The system itself determines which payment gateway to choose for maximum business profitability.
+		</app-icon-card>
+	</swiper-slide>
+</swiper-container>

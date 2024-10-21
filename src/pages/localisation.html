@@ -1,0 +1,82 @@
+<script webc:setup>
+	const needs = [
+		{
+			icon: '/src/assets/images/figure34.png',
+			size: 'big',
+			description: 'your goal is to increase conversion rate.'
+		},
+		{
+			icon: '/src/assets/images/figure35.png',
+			size: 'big',
+			description: 'your current solution offers users a universal payment form for different countries and devices.'
+		},
+		{
+			icon: '/src/assets/images/figure36.png',
+			size: 'big',
+			description: 'you want to design the best possible user experience in the payment process.'
+		}
+	]
+</script>
+<app-base webc:nokeep @title="Localisation" @page-title="localisation">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Localisation"
+		@subheading="Offer customers a familiar payment form. Depending on the country, currency, device model and dozens more metrics that the system counts from the customer's device."
+		@button="true"
+		class="localisation__intro-section"
+	>
+		<app-decorative src="/src/assets/video/13_LocalisationTorus1.mp4" class="localisation__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/13_LocalisationTorus1.mp4" class="localisation__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-columns-section
+		@heading="You need this product if"
+		:@items="needs"
+		@size="big"
+		@justify="space-between"
+		class="localisation__figure-card-columns-section"
+	>
+	</app-figure-card-columns-section>
+
+	<app-scheme-section
+		@heading="How does it work"
+		class="localisation__scheme-section"
+	>
+
+		<div class="scheme-section-img__wrapper localisation-img__wrapper" >
+			<video autoplay loop muted playsinline role="presentation" class="desk">
+				<source src="/src/assets/video/Localisation.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+
+			<video autoplay loop muted playsinline role="presentation" class="mob">
+				<source src="/src/assets/video/LocalisationMobile.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+<!--		<div class="container">-->
+<!--			<app-decorative src="/src/assets/video/Localisation.mp4" class="decorative scheme-section-video desk localisation-video localisation__decorative-2"></app-decorative>-->
+<!--			<app-decorative src="/src/assets/video/LocalisationMobile.mp4" class="decorative scheme-section-video mob localisation-video localisation__decorative-2"></app-decorative>-->
+<!--		</div>-->
+		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="localisation__decorative-3"></app-decorative>
+<!--		<app-decorative src="/src/assets/images/backgrounds/background14.png" class="localisation__decorative-3-1"></app-decorative>-->
+		<app-decorative src="/src/assets/images/backgrounds/background16.png" class="localisation__decorative-4"></app-decorative>
+		<app-decorative src="/src/assets/video/13_LocalisationTorus1.mp4" class="localisation__decorative-5"></app-decorative>
+	</app-scheme-section>
+
+
+	<!-- <dotlottie-player background="transparent" speed="1" style="width: 1381px; height: 762px; margin-inline: auto; margin-block-end: 20rem;" direction="1" playMode="normal" loop autoplay></dotlottie-player> -->
+
+	<app-contact-form-section
+		@heading="Increase the number of successful transactions"
+		@subheading="Our managers will guide you how to"
+		:@stars="true"
+		class="localisation__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Increase the number of successful transactions"
+		@subheading="Our managers will guide you how to"
+	>
+	</app-contact-form-modal>
+</app-base>

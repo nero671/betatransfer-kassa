@@ -1,0 +1,15 @@
+<section webc:root="override" class="section scheme-section">
+	<div class="container">
+		<app-heading class="scheme-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+
+		<span @text="scheme-mobile"></span>
+
+		<picture>
+			<source :srcset="schemeMobile" media="(max-width: 600px)">
+			<img :src="schemeDesktop" alt="" class="scheme-section__scheme">
+		</picture>
+
+	</div>
+
+	<slot></slot>
+</section>

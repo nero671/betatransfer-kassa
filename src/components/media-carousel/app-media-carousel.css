@@ -1,0 +1,14 @@
+.media-carousel__container::part(container) {
+	overflow: unset;
+}
+
+.media-carousel__item {
+	max-width: 23.75rem;
+	width: auto;
+}
+
+@media (max-width: 600px) {
+	.media-carousel__item {
+		max-width: 18.4375rem;
+	}
+}

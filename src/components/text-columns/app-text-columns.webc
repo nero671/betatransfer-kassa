@@ -1,0 +1,7 @@
+
+<ul webc:root="override" class="text-columns">
+	<li webc:for="item of items" class="text-columns__item">
+		<app-heading class="text-columns__heading" @structure-level="3" @visual-level="6" :content="item.heading"></app-heading>
+		<p class="text-columns__text" @text="item.text"></p>
+	</li>
+</ul>

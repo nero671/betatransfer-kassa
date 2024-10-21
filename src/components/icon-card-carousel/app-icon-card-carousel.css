@@ -1,0 +1,32 @@
+.icon-card-carousel::part(container) {
+	overflow: unset;
+	scrollbar-width: none;
+}
+
+.icon-card-carousel__item {
+	width: auto;
+	height: auto;
+}
+
+.icon-card-carousel__item:not(:last-child) {
+	padding-inline-end: 1.875rem;
+	border-inline-end: 0.0625rem solid rgba(255,255,255,0.2);
+	margin-inline-end: 1.875rem;
+}
+
+.icon-card-carousel__item > * {
+	height: 100%;
+}
+
+@media (max-width: 900px) {
+	.icon-card-carousel__item:not(:last-child) {
+		padding-inline-end: 0.9375rem;
+		margin-inline-end: 0.9375rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.icon-card-carousel__item {
+		max-width: 78.4vw;
+	}
+}

@@ -1,0 +1,110 @@
+.figure-card-grid {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-style: hidden;
+	border-collapse: collapse;
+}
+
+.figure-card-grid .figure-card__text {
+	font: var(--font-inter-tight-sub1);
+}
+
+.figure-card-grid__row {
+	display: table-row;
+}
+
+.figure-card-grid__row:first-child .figure-card-grid__cell {
+	padding-block-end: 2.5rem;
+}
+
+.figure-card-grid__row:not(:first-child, :last-child) .figure-card-grid__cell {
+	padding-block: 2.5rem;
+}
+
+.figure-card-grid__row:last-child .figure-card-grid__cell {
+	padding-block-start: 2.5rem;
+}
+
+.figure-card-grid__cell {
+	display: table-cell;
+	width: 50%;
+	border: 0.0625rem solid rgba(255,255,255,0.2);
+	vertical-align: top;
+}
+
+.figure-card-grid__cell > * {
+	max-width: 36.25rem;
+}
+
+.figure-card-grid__cell:first-child {
+	padding-inline-end: 2.5rem;
+}
+
+.figure-card-grid__cell:last-child {
+	padding-inline-start: 2.5rem;
+}
+
+.figure-card-grid__cell:last-child > * {
+	margin-inline-start: auto;
+}
+
+@media (max-width: 1300px) {
+	.figure-card-grid {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 3.125rem;
+	}
+
+	.figure-card-grid__row {
+		display: contents;
+	}
+
+	.figure-card-grid__cell {
+		display: contents;
+		border: unset;
+	}
+
+	.figure-card-grid__cell > * {
+		max-width: unset;
+	}
+
+	.figure-card-grid__row:first-child .figure-card-grid__cell {
+		padding-block-end: unset;
+	}
+
+	.figure-card-grid__cell:first-child {
+		padding-inline-end: unset;
+	}
+
+	.figure-card-grid__cell:last-child {
+		padding-inline-start: unset;
+	}
+
+	.figure-card-grid__cell:last-child > * {
+		margin-inline-start: unset;
+	}
+
+	.figure-card-grid__row:last-child .figure-card-grid__cell {
+    padding-block-start: unset;
+	}
+}
+
+@media (max-width: 900px) {
+	.figure-card-grid {
+		display: flex;
+		flex-direction: column;
+		gap: 3.125rem;
+		max-width: 30rem;
+		margin-inline: auto;
+	}
+
+	.figure-card-grid-section--home .figure-card-grid {
+		margin-inline: unset;
+	}
+
+	.figure-card-grid .figure-card__text {
+		font: var(--font-inter-tight-base);
+	}
+}
+

@@ -1,0 +1,87 @@
+<div webc:root="override" class="media-carousel">
+	<swiper-container webc:root="override" class="media-carousel__container test" slides-per-view="auto" space-between="20" loop="true" simulateTouch="true" touchRatio="9"
+	    mousewheel="true"
+	>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 1"
+				@image="/src/assets/images/card01.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 2"
+				@image="/src/assets/images/card02.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 3"
+				@image="/src/assets/images/card03.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 1"
+				@image="/src/assets/images/card01.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 2"
+				@image="/src/assets/images/card02.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 3"
+				@image="/src/assets/images/card03.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 1"
+				@image="/src/assets/images/card01.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 2"
+				@image="/src/assets/images/card02.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+		<swiper-slide class="media-carousel__item">
+			<app-media-card
+				@title="Text 3"
+				@image="/src/assets/images/card03.png"
+				@description="Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming
+				more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day"
+			>
+			</app-media-card>
+		</swiper-slide>
+	</swiper-container>
+</div>

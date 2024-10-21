@@ -1,0 +1,137 @@
+.acquiring__intro-section {
+	margin-block-end: 30.4375rem;
+}
+
+.acquiring__figure-card-grid-section {
+	margin-block-end: 18.75rem;
+}
+
+.acquiring__text-lines-section {
+	margin-block-end: 22.625rem;
+}
+
+.acquiring__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.figure-card__heading {
+	text-align: left;
+}
+
+.acquiring__decorative-1 {
+	width: 32.25rem;
+	height: 32.25rem;
+	top: 8.0625rem;
+	left: -7.75rem;
+	rotate: -15deg;
+}
+
+.acquiring__decorative-2 {
+	width: 43.75rem;
+	height: 43.75rem;
+	top: 14.375rem;
+	right: -16.3125rem;
+	rotate: -69.79deg;
+}
+
+.acquiring__decorative-3 {
+	top: -38rem;
+	right: -34rem;
+	z-index: -2;
+}
+
+.acquiring__decorative-4 {
+	bottom: -46rem;
+	left: 50%;
+	translate: -46% 0;
+	z-index: -2;
+}
+
+.acquiring__decorative-5 {
+	right: -38rem;
+	bottom: -50rem;
+	z-index: -2;
+}
+
+@media (max-width: 1300px) {
+	.acquiring__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		rotate: unset;
+		opacity: 0.53;
+	}
+
+	.acquiring__decorative-2 {
+		top: 3.3125rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		rotate: unset;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.acquiring__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.acquiring__decorative-1 {
+		top: 37rem;
+	}
+
+	.acquiring__figure-card-grid-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.acquiring__text-lines-section {
+		margin-block-end: 20.5rem;
+	}
+
+	.acquiring__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.acquiring__decorative-3 {
+		top: -26rem;
+		right: -34rem;
+		width: 72.1875rem;
+		height: auto;
+	}
+
+	.acquiring__decorative-4 {
+		bottom: -18rem;
+		left: -16rem;
+		translate: unset;
+		width: 80.3125rem;
+		height: auto;
+	}
+
+	.acquiring__decorative-5 {
+		right: unset;
+		bottom: -24rem;
+		left: 50%;
+		translate: -54% 0;
+		width: 63.125rem;
+		height: auto;
+	}
+}
+
+@media(max-width: 600px) {
+	.acquiring__decorative-1 {
+		bottom: -9.75rem;
+	}
+
+	.acquiring__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+
+	.acquiring__decorative-2 {
+		width: 15.1875rem;
+		height: 15.1875rem;
+	}
+}

@@ -1,0 +1,11 @@
+<section webc:root="override" class="section figure-card-grid-section" :class="modifier ? `figure-card-grid-section--${modifier}` : ''">
+	<div class="container">
+		<hgroup class="figure-card-grid-section__headings">
+			<app-heading class="figure-card-grid-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+			<p webc:if="subheading" class="figure-card-grid-section__subheading" @text="subheading"></p>
+		</hgroup>
+
+		<app-figure-card-grid class="figure-card-grid-section__grid" :@items="items"></app-figure-card-grid>
+	</div>
+	<slot></slot>
+</section>

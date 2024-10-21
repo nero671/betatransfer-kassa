@@ -1,0 +1,78 @@
+<script webc:setup>
+	const faq = [
+		{
+			heading: 'How soon can I start accepting payments?',
+			details: 'On average, the connection process takes 1 day. Our record was 20 minutes. It all depends on whether your site meets the requirements and skill of your dev. team.'
+		},
+		{
+			heading: 'What ways of Accepting funds can you offer?',
+			details: 'Accepting payments from bank cards, crypto wallets, e-wallets and alternative payment methods.'
+		},
+		{
+			heading: 'From which countries can I receive funds?',
+			details: 'Almost all over the world: Asia, Latin America, the EU, the former CIS countries and even Africa.'
+		},
+		{
+			heading: 'What is strictly forbidden to do, and what can lead to a complete breakdown of cooperation?',
+			details: 'The main rule is to be honest when working with us. We have been accepting payments for a long time, including High Risk. You will definitely not be able to surprise us. All we ask is that you tell us honestly and clearly about your type of business and the type of financial traffic you need to process. If we notice any deception on your part, we will stop co-operation.'
+		},
+		{
+			heading: 'Do you use rolling reserve?',
+			details: 'Our company is flexible in terms of rolling reserve. It is one of our main advantages. By rolling we mean freezing 5-10% of incoming transaction amounts for 30-180 days. Whether rolling will be applied in your case depends on the chosen payment method and in which countries you work. Often we don’t assign rolling.'
+		},
+		{
+			heading: 'What languages can the form of acceptance of funds from a bank card be displayed in?',
+			details: 'We create the most native and familiar payment forms possible. Our solution scans the fingerprint of the client’s device and automatically selects the required language.'
+		},
+		{
+			heading: 'Do I need to have a legal entity to integrate a payment solution?',
+			details: 'We discuss this issue individually with each client. It all depends on the type of your business, chosen payment method you want to integrate and the countries you want to work in.'
+		},
+		{
+			heading: 'How long does it take to withdraw funds?',
+			details: 'It all depends on the payment solution you want to connect. Usually withdrawal takes no more than 24 hours. Payouts for your customers are made in less than an hour.'
+		},
+		{
+			heading: 'What will I see inside my personal account of the Betatransfer system?',
+			details: 'Here you will see your current balance, all transactions with their status and possible withdrawal options and a dispute section for questionable transactions.'
+		},
+		{
+			heading: 'How can I withdraw funds?',
+			details: 'The main most popular withdrawal is crypto in USDT(erc20/trc20), ETH, BTC, also we have withdrawal on bank account (sepa/swift) and other local solutions.'
+		},
+		{
+			heading: 'What is your service fee?',
+			details: 'Our fees depend on the area of your business and the payment solution you choose. The approximate percentage can be indicated as follows: the percentage of input of funds from bank cards from 6%, the percentage of withdrawal of funds from 2% and higher and depending on the chosen currency of withdrawal. It also depends on payment methods and geography where you prefer accepting funds.'
+		},
+		{
+			heading: 'How often can I withdraw funds?',
+			details: 'This depends on the payment method chosen.'
+		}
+	];
+</script>
+<app-base webc:nokeep @title="FAQ" @page-class="faq">
+	<app-intro-section
+		@heading="FAQ"
+		@subheading="Here you can find answers to your questions"
+		:@button="false"
+		class="faq__intro-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background22.png" class="faq__decorative-1"></app-decorative>
+	</app-intro-section>
+
+	<app-accordion-list-section 
+		:@items="faq"
+		class="faq__accordion-list-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background05.png" class="faq__decorative-2"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="faq__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background23.png" class="faq__decorative-4"></app-decorative>
+	</app-accordion-list-section>
+
+	<app-contact-form-section
+		@heading="Didn't find the answer you were looking for?"
+		@subheading="Ask our managers"
+		:@stars="true"
+		class="faq__contact-form-section"
+	></app-contact-form-section>
+</app-base>

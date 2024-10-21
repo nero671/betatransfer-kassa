@@ -1,0 +1,11 @@
+<div webc:root="override" class="figure-card-columns" :class="`figure-card-columns--${size}`" :style="justify ? `--justify: ${justify};` : ''">
+	<app-figure-card
+		webc:for="item of items"
+		class="figure-card-columns__item"
+		@orientation="vertical"
+		:@icon="item.icon"
+		:@size="item.size"
+		:@heading="item.heading"
+		:@description="item.description"
+	></app-figure-card>
+</div>

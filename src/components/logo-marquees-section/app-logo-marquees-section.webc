@@ -1,0 +1,8 @@
+<section webc:root="override" class="section logo-marquees-section">
+	<div class="container">
+		<app-heading class="logo-marquees-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+
+		<app-logo-marquees class="logo-marquees-section__carousel" :@logos="logos" :@lines="lines"></app-logo-marquees>
+	</div>
+	<slot></slot>
+</section>

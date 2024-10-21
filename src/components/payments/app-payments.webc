@@ -1,0 +1,5 @@
+<div webc:root="override" class="payments" role="group" aria-label="Payments">
+	<img src="/src/assets/images/mastercard.svg" class="payments__icon" width="48" height="48" loading="lazy" decoding="async" alt="Mastercard.">
+	<img src="/src/assets/images/visa.svg" class="payments__icon" width="48" height="48" loading="lazy" decoding="async" alt="Visa.">
+	<img src="/src/assets/images/pci.svg" class="payments__icon" width="48" height="48" loading="lazy" decoding="async" alt="PCI.">
+</div>

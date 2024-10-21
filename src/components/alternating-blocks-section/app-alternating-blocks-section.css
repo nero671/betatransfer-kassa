@@ -1,0 +1,11 @@
+.alternating-blocks-section__heading {
+	margin-block-end: 9rem;
+	text-align: center;
+}
+
+
+@media (max-width: 900px) {
+	.alternating-blocks-section__heading {
+		margin-block-end: 4.375rem;
+	}
+}

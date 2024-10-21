@@ -1,0 +1,149 @@
+.routing__intro-section {
+	margin-block-end: 28.0625rem;
+}
+
+.routing__figure-card-columns-section {
+	margin-block-end: 22.75rem;
+}
+
+.routing__scheme-section {
+	/*margin-block-end: 18.375rem;*/
+	margin-block-end: -50rem;
+}
+
+.routing__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.routing__decorative-1 {
+	top: 23.125rem;
+	left: -7.8125rem;
+	width: 37.1875rem;
+	height: 37.1875rem;
+	mix-blend-mode: lighten;
+}
+
+.routing__decorative-2 {
+	top: 3.4375rem;
+	right: -12.9375rem;
+	width: 34.375rem;
+	height: 34.375rem;
+	rotate: 18.44deg;
+	scale: -1 1;
+	mix-blend-mode: lighten;
+}
+
+.routing__decorative-3 {
+	top: -54rem;
+	left: 50%;
+	translate: -49% 0;
+}
+
+.routing__decorative-3-1 {
+	top: 15rem;
+	left: 20rem;
+	translate: -49% 0;
+}
+
+.routing__decorative-4 {
+	bottom: -40rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.routing-img__wrapper {
+	top: -10rem !important;
+}
+
+@media(max-width: 1650px) {
+	.routing__scheme-section {
+		margin-block-end: -40rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.routing__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.routing__decorative-2 {
+		top: 3.25rem;
+		right: -5.8125rem;
+		width: 19.3125rem;
+		height: 19.3125rem;
+		rotate: unset;
+		opacity: 0.53;
+	}
+}
+
+@media(max-width: 1100px) {
+	.routing-img__wrapper {
+		top: -5rem !important;
+	}
+
+	.routing__scheme-section {
+		margin-block-end: -30rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.routing__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.routing__decorative-1 {
+		top: 37rem;
+	}
+
+	.routing__figure-card-columns-section {
+		margin-block-end: 17rem;
+	}
+
+	.routing__scheme-section {
+		margin-block-end: -13rem;
+	}
+
+	.routing__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.routing__decorative-3 {
+		top: -50rem;
+		right: -20rem;
+		left: unset;
+		translate: unset;
+		width: 92.9375rem;
+		height: auto;
+	}
+
+	.routing__decorative-4 {
+		display: none;
+	}
+}
+
+@media(max-width: 600px) {
+	.routing__scheme-section {
+		margin-block-end: 10rem;
+	}
+
+
+	.routing__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.routing__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+
+	.routing__decorative-2 {
+		width: 15.1875rem;
+		height: 15.1875rem;
+	}
+
+}

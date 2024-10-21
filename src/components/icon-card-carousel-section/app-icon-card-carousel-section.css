@@ -1,0 +1,28 @@
+.icon-card-carousel-section {
+	position: relative;
+}
+
+.icon-card-carousel-section__heading {
+	max-width: 50.625rem;
+	margin-block-end: 7.5rem;
+	margin-inline: auto;
+	text-align: center;
+}
+
+.icon-card-carousel-section__carousel {
+	margin-block-end: 6.625rem;
+}
+
+.icon-card-carousel-section__button {
+	margin-inline: auto;
+}
+
+@media (max-width: 600px) {
+	.icon-card-carousel-section__heading {
+		margin-block-end: 3.75rem;
+	}
+
+	.icon-card-carousel-section__carousel {
+		margin-block-end: 3.75rem;
+	}
+}

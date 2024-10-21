@@ -1,0 +1,14 @@
+.decorative {
+	position: absolute;
+	z-index: -1;
+	max-width: unset;
+	pointer-events: none;
+	user-select: none;
+	mix-blend-mode: lighten;
+	aspect-ratio: 1;
+	will-change: transform;
+}
+
+svg.decorative {
+	overflow: visible;
+}

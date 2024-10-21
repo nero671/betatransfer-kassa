@@ -1,0 +1,14 @@
+<div class="logo-marquees">
+	<template webc:for="(items, index) of logos" webc:nokeep>
+		<app-marquee webc:if="index % 2 === 0" :@lines="lines" class="logo-marquees__line">
+			<a webc:for="item of items" :href="item.href" class="logo-marquees__link">
+				<img :src="item.logo" :width="item.width" :height="item.height" :alt="item.name" class="logo-marquees__logo">
+			</a>
+		</app-marquee>
+		<app-marquee webc:else @direction="reverse" :@lines="lines" class="logo-marquees__line">
+			<a webc:for="item of items" :href="item.href" class="logo-marquees__link">
+				<img :src="item.logo" :width="item.width" :height="item.height" :alt="item.name" class="logo-marquees__logo">
+			</a>
+		</app-marquee>
+	</template>	
+</div>

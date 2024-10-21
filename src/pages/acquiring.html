@@ -1,0 +1,76 @@
+<script webc:setup>
+	const benefits = [
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure12.png',
+				size: 'medium',
+				heading: 'Reliability and security'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure13.png',
+				size: 'medium',
+				heading: 'High pass-through rates'
+			},
+		],
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure14.png',
+				size: 'medium',
+				heading: 'Possible high conversion rates, ranging from 80% to 90%'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure15.png',
+				size: 'medium',
+				heading: 'Familiar interface'
+			},
+		]
+	];
+</script>
+<app-base webc:nokeep @title="Acquiring" @page-class="acquiring">
+	<section class="animation-section acquiring-animation-section">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Acquiring"
+		@subheading="Provides online purchases that are made with a bank card or electronic money through a special web interface. The confidentiality of payment information is fully preserved."
+		@button="true"
+		class="acquiring__intro-section decorative-animation"
+	>
+		<app-decorative src="/src/assets/video/Acquaring.mp4" class="decorative-1 acquiring__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/Acquaring.mp4" class="decorative-2 acquiring__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-grid-section
+		@heading="Benefits of acquiring:"
+		:items="benefits"
+		class="acquiring__figure-card-grid-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background30.png" class="acquiring__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background31.png" class="acquiring__decorative-4"></app-decorative>
+	</app-figure-card-grid-section>
+
+	<app-text-lines-section
+		@heading="Drawbacks of acquiring:"
+		:@lines="['Bureaucracy and stricter requirements for the website and project’s license', 'Holds and rollings that freeze funds', 'Long waiting time for confirmation from the payment gateway for high-risk merchants']"
+		class="acquiring__text-lines-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background32.png" class="acquiring__decorative-5"></app-decorative>
+	</app-text-lines-section>
+	</section>
+
+	<app-contact-form-section
+		@heading="Do you want to integrate acquiring?"
+		@subheading="We will take care of all risks and difficulties."
+		:@stars="true"
+		class="acquiring__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Do you want to integrate acquiring?"
+		@subheading="We will take care of all risks and difficulties."
+	>
+	</app-contact-form-modal>
+</app-base>

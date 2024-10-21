@@ -1,0 +1,12 @@
+<div webc:root="override" class="section not-found-section">
+	<div class="container">
+		<hgroup class="not-found-section__headings text-gradient">
+			<app-heading class="not-found-section__heading visually-hidden" @structure-level="1" @visual-level="1" :content="heading"></app-heading>
+			<img src="/src/assets/images/decorative20.png" class="not-found-section__image" alt="404.">
+			<p webc:if="subheading" class="not-found-section__subheading" @text="subheading"></p>
+		</hgroup>
+		<app-button href="home.html" class="not-found-section__button" data-modal="contact">Back to Home page</app-button>
+	</div>
+
+	<slot></slot>
+</div>

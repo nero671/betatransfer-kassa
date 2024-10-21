@@ -1,0 +1,225 @@
+.case__intro-section {
+	margin-block-end: 26.5rem;
+}
+
+.case__alternating-blocks-section {
+	margin-block-end: 27.0625rem;
+}
+
+.case__heading-description-section {
+	margin-block-end: 21.125rem;
+}
+
+.case__contact-form-section {
+	margin-block-end: 25.9375rem;
+}
+
+.case__media-carousel-section {
+	margin-block-end: 17.9375rem;
+}
+
+.case__decorative-1 {
+	width: 44.75rem;
+	height: 44.75rem;
+	top: 9.375rem;
+	left: -18.5625rem;
+	scale: -1 1;
+}
+
+.case__decorative-2 {
+	width: 44.75rem;
+	height: 44.75rem;
+	top: 9.375rem;
+	right: -18.5625rem;
+}
+
+.case__decorative-3 {
+	top: -36rem;
+	right: -44rem;
+	z-index: -2;
+}
+
+.case__decorative-4 {
+	bottom: -66rem;
+	left: -60rem;
+	scale: 1 -1;
+	z-index: -2;
+}
+
+.case__decorative-5 {
+	top: -22rem;
+	right: -80rem;
+	z-index: -2;
+}
+
+.case__decorative-6 {
+	top: 1.1875rem;
+	left: 17.125rem;
+	width: 10.6875rem;
+	height: 10.6875rem;
+	scale: -1 1;
+	mix-blend-mode: overlay;
+}
+
+.case__decorative-7 {
+	top: -0.6875rem;
+	right: 4.125rem;
+	width: 31rem;
+	height: 31rem;
+	rotate: 20.18deg;
+	mix-blend-mode: overlay;
+}
+
+.case__decorative-8 {
+	bottom: -5.625rem;
+	left: 35rem;
+	width: 5.6875rem;
+	height: 5.6875rem;
+	rotate: 10.21deg;
+	mix-blend-mode: overlay;
+}
+
+.case__decorative-9 {
+	bottom: -28rem;
+	left: -58rem;
+}
+
+.industry-case__intro-section .intro-section__logo  {
+	margin-bottom: 0;
+	height: 8.375rem;
+	width: 15rem;
+}
+
+@media(max-width: 1750px) {
+	.case__decorative-6 {
+		left: 8.125rem;
+	}
+
+	.case__decorative-7 {
+		right: -0.125rem;
+	}
+
+	.case__decorative-8 {
+		left: 21rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.case__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.case__decorative-2 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.case__intro-section {
+		margin-block-end: 15rem;
+	}
+
+	.case__alternating-blocks-section {
+		margin-block-end: 28.3125rem;
+	}
+
+	.case__decorative-1 {
+		top: 41rem;
+	}
+
+	.case__heading-description-section {
+		margin-block-end: 37.6875rem;
+	}
+
+	.case__contact-form-section {
+		margin-block-end: 23.75rem;
+	}
+
+	.case__media-carousel-section {
+		margin-block-end: 6.5625rem;
+	}
+
+	.case__decorative-3 {
+		top: -19rem;
+		right: -18rem;
+		width: 42.4375rem;
+		height: auto;
+	}
+
+	.case__decorative-4 {
+		bottom: -20rem;
+		left: -14rem;
+		width: 42.4375rem;
+		height: auto;
+	}
+
+	.case__decorative-5 {
+		top: 4rem;
+		right: -26rem;
+		width: 66.4375rem;
+		height: auto;
+	}
+
+	.case__decorative-6 {
+		top: -11.1875rem;
+		left: 1.25rem;
+		width: 6.8125rem;
+		height: 6.8125rem;
+	}
+
+	.case__decorative-7 {
+		top: unset;
+		right: 50%;
+		translate: 42% 0;
+		bottom: -17rem;
+		width: 15.875rem;
+		height: 15.875rem;
+	}
+
+	.case__decorative-8 {
+		top: -6.5rem;
+		right: 1.625rem;
+		bottom: unset;
+		left: unset;
+		width: 4.25rem;
+		height: 4.25rem;
+	}
+
+	.case__decorative-9 {
+		bottom: -16rem;
+		left: -28rem;
+		width: 72.875rem;
+		height: auto;
+	}
+
+	.industry-investment__intro-section,
+	.industry-betting__intro-section,
+	.industry-dating__intro-section,
+	.industry-soft__intro-section,
+	.industry-crypto__intro-section,
+	.industry-adult__intro-section,
+	.industry-infoproducts__intro-section {
+		margin-bottom: 20rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.case__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.case__decorative-2,
+	.case__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+}

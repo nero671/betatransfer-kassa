@@ -1,0 +1,242 @@
+<script webc:setup>
+	const alternatingBlocks = [
+		{
+			heading: 'Supporting each other',
+			text: 'If your colleague doesn\'t know how to do something - explain, help, tell, teach. If you don\'t know something - just ask. You will be explained, helped, taught.',
+			figure: '/src/assets/images/decorative23.png'
+		}
+	];
+
+	const filters = [
+		{
+			name: 'Department',
+			items: [
+				{
+					name: 'Technical Department',
+					href: '#'
+				},
+				{
+					name: 'Support Department',
+					href: '#'
+				},
+				{
+					name: 'Quality/Testing Department',
+					href: '#'
+				},
+				{
+					name: 'Security Department',
+					href: '#'
+				},
+				{
+					name: 'Finance Department',
+					href: '#'
+				},
+				{
+					name: 'Marketing Department',
+					href: '#'
+				},
+				{
+					name: 'Legal Department',
+					href: '#'
+				},
+				{
+					name: 'Sales Department',
+					href: '#'
+				}
+			]
+		}
+	]
+
+	const vacancies = [
+		{
+			title: 'Title',
+			image: '/src/assets/images/card01.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card02.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card03.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card01.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card02.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card03.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card01.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card02.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		},
+		{
+			title: 'Title',
+			image: '/src/assets/images/card03.png',
+			description: 'Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day. Acceptance of cryptocurrencies are becoming more relevant, as the number of holders is growing every day'
+		}
+	];
+</script>
+<app-base webc:nokeep @title="Career" @page-class="career">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Career"
+		@subheading="For over 8 years at Betatransfer, we've built a culture of teamwork. We welcome those who share common values with us and are willing to help realise our mission."
+		class="career__intro-section"
+		@button="true"
+	>
+		<app-decorative src="/src/assets/video/17_CareerMain.mp4" class="career__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/17_CareerMain.mp4" class="career__decorative-2"></app-decorative>
+
+		<div class="alternating-blocks-title__wrapper">
+			<h2 class="heading heading--level_2 media-list-section__heading">
+				Our values
+			</h2>
+		</div>
+	</app-intro-section>
+
+	<section class="section alternating-blocks-section career-alternating-blocks-section ">
+		<div class="container">
+
+			<div class="alternating-blocks__animations">
+
+
+			<div class="alternating-blocks__left-content">
+				<div class="desktopContent">
+					<div class="desktopContentSection">
+						<h2 class="heading heading--level_2 alternating-blocks__heading">
+							Supporting each other
+						</h2>
+
+						<p class="alternating-blocks__text">If your colleague doesn't know how to do something - explain, help, tell, teach. If you don't know something - just ask. You will be explained, helped, taught.</p>
+
+					</div>
+					<div class="desktopContentSection">
+						<h2 class="heading heading--level_2 alternating-blocks__heading">
+							Self-development
+						</h2>
+
+						<p class="alternating-blocks__text">We are in favour of you growing as a specialist in our company. Do you want to learn, develop, take part in conferences? Betatransfer will support you! Don't forget to invite us with you, because most likely you won't be the only one interested.</p>
+
+					</div>
+					<div class="desktopContentSection">
+						<h2 class="heading heading--level_2 alternating-blocks__heading">
+							Initiative
+						</h2>
+
+						<p class="alternating-blocks__text">Do you see what is not working properly? Do you know how the service could be improved? Is our company not doing something and you feel like you should? Tell me! Initiative is not punishable, but encouraged. Of course, if it's a top idea.</p>
+
+					</div>
+					<div class="desktopContentSection">
+						<h2 class="heading heading--level_2 alternating-blocks__heading" >
+							Liberty
+						</h2>
+
+						<p class="alternating-blocks__text">We know you have a personal life outside of work. We all do. And that's great. We don't infringe on personal life. We are in favour of employees having a busy life that does not interfere with work, and we want to see bright personalities in the team.</p>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="alternating-blocks__right-content">
+				<div class="mobileContent">
+					<img src="/src/assets/images/decorative23.png" loading="lazy" decoding="async" alt="" class="alternating-blocks__figure">
+
+					<h2 class="heading heading--level_2 alternating-blocks__heading">
+						Supporting each other
+					</h2>
+
+					<p class="alternating-blocks__text">If your colleague doesn't know how to do something - explain, help, tell, teach. If you don't know something - just ask. You will be explained, helped, taught.</p>
+
+					<img src="/src/assets/images/decorative37.png"  loading="lazy" decoding="async" alt="" class="alternating-blocks__figure">
+
+					<h2 class="heading heading--level_2 alternating-blocks__heading">
+						Self-development
+					</h2>
+
+					<p class="alternating-blocks__text">We are in favour of you growing as a specialist in our company. Do you want to learn, develop, take part in conferences? Betatransfer will support you! Don't forget to invite us with you, because most likely you won't be the only one interested.</p>
+
+					<img src="/src/assets/images/decorative38.png"  loading="lazy" decoding="async" alt="" class="alternating-blocks__figure">
+
+					<h2 class="heading heading--level_2 alternating-blocks__heading">
+						Initiative
+					</h2>
+
+					<p class="alternating-blocks__text">Do you see what is not working properly? Do you know how the service could be improved? Is our company not doing something and you feel like you should? Tell me! Initiative is not punishable, but encouraged. Of course, if it's a top idea.</p>
+
+					<img src="/src/assets/images/decorative39.png"  loading="lazy" decoding="async" alt="" class="alternating-blocks__figure">
+
+					<h2 class="heading heading--level_2 alternating-blocks__heading" >
+						Liberty
+					</h2>
+
+					<p class="alternating-blocks__text">We know you have a personal life outside of work. We all do. And that's great. We don't infringe on personal life. We are in favour of employees having a busy life that does not interfere with work, and we want to see bright personalities in the team.</p>
+
+				</div>
+				<div class="desktopPhotos">
+					<img src="/src/assets/images/decorative23.png" loading="lazy" decoding="async" alt="" class="alternating-blocks__figure desktopPhoto">
+					<img src="/src/assets/images/decorative37.png" loading="lazy" decoding="async" alt="" class="alternating-blocks__figure desktopPhoto">
+					<img src="/src/assets/images/decorative38.png" loading="lazy" decoding="async" alt="" class="alternating-blocks__figure desktopPhoto">
+					<img src="/src/assets/images/decorative39.png" loading="lazy" decoding="async" alt="" class="alternating-blocks__figure desktopPhoto">
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<app-media-list-section
+		@heading="Vacancies"
+		:@filters="filters"
+		:@items="vacancies"
+		@button-href="cases.html"
+		@button-text="More cases"
+		class="career__media-list-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background09.png" class="career__decorative-7"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background10.png" class="career__decorative-8"></app-decorative>
+	</app-media-list-section>
+
+	<app-media-carousel-section
+		@heading="Vacancies"
+		:@filters="filters"
+		:@items="vacancies"
+		@button-href="cases.html"
+		@button-text="More cases"
+		class="career__media-carousel-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background10.png" class="career__decorative-8"></app-decorative>
+	</app-media-carousel-section>
+
+	<app-contact-form-section
+		@heading="Didn't find your vacancy but want to join the team?"
+		@subheading="Write to us"
+		:@stars="true"
+		class="career__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Didn't find your vacancy but want to join the team?"
+		@subheading="Write to us"
+	>
+	</app-contact-form-modal>
+</app-base>

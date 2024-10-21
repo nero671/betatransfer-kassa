@@ -1,0 +1,9 @@
+<section webc:root="override" class="section icon-card-carousel-section">
+	<div class="container">
+		<app-heading class="logo-marquees-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+
+		<app-marquee-carousel class="marquee-section__carousel"></app-icon-card-carousel>
+
+	</div>
+	<slot></slot>
+</section>

@@ -1,0 +1,83 @@
+<script webc:setup>
+	const benefits = [
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure43.png',
+				size: 'medium',
+				description: 'Ability to accept payments in countries where acquiring for the iGaming market is not possible or the procedure is too complicated'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure50.png',
+				size: 'medium',
+				description: 'Native and familiar payment forms for users'
+			},
+		],
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure44.png',
+				size: 'medium',
+				description: 'High conversion rate of successful transactions. On average, 60-80%'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure49.png',
+				size: 'medium',
+				description: 'Quick setup and fund withdrawal'
+			},
+		]
+	];
+
+	const lines = [
+		'If the market is new and solutions do not yet exist, development time may be required',
+		'Conversion gradually increases when entering a new market, as trust has not yet been established',
+		'In some countries, the payer\'s journey may be longer than in acquiring'
+	];
+</script>
+<app-base webc:nokeep @title="Alternative methods" @page-class="alternative-methods">
+	<section class="animation-section alternative-methods-animation-section">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Alternative methods"
+		@subheading="Alternative methods of accepting payments work in any geography. Even where acquiring is complicated, time-consuming and expensive. In some geographies, these methods are more familiar to users. This is convenient for your clients, this is profitable for your business"
+		@button="true"
+		class="alternative-methods__intro-section decorative-animation"
+	>
+		<app-decorative src="/src/assets/video/AlternativeMethods.mp4" class="decorative-1 alternative-methods__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/AlternativeMethods.mp4" class="decorative-2 alternative-methods__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-grid-section
+		@heading="Benefits of alternative methods"
+		:@items="benefits"
+		class="alternative-methods__figure-card-grid-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background19.png" class="alternative-methods__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background04.png" class="alternative-methods__decorative-4"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background20.png" class="alternative-methods__decorative-5"></app-decorative>
+	</app-figure-card-grid-section>
+
+	<app-text-lines-section
+		@heading="Drawbacks of alternative methods"
+		:@lines="lines"
+		class="alternative-methods__text-lines-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background21.png" class="alternative-methods__decorative-6"></app-decorative>
+	</app-text-lines-section>
+	</section>
+
+	<app-contact-form-section
+		@heading="Do you want to integrate alternative methods?"
+		@subheading="We will take care of all risks and difficulties."
+		:@stars="true"
+		class="alternative-methods__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Do you want to integrate alternative methods?"
+		@subheading="We will take care of all risks and difficulties."
+	>
+	</app-contact-form-modal>
+</app-base>

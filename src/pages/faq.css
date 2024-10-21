@@ -1,0 +1,68 @@
+.faq__intro-section {
+	margin-block-end: 8.75rem;
+}
+
+.faq__accordion-list-section {
+	margin-block-end: 29.375rem;
+}
+
+.faq__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.faq__decorative-1 {
+	top: 8rem;
+	left: 50%;
+	translate: -63% 0;
+}
+
+.faq__decorative-2 {
+	bottom: -26rem;
+	left: -36rem;
+	scale: -1 -1;
+}
+
+.faq__decorative-3 {
+	bottom: -52rem;
+	right: -58rem;
+}
+
+.faq__decorative-4 {
+	bottom: -100rem;
+	left: 50%;
+	translate: -63% 0;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 900px) {
+	.faq__accordion-list-section {
+		margin-block-end: 14.25rem;
+	}
+
+	.faq__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.faq__decorative-1 {
+		display: none;
+	}
+
+	.faq__decorative-2 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    left: -36rem;
+		scale: unset;
+	}
+
+	.faq__decorative-3 {
+		display: none;
+	}
+
+	.faq__decorative-4 {
+		display: none;
+	}
+}

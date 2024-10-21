@@ -1,0 +1,24 @@
+.heading--level_1 {
+	font: var(--font-craftwork-grotesk-heading-1);
+	letter-spacing: -0.02em;
+}
+
+.heading--level_2 {
+	font: var(--font-craftwork-grotesk-heading-2);
+	letter-spacing: -0.02em;
+}
+
+.heading--level_4 {
+	font: var(--font-craftwork-grotesk-heading-4);
+	letter-spacing: -0.02em;
+}
+
+.heading--level_5 {
+	font: var(--font-craftwork-grotesk-heading-5);
+	letter-spacing: -0.02em;
+}
+
+.heading--level_6 {
+	font: var(--font-craftwork-grotesk-heading-6);
+	letter-spacing: -0.02em;
+}

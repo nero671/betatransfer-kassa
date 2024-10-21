@@ -1,0 +1,22 @@
+<header class="header">
+	<app-desktop-menu-drawer class="header__mega-menu header__mega-menu--desktop" data-menu-drawer="desktop"></app-desktop-menu-drawer>
+	<app-mobile-menu-drawer class="header__mega-menu header__mega-menu--mobile" data-menu-drawer="mobile"></app-mobile-menu-drawer>
+
+	<a href="home.html" class="header__home-link">
+		<img src="/src/assets/images/bt-kassa.svg" width="82" height="84" class="header__logo" alt="bt kassa">
+	</a>
+
+	<button type="button" class="header__burger" aria-haspopup="dialog" aria-expanded="false" data-menu-drawer-toggle="mobile">
+		<app-icon @name="burger" class="header__burger-icon-closed" width="28" height="14"></app-icon>
+		<app-icon @name="cross" class="header__burger-icon-opened" width="24" height="24"></app-icon>
+	</button>
+
+	<app-nav type="desktop" class="header__nav"></app-nav>
+
+	<app-lang class="header__lang"></app-lang>
+
+	<app-button href="#" class="header__signup">
+		<img src="/src/assets/images/singup-animation.gif" slot="icon" class="header__signup-animation" width="38" height="38" alt="">
+		Sign Up
+	</app-button>
+</header>

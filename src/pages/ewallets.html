@@ -1,0 +1,80 @@
+<script webc:setup>
+	const benefits = [
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure45.png',
+				size: 'medium',
+				heading: 'User convenience, with native and familiar payment forms'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure46.png',
+				size: 'medium',
+				heading: 'High conversion rates up to 90%'
+			},
+		],
+		[
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure47.png',
+				size: 'medium',
+				heading: 'High transaction throughput'
+			},
+			{
+				orientation: 'horizontal',
+				icon: '/src/assets/images/figure48.png',
+				size: 'medium',
+				heading: 'Fees are lower than in acquiring'
+			},
+		]
+	];
+
+	const lines = [
+		'Electronic wallets are developed by local companies, and these systems cannot be fully controlled unlike solutions developed by us',
+		'These solutions are primarily localised',
+		'Limited choice of currencies'
+	];
+</script>
+<app-base webc:nokeep @title="Ewallets" @page-class="ewallets">
+    <section class="animation-section ewallets-animation-section">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="Ewallets"
+		@subheading="In some developing countries, such as India or Brazil, the number of payments made via e-wallets significantly exceeds the number of payments made by bank cards. We work to ensure that in each geography our customers can accept payments using different methods"
+		@button="true"
+		class="ewallets__intro-section decorative-animation"
+	>
+		<app-decorative src="/src/assets/video/22_Ewallets.mp4" class="decorative-1 ewallets__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/22_Ewallets.mp4" class="decorative-2 ewallets__decorative-2"></app-decorative>
+	</app-intro-section>
+
+	<app-figure-card-grid-section
+		@heading="Benefits of the methods:"
+		:@items="benefits"
+		class="ewallets__figure-card-grid-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background19.png" class="ewallets__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background03.png" class="ewallets__decorative-4"></app-decorative>
+	</app-figure-card-grid-section>
+
+	<app-text-lines-section
+		@heading="Drawbacks of the methods:"
+		:@lines="lines"
+		class="ewallets__text-lines-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background04.png" class="ewallets__decorative-5"></app-decorative>
+	</app-text-lines-section>
+	</section>
+
+	<app-contact-form-section
+		@heading="Do you want to integrate accepting payments by ewallets?"
+		:@stars="true"
+		class="ewallets__contact-form-section"
+	></app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="Do you want to integrate accepting payments by ewallets?"
+	>
+	</app-contact-form-modal>
+</app-base>

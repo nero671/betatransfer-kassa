@@ -1,0 +1,172 @@
+.about-us__intro-section {
+	margin-block-end: 12.75rem;
+}
+
+.about-us__alternating-blocks-section {
+	margin-block-end: 23.6875rem;
+}
+
+.about-us__figure-card-columns-section {
+	margin-block-end: 29.75rem;
+}
+
+.about-us__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.about-us__decorative-1 {
+	top: -37.0625rem;
+	left: 50%;
+	translate: -52% 0;
+	z-index: -2;
+}
+
+.about-us__decorative-2 {
+	width: 38.0625rem;
+	height: 38.0625rem;
+	top: 5.6875rem;
+	left: -13.875rem;
+	mix-blend-mode: plus-lighter;
+}
+
+.about-us__decorative-3 {
+	width: 52.9375rem;
+	height: 52.9375rem;
+	top: 11.625rem;
+	right: -17.9375rem;
+	mix-blend-mode: plus-lighter;
+}
+
+.about-us__decorative-4 {
+	bottom: -25rem;
+	left: -10rem;
+}
+
+.about-us__decorative-5 {
+	bottom: -58.4375rem;
+	left: -38.5625rem;
+}
+
+.about-us__decorative-6 {
+	bottom: -47.875rem;
+	left: 50%;
+	translate: -44% 0;
+}
+
+.about-us__intro-section .intro-section__button {
+	margin: 4.25rem auto 0;
+}
+
+.alternating-blocks__figure {
+	mix-blend-mode: lighten;
+	will-change: mix-blend-mode;
+	transform: translateZ(0);
+	backface-visibility: hidden;
+}
+
+.career-alternating-blocks-section .alternating-blocks__figure {
+	mix-blend-mode: normal;
+}
+
+.about-us__decorative-3 {
+	aspect-ratio: 1;
+}
+
+@media (max-width: 1300px) {
+	.about-us__decorative-1 {
+		display: none;
+	}
+
+	.about-us__decorative-2 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+	}
+
+	.about-us__decorative-3 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+	}
+
+	.about-us__decorative-4 {
+		display: block;
+		top: 13.25rem;
+		right: -31.9375rem;
+	}
+
+	.about-us__decorative-5 {
+		bottom: -20.25rem;
+		left: -27.4375rem;
+		width: 59.375rem;
+		height: auto;
+	}
+
+	.about-us__decorative-6 {
+		bottom: -18.625rem;
+		left: 50%;
+		translate: -50% 0;
+		width: 68.5rem;
+		height: auto;
+	}
+
+	.alternating-blocks__item video {
+		height: 20rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.about-us__intro-section {
+		margin-block-end: 22rem;
+	}
+
+	.about-us__alternating-blocks-section {
+		margin-block-end: 15.125rem;
+	}
+
+	.about-us__decorative-2 {
+		top: 41rem;
+	}
+
+	.about-us__figure-card-columns-section {
+		margin-block-end: 22.5rem;
+	}
+
+	.about-us__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.about-us__decorative-2 {
+		bottom: -7.75rem;
+	}
+
+	.alternating-blocks__item video {
+		height: auto;
+	}
+
+	.figure-card-columns-section .figure-card-columns__item {
+		flex-direction: row;
+	}
+
+	.figure-card-columns-section .figure-card-columns__item .figure-card__text {
+		text-align: left;
+	}
+
+
+	.figure-card-columns-section .figure-card-columns__item h3 {
+		text-align: left !important;
+	}
+
+	.about-us__figure-card-columns-section .figure-card-columns-section__headings {
+		margin-block-end: 0;
+	}
+
+	.about-us__figure-card-columns-section .figure-card-columns-section__columns {
+		margin-bottom: 3.75rem;
+	}
+}

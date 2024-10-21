@@ -1,0 +1,35 @@
+.chat {
+	--circle-fill: var(--color-imperial-blue);
+	--circle-stroke: var(--color-white);
+	--path-stroke: var(--color-white);
+
+	position: fixed;
+	z-index: 2;
+	right: 1.25rem;
+	bottom: 1.25rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+.chat__icon {
+	display: block;
+}
+
+.chat__circle {
+	fill: var(--circle-fill);
+	stroke: var(--circle-stroke);
+	transition-property: fill, stroke;
+	transition-duration: var(--base-transition);
+}
+
+.chat__path {
+	stroke: var(--path-stroke);
+	transition-property: stroke;
+	transition-duration: var(--base-transition);
+}
+
+.chat:where(:hover, :focus-visible) {
+	--circle-fill: var(--color-light-silver);
+	--circle-stroke: var(--color-light-silver);
+	--path-stroke: var(--color-imperial-blue);
+}

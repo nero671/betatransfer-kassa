@@ -1,0 +1,21 @@
+<div webc:root="override" class="contact-form">
+	<hgroup class="contact-form__headings">
+		<app-heading class="contact-form__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+		<p webc:if="subheading" class="contact-form__subheading" @text="subheading"></p>
+	</hgroup>
+
+	<div class="contact-form__links">
+		<app-button href="mailto:example@email.com" target="_blank" rel="noreferrer" @variant="secondary" @icon="envelope-button" class="contact-form__link">Email</app-button>
+		<app-button href="https://t.me/contact_id" target="_blank" rel="noreferrer" @variant="secondary" @icon="telegram-button" class="contact-form__link">Telegram</app-button>
+		<app-button href="https://wa.me/1234567890" target="_blank" rel="noreferrer" @variant="secondary" @icon="whatsapp-button" class="contact-form__link">Whats App</app-button>
+	</div>
+
+	<p class="contact-form__text">Or feel the form below</p>
+
+	<form webc:root="override" class="contact-form__fields" action="#" method="post">
+		<app-input type="text" wrapper-class="contact-form__field" label="Name" name="name" :id="`name-${uid}`" autocomplete="name given-name" required></app-input>
+		<app-input type="text" wrapper-class="contact-form__field" label="Email / Telegram / Whats app" name="contact" :id="`contact-${uid}`" autocomplete="email tel" required></app-input>
+		<app-input type="textarea" wrapper-class="contact-form__field" label="Message" name="message" :id="`message-${uid}`" required></app-input>
+		<app-button type="submit" class="contact-form__submit">Send message</app-button>
+	</form>
+</div>

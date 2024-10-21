@@ -1,0 +1,34 @@
+.not-found-section__headings {
+	max-width: 61.25rem;
+	margin-inline: auto;
+}
+
+.not-found-section__image {
+	margin: 0 auto 2.5rem;
+}
+
+.not-found-section__subheading {
+	padding-block-start: 2.5rem;
+	border-block-start: 0.0625rem solid rgba(255,255,255,0.4);
+	margin-inline: auto;
+	background: var(--gradient-text);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font: var(--font-craftwork-grotesk-heading-6);
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.not-found-section__button {
+	margin: 6.25rem auto 0;
+}
+
+@media (max-width: 600px) {
+	.not-found-section__image {
+		margin: 0 auto 1.25rem;
+	}
+
+	.not-found-section__subheading {
+		padding-block-start: 1.25rem;
+	}
+}

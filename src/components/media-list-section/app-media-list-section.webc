@@ -1,0 +1,15 @@
+<section webc:root="override" class="section media-list-section">
+	<div class="container">
+		<app-heading webc:if="heading" class="media-list-section__heading" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+
+		<search webc:if="filters" class="media-list-section__filter">
+			<app-filter webc:for="filter of filters" :@name="filter.name" :@items="filter.items"></app-filter>
+		</search>
+
+		<app-media-list class="media-list-section__list" :@items="items"></app-media-list>
+
+		<app-button webc:if="buttonHref && buttonText" :href="buttonHref" href="cases.html" class="media-list-section__more" :@content="buttonText"></app-button>
+	</div>
+
+	<slot></slot>
+</section>

@@ -1,0 +1,105 @@
+<script webc:setup>
+	const alternatingBlocks = [
+		{
+			heading: 'Our mission and vision',
+			text: 'Mission of Betatransfer Kassa is to make payment processing simple for clients. Traditionally, the high-risk merchant market is perceived as associated with opacity. We disagree. Our vision is to build a new culture in the market and minimize those very high risks everyone talks about.',
+			figure: '/src/assets/video/05_AboutUsOurMission.mp4'
+		},
+		{
+			heading: 'Charity',
+			text: 'We are building not just a brand, but a socially active company. Our goal is to help wherever we can be of assistance and promote the idea of charity among our colleagues.',
+			figure: '/src/assets/video/05_AboutUsCharity.mp4'
+		},
+		{
+			heading: 'Security Policy',
+			text: 'Security and privacy is our priority. Our products are PCI DSS compliant, which means they are safe for customers and business. We pay special attention to data and server protection. Our employees don\'t have access to clients\' personal accounts and information.',
+			figure: '/src/assets/video/05_AboutUsSecurityPolicy.mp4'
+		}
+	];
+
+	const team1 = [
+		{
+			icon: '/src/assets/images/figure21.png',
+			size: 'small',
+			heading: 'Technical Department',
+			description: 'Currently, the team of high-class programmers are actively working on the product, developing and adapting solutions according to our clients\' needs.'
+		},
+		{
+			icon: '/src/assets/images/figure22.png',
+			size: 'small',
+			heading: 'Support Department',
+			description: 'Our support service managers are not robots but real people who can quickly respond to customer queries.'
+		},
+		{
+			icon: '/src/assets/images/figure23.png',
+			size: 'small',
+			heading: 'Quality/Testing Department',
+			description: 'Our youngest company department. The main task of specialists is the continuous improvement of conversion rates and the stability of payment solutions.'
+		}
+	];
+
+	const team2 = [
+		{
+			icon: '/src/assets/images/figure24.png',
+			size: 'small',
+			heading: 'Security Service',
+			description: 'Before starting any collaboration, all clients are complaints by our specialists. We must be confident that the cooperation will be effective and safe for both parties. The security service also engages white-hat hackers to test our solutions.'
+		},
+		{
+			icon: '/src/assets/images/figure25.png',
+			size: 'small',
+			heading: 'Finance, Legal, Marketing, and Sales Departments',
+			description: 'Over the years, we have formed a team of specialists in each of these areas. On the contact page you can find information on how to get in touch with each of our departments.'
+		}
+	];
+</script>
+<app-base webc:nokeep @title="About us" @page-class="about-us">
+	<app-intro-section
+		:@is-full-height="true"
+		@heading="About us"
+		@subheading="Betatransfer was founded in 2016 as a crypto exchange service."
+		@description="As a beginning player in the market, we ourselves faced the problem of accepting payments. So we started to develop new products and analysed demand in the market. This is how Betatransfer Kassa was started. Now it's one of the leading services Betatransfer Group. Our payment provider that accepts payments from almost all over the world."
+		@button="true"
+		class="about-us__intro-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background28.png?as=webp" class="about-us__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/video/home-intro.mp4" class="about-us__decorative-2"></app-decorative>
+		<app-decorative src="/src/assets/video/home-intro.mp4" class="about-us__decorative-3"></app-decorative>
+	</app-intro-section>
+
+	<app-alternating-blocks-section
+		:@items="alternatingBlocks"
+		class="about-us__alternating-blocks-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background29.png?as=webp" class="about-us__decorative-4"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background03.png?as=webp" class="about-us__decorative-5"></app-decorative>
+	</app-alternating-blocks-section>
+
+	<app-figure-card-columns-section
+		@heading="Our team"
+		@subheading="Betatransfer Kassa is a team of experts in various fields."
+		:@items="team1"
+		:@items-second="team2"
+		@size="big"
+		@size-second="big"
+		@justify="space-between"
+		@justify-second="space-evenly"
+		class="about-us__figure-card-columns-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background26.png?as=webp" class="about-us__decorative-6"></app-decorative>
+	</app-figure-card-columns-section>
+
+	<app-contact-form-section
+		@heading="We are in touch 24/7"
+		@subheading="Any other questions? Contact us!"
+		:@stars="true"
+		class="about-us__contact-form-section"
+	>
+	</app-contact-form-section>
+
+	<app-contact-form-modal
+		@heading="We are in touch 24/7"
+		@subheading="Any other questions? Contact us!"
+	>
+	</app-contact-form-modal>
+</app-base>

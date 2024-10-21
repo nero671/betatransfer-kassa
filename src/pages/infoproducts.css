@@ -1,0 +1,122 @@
+.infoproducts__intro-section {
+	margin-block-end: 23.3125rem;
+}
+
+.infoproducts__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.infoproducts__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.infoproducts__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.infoproducts__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.infoproducts__decorative-1 {
+	top: 16.4375rem;
+	left: -9.5rem;
+	width: 25.8125rem;
+	height: 25.8125rem;
+	mix-blend-mode: lighten;
+}
+
+.infoproducts__decorative-2 {
+	top: 22.625rem;
+	right: -9.5rem;
+	width: 25.8125rem;
+	height: 25.8125rem;
+	mix-blend-mode: lighten;
+}
+
+.infoproducts__decorative-3 {
+	bottom: -30.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.infoproducts__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.infoproducts__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+@media (max-width: 1300px) {
+	.infoproducts__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.infoproducts__decorative-2 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.infoproducts__intro-section {
+		margin-block-end: 16rem;
+	}
+
+	.infoproducts__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.infoproducts__decorative-1 {
+		top: 38rem;
+	}
+
+	.infoproducts__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.infoproducts__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.infoproducts__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.infoproducts__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.infoproducts__decorative-4 {
+		display: none;
+	}
+
+	.infoproducts__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    left: -36rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.infoproducts__decorative-1 {
+		bottom: -7.75rem;
+	}
+}

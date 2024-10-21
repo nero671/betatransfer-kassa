@@ -1,0 +1,3 @@
+<div webc:root="override" class="text-lines">
+	<p webc:for="line of lines" class="text-lines__line" @text="line"></p>
+</div>

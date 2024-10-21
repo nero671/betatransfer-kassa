@@ -1,0 +1,88 @@
+.button {
+	--button-border-width: 0.0625rem;
+	--button-border-radius: 3.125rem;
+	--button-background-color: transparent;
+	--button-border-color: var(--color-white);
+	--button-padding-block: 1.5rem;
+	--button-padding-inline: 2rem;
+	--button-color: inherit;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.75rem;
+	width: fit-content;
+	padding: calc(var(--button-padding-block) - var(--button-border-width)) calc(var(--button-padding-inline) - var(--button-border-width));
+	border: var(--button-border-width) solid #fff;
+	background-color: var(--button-background-color);
+	border-radius: var(--button-border-radius);
+	font: var(--font-inter-tight-button);
+	letter-spacing: -0.02em;
+	color: var(--button-color);
+	transition-property: background-color, border-color, color;
+	transition-duration: var(--base-transition);
+	cursor: pointer;
+}
+
+.button * {
+	pointer-events: none;
+	user-select: none;
+}
+
+.button:not(:disabled):is(:hover, :focus-visible) {
+	--button-background-color: var(--color-sunny);
+	--button-border-color: var(--color-sunny);
+	--button-color: var(--color-dark-imperial-blue);
+}
+
+.button--accent {
+	--button-background-color: var(--color-white);
+	--button-color: var(--color-dark-imperial-blue);
+}
+
+.button--accent:not(:disabled):is(:hover, :focus-visible) {
+	--button-background-color: var(--color-sunny);
+	--button-border-color: var(--color-sunny);
+}
+
+.button--secondary {
+	--button-background-color: var(--color-brilliant-azure);
+	--button-border-color: var(--color-brilliant-azure);
+	--button-border-radius: 0.75rem;
+
+	min-width: 11.25rem;
+	font: var(--font-inter-tight-base);
+}
+
+.button--secondary:not(:disabled):is(:hover, :focus-visible) {
+	--button-background-color: var(--color-sunny);
+	--button-border-color: var(--color-sunny);
+	--button-color: var(--color-dark-imperial-blue);
+}
+
+.button:disabled {
+	--button-background-color: var(--color-pastel-blue);
+	--button-border-color: var(--color-pastel-blue);
+	--button-color: var(--color-dark-imperial-blue);
+
+	cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+	.button {
+		--button-padding-block: 1.25rem;
+		--button-padding-inline: 1.25rem;
+		--button-border-radius: 2.5rem;
+
+		font: var(--font-inter-tight-small);
+	}
+
+	.button--secondary {
+		--button-padding-block: 0.75rem;
+		--button-padding-inline: 0.75rem;
+		--button-border-radius: 0.75rem;
+
+		font: var(--font-inter-tight-small);
+		min-width: unset;
+	}
+}

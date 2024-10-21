@@ -1,0 +1,10 @@
+<section webc:root="override" class="section download-section">
+	<div class="container">
+		<div class="download-section__block">
+			<app-heading class="download-section__heading" @structure-level="2" @visual-level="6" :@content="heading"></app-heading>
+
+			<app-button class="download-section__link" :href="href" download>Download</app-button>
+		</div>
+	</div>
+	<slot></slot>
+</section>

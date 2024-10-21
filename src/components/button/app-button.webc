@@ -1,0 +1,31 @@
+<template webc:if="href" webc:nokeep>
+	<a 
+		webc:root="override" 
+		:href="href" 
+		class="button" 
+		:class="variant ? `button--${variant}` : ''"
+	>
+		<app-icon webc:if="icon" :@name="icon" class="button__icon" width="24" height="24"></app-icon>
+		<slot name="icon"></slot>
+		<span class="button__text">
+			<span webc:if="content" @text="content" webc:nokeep></span>
+			<slot webc:else></slot>
+		</span>
+	</a>
+</template>	
+<template webc:else webc:nokeep>
+	<button 
+		webc:root="override" 
+		:type="type ?? 'button'" 
+		class="button" 
+		:class="variant ? `button--${variant}` : ''"
+	>
+		<app-icon webc:if="icon" :@name="icon" class="button__icon" width="24" height="24"></app-icon>
+		<slot name="icon"></slot>
+		<span class="button__text">
+			<span webc:if="content" @text="content" webc:nokeep></span>
+			<slot webc:else></slot>
+		</span>
+	</button>
+</template>
+

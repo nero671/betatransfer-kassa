@@ -1,0 +1,9 @@
+<template webc:if="src.includes('.svg') && inline" webc:nokeep>
+	<template @html="inlineSvg(src, { 'class': `decorative ${this.class}`, 'role': 'presentation' })" webc:nokeep></template>
+</template>
+<template webc:elseif="src.includes('.png') || src.includes('.gif') || src.includes('.svg')" webc:nokeep>
+	<img webc:root="override" :src="src" class="decorative" alt="" role="presentation">
+</template>
+<template webc:elseif="src.includes('.mp4')" webc:nokeep>
+	<video webc:root="override" :src="src" class="decorative" autoplay loop muted playsinline role="presentation"></video>
+</template>

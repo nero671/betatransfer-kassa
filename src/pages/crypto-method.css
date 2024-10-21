@@ -1,0 +1,135 @@
+.crypto-method__intro-section {
+	margin-block-end: 25.75rem;
+}
+
+.crypto-method__figure-card-grid-section {
+	margin-block-end: 21.25rem;
+}
+
+.crypto-method__text-lines-section {
+	margin-block-end: 18.75rem;
+}
+
+.crypto-method__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.crypto-method__decorative-1 {
+	top: 0;
+	left: -12.375rem;
+	width: 44.125rem;
+	height: 44.125rem;
+	scale: -1 1;
+}
+
+.crypto-method__decorative-2 {
+	top: 8.625rem;
+	right: -16.125rem;
+	width: 47.125rem;
+	height: 47.125rem;
+}
+
+.crypto-method__decorative-3 {
+	top: -46rem;
+  right: -56rem;
+	scale: -1 1;
+	rotate: -15deg;
+}
+
+.crypto-method__decorative-4 {
+	bottom: -62rem;
+	left: 50%;
+	translate: -46% 0;
+}
+
+.crypto-method__decorative-5 {
+	bottom: -28rem;
+	left: -40rem;
+}
+
+.crypto-method__decorative-6 {
+	bottom: -30rem;
+	right: -52rem;
+}
+
+@media(max-width: 1750px) {
+	.crypto-method__decorative-1 {
+		left: -22.75rem;
+	}
+
+	.crypto-method__decorative-2 {
+		right: -22.75rem;
+	}
+}
+
+
+@media (max-width: 1300px) {
+	.crypto-method__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.crypto-method__decorative-2 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.crypto-method__intro-section {
+		margin-block-end: 17rem;
+	}
+
+	.crypto-method__decorative-1 {
+		top: 37rem;
+	}
+
+	.crypto-method__figure-card-grid-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.crypto-method__text-lines-section {
+		margin-block-end: 20.5rem;
+	}
+
+	.crypto-method__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.crypto-method__decorative-3 {
+		display: none;
+	}
+
+	.crypto-method__decorative-4 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -26rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.crypto-method__decorative-5 {
+		display: none;
+	}
+
+	.crypto-method__decorative-6 {
+		width: 58.125rem;
+		height: auto;
+		right: -36rem;
+		bottom: -22rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.crypto-method__decorative-1 {
+		bottom: -6.75rem;
+	}
+}

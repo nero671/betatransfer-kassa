@@ -1,0 +1,86 @@
+.how-to-integrate__intro-section {
+	margin-block-end: 19.8125rem;
+}
+
+.how-to-integrate__steps-section {
+	margin-block-end: 32.5625rem;
+}
+
+.how-to-integrate__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.how-to-integrate__decorative-1 {
+	top: -48rem;
+	left: -50rem;
+	z-index: -2;
+	mix-blend-mode: normal;
+}
+
+.steps__decorative {
+	mix-blend-mode: normal;
+}
+
+.how-to-integrate__decorative-2 {
+	right: -50rem;
+	bottom: -42rem;
+	scale: -1 1;
+	z-index: -2;
+}
+
+@media(max-width: 1750px) {
+	.how-to-integrate__steps-section .steps__item {
+		max-width: 53.15rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.how-to-integrate__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.how-to-integrate__steps-section {
+		margin-block-end: 20.125rem;
+	}
+
+	.how-to-integrate__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.how-to-integrate__decorative-1 {
+		top: -27rem;
+		left: 50%;
+		translate: -50% 0;
+		width: 99.6875rem;
+		height: auto;
+	}
+
+	.how-to-integrate__decorative-2 {
+		bottom: -12rem;
+		right: 50%;
+		translate: 50% 0;
+		width: 99.6875rem;
+		height: auto;
+	}
+
+	.how-to-integrate__intro-section {
+		margin-block-end: 0;
+	}
+
+	.intro-section--full-height {
+		padding-block-start: max(38vh, 10.25rem);
+		min-height: initial;
+	}
+
+	.how-to-integrate__steps-section .steps__item:nth-child(2n) {
+		max-width: 100%;
+
+		img {
+			left: 0 !important;
+		}
+
+		svg {
+			margin-right: 3rem;
+		}
+	}
+}

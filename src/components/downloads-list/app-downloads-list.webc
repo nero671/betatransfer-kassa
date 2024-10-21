@@ -1,0 +1,8 @@
+<div class="downloads-list" role="group" :aria-label="heading">
+	<a webc:if="buttonHref && buttonText" :href="buttonHref" class="downloads-list__link" @text="buttonText"></a>
+
+	<article webc:for="item of items" class="downloads-list__item">
+		<p class="downloads-list__name" @html="item.heading"></p>
+		<app-button class="downloads__link" :href="item.href" download>Download</app-button>
+	</article>
+</div>

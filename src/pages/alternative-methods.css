@@ -1,0 +1,128 @@
+.alternative-methods__intro-section {
+	margin-block-end: 25.75rem;
+}
+
+.alternative-methods__figure-card-grid-section {
+	margin-block-end: 22.5625rem;
+}
+
+.alternative-methods__text-lines-section {
+	margin-block-end: 15.0625rem;
+}
+
+.alternative-methods__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.alternative-methods__decorative-1 {
+	top: 7.75rem;
+	left: -16.8125rem;
+	width: 36.1875rem;
+	height: 36.1875rem;
+	rotate: 11.69deg;
+	opacity: 0.8;
+}
+
+.alternative-methods__decorative-2 {
+	top: 12.0625rem;
+	right: -12.625rem;
+	width: 36.1875rem;
+	height: 36.1875rem;
+	rotate: -77.52deg;
+	opacity: 0.8;
+}
+
+.alternative-methods__decorative-3 {
+	top: -38rem;
+	left: -60rem;
+}
+
+.alternative-methods__decorative-4 {
+	top: -4rem;
+	left: 50%;
+	translate: -52% 0;
+}
+
+.alternative-methods__decorative-5 {
+	bottom: -66rem;
+	right: -64rem;
+}
+
+.alternative-methods__decorative-6 {
+	bottom: -26rem;
+	left: -60rem;
+}
+
+@media (max-width: 1300px) {
+	.alternative-methods__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.alternative-methods__decorative-2 {
+		top: 3.25rem;
+		right: -5.8125rem;
+		width: 19.3125rem;
+		height: 19.3125rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.alternative-methods__intro-section {
+		margin-block-end: 9rem;
+	}
+
+
+	.alternative-methods__decorative-1 {
+		top: 37rem;
+	}
+
+	.alternative-methods__figure-card-grid-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.alternative-methods__text-lines-section {
+		margin-block-end: 20.5rem;
+	}
+
+	.alternative-methods__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.alternative-methods__decorative-3 {
+		display: none;
+	}
+
+	.alternative-methods__decorative-5 {
+		display: none;
+	}
+
+	.alternative-methods__decorative-6 {
+		bottom: -14rem;
+		left: -16rem;
+		width: 40.25rem;
+		height: auto;
+	}
+}
+
+@media(max-width: 600px) {
+	.alternative-methods__decorative-1 {
+		bottom: -4.75rem;
+	}
+
+	.alternative-methods__decorative-1 {
+		width: 13.1875rem;
+		height: 13.1875rem;
+	}
+
+	.alternative-methods__decorative-2 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+		top: 5.25rem;
+	}
+}

@@ -1,0 +1,9 @@
+<sl-dropdown webc:root="override" class="filter" placement="bottom-center" distance="20">
+	<button type="button" class="filter__button" slot="trigger">
+		<span @text="name" webc:nokeep></span>
+		<app-icon @name="chevron" class="filter__chevron" width="12" height="7"></app-icon>
+	</button>
+	<div class="filter__body">
+		<a webc:for="item of items" :href="item.href" class="filter__item hover-line" @text="item.name"></a>
+	</div>
+</sl-dropdown>

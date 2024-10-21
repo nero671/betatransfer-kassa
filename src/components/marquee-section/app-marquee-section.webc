@@ -1,0 +1,12 @@
+<section webc:root="override" class="section marquee-section">
+	<div class="container">
+		<app-heading class="marquee-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+	</div>
+	<div class="container container--full">
+		<div class="marquee-section__lines">
+			<app-marquee class="marquee-section__line marquee-section__line--second" @variant="secondary" :@content="marquee"></app-marquee>
+			<app-marquee class="marquee-section__line marquee-section__line--first" @variant="primary" :@content="marquee"></app-marquee>
+		</div>
+	</div>
+	<slot></slot>
+</section>

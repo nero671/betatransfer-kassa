@@ -1,0 +1,5 @@
+<ul webc:root="override" class="media-list">
+	<li webc:for="item of items" class="media-list__item">
+		<app-media-card class="media-list__card" :@image="item.image" :@title="item.title" :@description="item.description"></app-media-card>
+	</li>
+</ul>

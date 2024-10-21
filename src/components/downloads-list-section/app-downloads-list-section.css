@@ -1,0 +1,17 @@
+.downloads-list-section__heading {
+	margin-block-end: 9.0625rem;
+	text-align: center;
+}
+
+@media(max-width: 1200px) {
+	.download-section__block {
+		max-width: initial !important;
+	}
+}
+
+
+@media (max-width: 900px) {
+	.downloads-list-section__heading {
+		margin-block-end: 3.75rem;
+	}
+}

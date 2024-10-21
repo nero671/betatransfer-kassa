@@ -1,0 +1,5 @@
+<div class="cookie" role="alert" aria-live="assertive" aria-atomic="true">
+	<p class="cookie__text">To provide the best experiences, we use technologies like cookies to store and/or access device information.</p>
+	<app-button class="cookie__button cookie__button--accept" type="button" @variant="accent">Accept</app-button>
+	<app-button class="cookie__button cookie__button--reject" type="button">Reject</app-button>
+</div>

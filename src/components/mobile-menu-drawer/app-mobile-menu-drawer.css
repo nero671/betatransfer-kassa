@@ -1,0 +1,58 @@
+.mobile-menu-drawer {
+	--size: min(auto, 100vh);
+	--size: min(auto, 100dvh);
+	--sl-z-index-drawer: 2;
+}
+
+.mobile-menu-drawer[open] ~ * {
+	z-index: 3;
+}
+
+.mobile-menu-drawer::part(panel) {
+	padding: 7.75rem 0 2.3125rem;
+	background-color: var(--color-maastricht-blue-85);
+	border-end-start-radius: 1.25rem;
+	border-end-end-radius: 1.25rem;
+}
+
+.mobile-menu-drawer__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+.mobile-menu-drawer__bottom {
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.875rem;
+}
+
+.mobile-menu-drawer__contact-text {
+	font: var(--font-inter-tight-sub3);
+	letter-spacing: -0.02em;
+	text-align: center;
+}
+
+.mobile-menu-drawer__contacts {
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+
+.mobile-menu-drawer__link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.mobile-menu-drawer .details__summary-icon {
+	rotate: 90deg;
+}
+
+.mobile-menu-drawer .nav__accordion[open]::part(summary-icon) {
+	rotate: 270deg;
+}

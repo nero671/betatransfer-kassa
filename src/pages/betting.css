@@ -1,0 +1,134 @@
+.betting__intro-section {
+	margin-block-end: 20.9375rem;
+}
+
+.betting__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.betting__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.betting__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.betting__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.betting__decorative-1 {
+	top: 4.125rem;
+	left: -14.3125rem;
+	width: 41.125rem;
+	height: 41.125rem;
+	rotate: -7.66deg;
+	mix-blend-mode: lighten;
+}
+
+.betting__decorative-2 {
+	top: 21.125rem;
+	right: -14rem;
+	width: 41.125rem;
+	height: 41.125rem;
+	rotate: -9.91deg;
+	mix-blend-mode: lighten;
+}
+
+.betting__decorative-3 {
+	bottom: -40.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.betting__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.betting__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+@media (max-width: 1300px) {
+	.betting__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.betting__decorative-2 {
+		top: 3.25rem;
+		right: -4.8125rem;
+		width: 17.5rem;
+		height: 17.5rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.betting__intro-section {
+		margin-block-end: 14rem;
+	}
+
+	.betting__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.betting__decorative-1 {
+		top: 39rem;
+	}
+
+	.betting__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.betting__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.betting__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.betting__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.betting__decorative-4 {
+		display: none;
+	}
+
+	.betting__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    	left: -36rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.betting__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.betting__decorative-1 {
+		width: 14.1875rem;
+		height: 14.1875rem;
+	}
+
+	.betting__decorative-2 {
+		width: 15.1875rem;
+		height: 15.1875rem;
+	}
+}

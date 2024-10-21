@@ -1,0 +1,121 @@
+.charity__intro-section {
+	margin-block-end: 28.0625rem;
+}
+
+.charity__media-list-section {
+	margin-block-end: 30.1875rem;
+}
+
+.charity__contact-form-section {
+	margin-block-end: 25.9375rem;
+}
+
+.charity__decorative-1 {
+	top: 18.875rem;
+	left: -13.5rem;
+	width: 42.5625rem;
+	height: 42.5625rem;
+	rotate: -19.05deg;
+	scale: -1 1;
+	mix-blend-mode: lighten;
+}
+
+.charity__decorative-2 {
+	top: 4.875rem;
+	right: -13.5rem;
+	width: 42.5625rem;
+	height: 42.5625rem;
+	rotate: 19.05deg;
+	mix-blend-mode: lighten;
+}
+
+.charity__decorative-3 {
+	top: -14rem;
+	right: -30rem;
+}
+
+.charity__decorative-4 {
+	top: 44%;
+	left: -58rem;
+}
+
+.charity__decorative-5 {
+	bottom: -34rem;
+	right: -40rem;
+}
+
+@media(max-width: 1750px) {
+	.charity__decorative-1 {
+		left: -21.5rem;
+	}
+
+	.charity__decorative-2 {
+		right: -21.5rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.charity__decorative-1 {
+		top: unset;
+		bottom: 3.25rem;
+		left: -5.8125rem;
+		width: 18.1875rem;
+		height: 18.1875rem;
+		opacity: 0.53;
+	}
+
+	.charity__decorative-2 {
+		top: 3.25rem;
+		right: -5.8125rem;
+		width: 19.3125rem;
+		height: 19.3125rem;
+		opacity: 0.53;
+	}
+}
+
+@media (max-width: 900px) {
+	.charity__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.charity__decorative-1 {
+		top: 38rem;
+	}
+
+	.charity__media-list-section {
+		margin-block-end: 14.25rem;
+	}
+
+	.charity__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.charity__decorative-3 {
+		top: -16rem;
+		right: -50rem;
+	}
+
+	.charity__decorative-5 {
+		bottom: -34rem;
+		right: -60rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.charity__decorative-1 {
+		bottom: -7.75rem;
+	}
+
+	.charity__decorative-1 {
+		width: 11.1875rem;
+		height: 11.1875rem;
+		left: -2rem;
+	}
+
+	.charity__decorative-2 {
+		width: 12.1875rem;
+		height: 12.1875rem;
+		top: 5.25rem;
+		right: -2rem;
+	}
+}

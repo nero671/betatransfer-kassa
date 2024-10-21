@@ -1,0 +1,12 @@
+<section webc:root="override" class="section steps-section">
+	<div class="container">
+		<template webc:if="heading" webc:nokeep>
+			<app-heading webc:if="hiddenHeading" class="steps-section__heading visually-hidden" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+			<app-heading webc:else="hiddenHeading" class="steps-section__heading" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+		</template>
+
+		<app-steps class="steps-section__steps" :@steps="steps"></app-steps>
+	</div>
+	
+	<slot></slot>
+</section>

@@ -1,0 +1,13 @@
+<section webc:root="override" class="section text-columns-section">
+	<div class="container">
+		<hgroup class="text-columns-section__headings">
+			<p class="text-columns-section__subheading" @text="subheading"></p>
+			<app-heading class="text-columns-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+		</hgroup>
+		<p class="text-columns-section__text" @text="description"></p>
+
+		<app-text-columns class="text-columns-section__list" :@items="items"></app-text-columns>
+	</div>
+
+	<slot></slot>
+</section>

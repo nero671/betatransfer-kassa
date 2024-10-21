@@ -1,0 +1,39 @@
+.brand-materials__intro-section {
+	margin-block-end: 12.9375rem;
+}
+
+.brand-materials__downloads-list-section {
+	margin-block-end: 22.687rem;
+}
+
+.brand-materials__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.brand-materials__decorative-1 {
+	top: -18rem;
+	left: 50%;
+	translate: -48% 0;
+}
+
+.brand-materials__decorative-2 {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.brand-materials__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.brand-materials__decorative-1 {
+		display: none;
+	}
+
+	.brand-materials__decorative-2 {
+		display: block;
+		width: 58.125rem;
+		height: auto;
+		bottom: -26rem;
+		right: -22rem;
+	}
+}

@@ -1,0 +1,4 @@
+<div class="accordion-list">
+	<app-accordion webc:for="item of items" class="accordion-list__item" :@heading="item.heading" :@details="item.details">
+	</app-accordion>
+</div>

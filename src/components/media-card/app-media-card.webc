@@ -1,0 +1,11 @@
+<article webc:root="override" class="media-card">
+	<a href="case.html" class="media-card__link" :aria-label="title"></a>
+	<div class="media-card__cover">
+		<img :src="image" width="380" height="234" alt="" class="media-card__image media-card__image--main">
+		<img :src="image" width="380" height="234" alt="" class="media-card__image media-card__image--blurred">
+	</div>
+	<div class="media-card__content">
+		<h3 class="media-card__heading" @text="title"></h3>
+		<p class="media-card__text" @text="description"></p>
+	</div>
+</article>

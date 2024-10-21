@@ -1,0 +1,177 @@
+<script webc:setup>
+	const menu = [
+		{
+			name: 'Payment Products',
+			child: [
+				{
+					name: 'Payment bot',
+					href: 'payment-bot.html'
+				},
+				{
+					name: 'Routing',
+					href: 'routing.html'
+				},
+				{
+					name: 'Cascading',
+					href: 'cascading.html'
+				},
+				{
+					name: 'Localisation',
+					href: 'localisation.html'
+				},
+				{
+					name: 'Crypto',
+					href: 'crypto.html'
+				}
+			]
+		},
+		{
+			name: 'Industries',
+			child: [
+				{
+					name: 'Betting',
+					href: 'betting.html'
+				},
+				{
+					name: 'Gambling',
+					href: 'gambling.html'
+				},
+				{
+					name: 'Investment',
+					href: 'investment.html'
+				},
+				{
+					name: 'Dating',
+					href: 'dating.html'
+				},
+				{
+					name: 'Soft',
+					href: 'soft.html'
+				},
+				{
+					name: 'Crypto',
+					href: 'crypto-industry.html'
+				},
+				{
+					name: 'Adult',
+					href: 'adult.html'
+				},
+				{
+					name: 'Infoproducts',
+					href: 'infoproducts.html'
+				},
+				{
+					name: 'Gaming',
+					href: 'gaming.html'
+				}
+			]
+		},
+		{
+			name: 'Payment methods',
+			child: [
+				{
+					name: 'Acquiring',
+					href: 'acquiring.html'
+				},
+				{
+					name: 'Alternative methods',
+					href: 'alternative-methods.html'
+				},
+				{
+					name: 'Ewallets',
+					href: 'ewallets.html',
+				},
+				{
+					name: 'Crypto',
+					href: 'crypto-method.html'
+				}
+			]
+		},
+		{
+			name: 'Help',
+			child: [
+				{
+					name: 'How to integrate',
+					href: 'how-to-integrate.html'
+				},
+				{
+					name: 'FAQ',
+					href: 'faq.html'
+				},
+				{
+					name: 'Connection requirements',
+					href: 'сonnection-requirements.html'
+				},
+				{
+					name: 'For developers',
+					href: 'for-developers.html'
+				},
+				{
+					name: 'Documentation',
+					href: 'api-documentation.html'
+				}
+			]
+		},
+		{
+			name: 'About us',
+			child: [
+				{
+					name: 'About Company',
+					href: 'about-us.html'
+				},
+				{
+					name: 'Contacts',
+					href: 'contacts.html'
+				},
+				{
+					name: 'Cases',
+					href: 'cases.html'
+				},
+				{
+					name: 'Career',
+					href: 'career.html'
+				},
+				{
+					name: 'Partner program',
+					href: 'partner-program.html'
+				},
+				{
+					name: 'Brand materials',
+					href: 'brand-materials.html'
+				},
+				{
+					name: 'Charity',
+					href: 'charity.html'
+				}
+			]
+		}
+	]
+</script>
+<footer class="footer">
+	<div class="footer__container container">
+		<div class="footer__top">
+			<div class="footer__menus">
+				<app-menu webc:for="item of menu" :@heading="item.name" :@links="item.child"></app-menu>
+			</div>
+			<div class="footer__accordions">
+				<sl-details webc:for="item of menu" class="footer__accordion" :summary="item.name">
+					<app-menu :@links="item.child"></app-menu>
+				</sl-details>
+			</div>
+		</div>
+		<div class="footer__middle">
+			<a href="/" class="footer__logo-link">
+				<img src="/src/assets/images/betatransfer-kassa.svg" class="footer__logo" width="143" height="30" loading="lazy" decoding="async" alt="Betatransfer kassa.">
+			</a>
+
+			<app-payments class="footer__payments"></app-payments>
+
+			<app-socials class="footer__socials"></app-socials>
+		</div>
+		<div class="footer__bottom">
+			<p class="footer__design-by">Design & development by MIKS SOFT</p>
+			<small class="footer__copyright">© Betatransfer 2024. All right reserved.</small>
+			<app-policies class="footer__policies"></app-policies>
+		</div>
+	</div>
+</footer>

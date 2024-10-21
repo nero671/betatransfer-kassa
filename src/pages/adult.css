@@ -1,0 +1,152 @@
+.adult__intro-section {
+	margin-block-end: 25.75rem;
+}
+
+.adult__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.adult__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.adult__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.adult__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.adult__decorative-1 {
+	top: 18.75rem;
+	left: -7.3125rem;
+	width: 41.625rem;
+	height: 41.625rem;
+	scale: -1 1;
+}
+
+.adult__decorative-2 {
+	top: 8.625rem;
+	right: -8.125rem;
+	width: 41.625rem;
+	height: 41.625rem;
+}
+
+.adult__decorative-3 {
+	bottom: -36.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.adult__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.adult__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+@media(min-width: 2000px) {
+	.adult__decorative-2 {
+		right: -13.125rem;
+	}
+
+	.adult__decorative-1 {
+		left: -9.3125rem;
+	}
+}
+
+@media(max-width: 1750px) {
+	.adult__decorative-1 {
+		left: -14.75rem;
+	}
+
+	.adult__decorative-2 {
+		right: -14.75rem;
+	}
+}
+
+@media (max-width: 1300px) {
+	.adult__decorative-1 {
+		top: unset;
+		bottom: 3.5rem;
+		left: -0.625rem;
+		width: 15.3125rem;
+		height: 15.3125rem;
+		rotate: -60.19deg;
+	}
+
+	.adult__decorative-2 {
+		top: 3.25rem;
+		right: -1.5rem;
+		width: 15.3125rem;
+		height: 15.3125rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.adult__intro-section {
+		margin-block-end: 9rem;
+	}
+
+	.adult__decorative-1 {
+		top: 38rem;
+	}
+
+	.adult__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.adult__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.adult__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.adult__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.adult__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.adult__decorative-4 {
+		display: none;
+	}
+
+	.adult__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    left: -36rem;
+	}
+}
+
+@media(max-width: 600px) {
+	.adult__decorative-1 {
+		bottom: -7.75rem;
+		left: -2.625rem;
+	}
+
+	.adult__decorative-1 {
+		width: 11.1875rem;
+		height: 11.1875rem;
+	}
+
+	.adult__decorative-2 {
+		width: 12.1875rem;
+		height: 12.1875rem;
+		top: 5.25rem;
+	}
+}

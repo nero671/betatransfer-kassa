@@ -1,0 +1,15 @@
+.not-found__section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: min(100vh, 90rem);
+	max-width: unset;
+	overflow-y: clip;
+}
+
+.not-found__decorative-1 {
+	top: -74.25rem;
+	left: 50%;
+	translate: -50% 0;
+}

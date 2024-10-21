@@ -1,0 +1,41 @@
+.accordion::part(header) {
+	gap: 1.25rem;
+	padding-block: 2.5rem;
+	font: var(--font-craftwork-grotesk-heading-6);
+	letter-spacing: -0.02em;
+}
+
+.accordion::part(content) {
+	padding-block-end: 2.5rem;
+	font: var(--font-inter-tight-sub1);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+.accordion span {
+	text-align: left;
+}
+
+
+.accordion::part(summary-icon) {
+	rotate: 90deg;
+}
+
+.accordion[open]::part(summary-icon), .accordion__icon--collapse {
+	rotate: 270deg;
+}
+
+.accordion__icon--collapse {
+	rotate: 90deg;
+}
+
+@media (max-width: 900px) {
+	.accordion::part(header) {
+		padding-block: 1.875rem;
+	}
+
+	.accordion::part(content) {
+		padding-block-end: 1.875rem;
+		font: var(--font-inter-tight-base);
+	}
+}

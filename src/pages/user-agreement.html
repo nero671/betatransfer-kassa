@@ -1,0 +1,148 @@
+<script webc:setup>
+	const policyText = `
+		<h2>1. General Terms</h2>
+		<p>
+			The Betatransfer System ("Service") is a payment service designed to facilitate transactions between individuals, legal entities, and individual entrepreneurs over the Internet using personal computers and mobile devices. These User Agreements ("Agreement") regulate the relationship between the Service and any economic entity or individual who joins this Agreement ("Customer"). The Service provides remote financial services for payment receipt and fund transfers ("Services").<br>
+		</p>
+		<p>
+			Customers can be Payers (those who send payments) or Payees (those who receive payments) via the Betatransfer System. Services are provided based on this Agreement. For non-cash payments, the Service may also provide Services based on a Distant Order, an order to debit an account in favor of the Service for payment purposes. The Service reserves the right to unilaterally amend this Agreement by publishing changes on its website. Changes take effect upon publication unless otherwise specified.<br>
+		</p>
+		<h2>2. Registration Rules</h2>
+		<p>
+			To connect to the Betatransfer System, Customers must:<br>
+			<ul>
+				<li>Create an account with the Service.</li>
+				<li>Operate a functional website for payment acceptance.</li>
+				<li>Ensure the online shop passes checks for prohibited products/services and required functionality.</li>
+				<li>Ensure visibility of product descriptions, prices, contact information, and compliance with PCI DSS if applicable.</li>
+			</ul>
+		</p>
+		<p>
+			Additional documentation may be required for certain categories, such as intellectual property, branded goods, event tickets, transport tickets, or broadcasting services.
+		</p>
+		<h2>3. Service Rights</h2>
+		<p>
+			The Service may: <br>
+			<ul>
+				<li>Refuse or return payments that fail security checks.</li>
+				<li>Set and change transaction limits to minimize risks and losses.</li>
+				<li>Request necessary documents from Customers for verification.</li>
+				<li>Limit daily transaction amounts from a single card or payment method.</li>
+				<li>Address disputes following International Payment Systems and current legislation.</li>
+				<li>Verify Customer compliance with the Agreement.</li>
+				<li>Suspend Transactions if chargebacks exceed 3% of turnover until resolved.</li>
+				<li>Contact law enforcement regarding illegal activities.</li>
+				<li>Suspend Services for suspicious Transactions, receipt of fraud notifications, or exceeding permissible transaction numbers or turnover.</li>
+				<li>Distribute promotional materials via email.</li>
+				<li>Withhold funds during disputes to protect Service interests, with notification to the Customer.</li>
+			</ul>
+		</p>
+		<h2>4. Customer Rights</h2>
+		<p>
+			Customers may: <br>
+
+			<ul>
+				<li>Receive consultations and materials on connecting to the Betatransfer System and conducting Transactions.</li>
+				<li>Access additional information and statistics on Transactions.</li>
+				<li>Consent to data processing and email communications, with the option to unsubscribe.</li>
+			</ul>
+		</p>
+		<h2>5. Responsibilities</h2>
+		<p>
+			Service Obligations: <br>
+			<ul>
+				<li>Conduct payments using bank cards, electronic payment systems, or other legal methods.</li>
+				<li>Execute Remote Orders in compliance with laws and International Payment System rules.</li>
+				<li>Transfer accepted payments to Customer accounts, deducting service costs.</li>
+				<li>Maintain confidentiality of Customer transactions and personal data.</li>
+			</ul>
+		</p>
+
+		<p>
+			Customer Obligations: <br>
+			<ul>
+				<li>Comply with applicable laws and International Payment System rules.</li>
+				<li>Provide necessary documents for identification and verification.</li>
+				<li>Avoid exceeding maximum transaction amounts.</li>
+				<li>Keep authorization data confidential and notify the Service of any changes or breaches./li>
+				<li>Not use the Service for prohibited transactions.</li>
+				<li>Pay for Services per the Service’s tariffs.</li>
+				<li>Ensure transaction confidentiality and report any data compromise within three days.</li>
+				<li>Follow card handling procedures and ensure data entry on secure Service servers.</li>
+			</ul>
+		</p>
+		<h2>6.  Transaction Monitoring</h2>
+		<p>
+			The Service monitors Customer websites and Transactions to prevent fraud and ensure compliance with the Agreement and legal requirements.
+		</p>
+		<h2>7. Payment Methods</h2>
+		<p>
+			Available payment methods are listed in the Customer's personal account. The Service may modify this list and set transaction limits unilaterally.
+		</p>
+		<h2>8. Financial Environment</h2>
+		<p>
+			Service fees and limits are specified in the Customer’s personal account. The Service may change tariffs and limits unilaterally.
+		</p>
+
+		<h2>9. Party Responsibilities</h2>
+		<p>
+			The Customer is responsible for maintaining confidentiality and controlling authorization data. Each Party must compensate the other for damages resulting from non-compliance with the Agreement.
+		</p>
+
+		<h2>10. Dispute Settlement</h2>
+		<p>
+			Disputes are settled through negotiation or as prescribed by current legislation. The Service will follow International Payment Systems and legal requirements in resolving disputes.
+		</p>
+
+		<h2>11. Agreement Term and Termination</h2>
+		<p>
+			This Agreement is effective from Customer registration and remains in force until terminated by either Party with ten days' notice. The Service may terminate the Agreement for non-compliance, suspicious activity, or breaches of the Agreement, with immediate notification to the Customer. Upon termination, Customers must remove all Service-related information from their websites.
+		</p>
+
+		<h2>12. Force Majeure</h2>
+		<p>
+			The Parties are excused from fulfilling obligations due to state prohibitive measures or uncontrollable events like natural disasters, war, or strikes.
+		</p>
+
+		<h2>13. Other Conditions</h2>
+		<p>
+			The Agreement is publicly available on the Service's website. By registering, the Customer agrees to all terms unconditionally.
+		</p>
+	`;
+</script>
+
+<app-base webc:nokeep @title="Privacy Policy" @page-class="user-agreement">
+	<app-intro-section
+		@heading="User Agreement for Betatransfer System Services"
+		class="user-agreement__intro-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background25.png" class="privacy-policy__decorative-1"></app-decorative>
+	</app-intro-section>
+
+	<app-text-content-section
+		:@content="policyText"
+		class="user-policy__text-content-section"
+	>
+		<div class="contacts-service">
+			<div class="contacts-service__wrapper">
+				<div class="contact-service__title">
+					For further details or inquiries, <br> contact the Service at:
+				</div>
+				<a href="mailto:support@betatransfer.io" class="contact-service__link">
+					support@betatransfer.io
+				</a>
+			</div>
+		</div>
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="privacy-policy__decorative-2"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background17.png" class="privacy-policy__decorative-3"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background26.png" class="privacy-policy__decorative-4"></app-decorative>
+	</app-text-content-section>
+
+	<app-contact-form-section
+		@heading="We are in touch 24/7"
+		@subheading="Any other questions? Contact us!"
+		:@stars="true"
+		class="privacy-policy__contact-form-section"
+	>
+	</app-contact-form-section>
+</app-base>

@@ -1,0 +1,29 @@
+.heading-description-section__heading {
+	max-width: 48.75rem;
+	padding-block-end: 2.5rem;
+	border-block-end: 0.0625rem solid rgba(255,255,255,0.4);
+	margin-inline: auto;
+	margin-block-end: 2.5rem;
+	text-align: center;
+}
+
+.heading-description-section__description {
+	max-width: 35.625rem;
+	margin-inline: auto;
+	font: var(--font-inter-tight-sub2);
+	letter-spacing: -0.02em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+	.heading-description-section__heading {
+		max-width: 32.5rem;
+		padding-block-end: 1.25rem;
+		margin-block-end: 1.25rem;
+	}
+
+	.heading-description-section__description {
+		font: var(--font-inter-tight-base);
+	}
+}

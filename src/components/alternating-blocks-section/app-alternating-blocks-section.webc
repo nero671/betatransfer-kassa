@@ -1,0 +1,8 @@
+<div webc:root="override" class="section alternating-blocks-section">
+	<div class="container">
+		<app-heading webc:if="heading" class="alternating-blocks-section__heading" @structure-level="2" @visual-level="2" :@content="heading"></app-heading>
+
+		<app-alternating-blocks class="alternating-blocks-section__blocks" :@items="items" :@reverse="reverse"></app-alternating-blocks>
+	</div>
+	<slot></slot>
+</div>

@@ -1,0 +1,6 @@
+<section webc:root="override" class="section accordion-list-section">
+	<div class="container">
+		<app-accordion-list class="accordion-list-section__list" :@items="items"></app-accordion-list>
+	</div>
+	<slot></slot>
+</section>

@@ -1,0 +1,59 @@
+.downloads-list {
+	display: flex;
+	flex-direction: column;
+	gap: 6.25rem;
+}
+
+.downloads-list__link {
+	width: fit-content;
+	padding: 1.5rem 2rem;
+	border-radius: 1.875rem;
+	background-color: var(--color-brilliant-azure);
+	font: var(--font-inter-tight-sub1);
+	letter-spacing: -0.02em;
+	transition-property: color, background-color;
+	transition-duration: var(--base-transition);
+}
+
+.downloads-list__link:is(:hover, :focus-visible) {
+	background-color: var(--color-sunny);
+	color: var(--color-imperial-blue);
+}
+
+.downloads-list__item {
+	display: flex;
+	align-items: start;
+	gap: 6.25rem;
+}
+
+.downloads-list__name {
+	width: 100%;
+	max-width: 23.75rem;
+	font: var(--font-inter-tight-sub1);
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+@media (max-width: 900px) {
+	.downloads-list__link {
+		padding: 1.25rem;
+		border-radius: 1.25rem;
+		font: var(--font-inter-tight-base);
+	}
+
+	.downloads-list {
+		gap: 1.875rem;
+	}
+
+	.downloads-list__item {
+		align-self: stretch;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1.25rem;
+	}
+
+	.downloads-list__name {
+		max-width: 36.25rem;
+		font: var(--font-inter-tight-base);
+	}
+}

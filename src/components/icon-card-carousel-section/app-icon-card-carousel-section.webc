@@ -1,0 +1,10 @@
+<section webc:root="override" class="section icon-card-carousel-section">
+	<div class="container">
+		<app-heading class="icon-card-carousel-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+
+		<app-icon-card-carousel class="icon-card-carousel-section__carousel"></app-icon-card-carousel>
+
+		<app-button webc:if="button" type="button" class="icon-card-carousel-section__button" data-modal="contact">Contact us</app-button>
+	</div>
+	<slot></slot>
+</section>

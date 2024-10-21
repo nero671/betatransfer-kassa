@@ -1,0 +1,254 @@
+<div class="marquee-track-slider">
+<swiper-container webc:root="override" class="marquee-carousel" slides-per-view="5"
+    loop="false"
+>
+    <swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+    		<a href="industry-investment.html" class="logo-marquees__link">
+                <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+            </a>
+    </swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-dating.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logoD.svg" width="200" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-gaming.html" class="logo-marquees__link">
+            <img src="/src/assets/images/alure.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-infoproducts.html" class="logo-marquees__link">
+            <img src="/src/assets/images/info.png" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-investment.html" class="logo-marquees__link">
+            <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-soft.html" class="logo-marquees__link">
+            <img src="/src/assets/images/prox.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+</swiper-container>
+</div>
+
+<div class="marquee-track-slider">
+<swiper-container webc:root="override" class="marquee-carousel reverse" slides-per-view="5"
+    loop="false"
+>
+    <swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+    		<a href="industry-investment.html" class="logo-marquees__link">
+                <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+            </a>
+    </swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-dating.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logoD.svg" width="200" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-gaming.html" class="logo-marquees__link">
+            <img src="/src/assets/images/alure.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-infoproducts.html" class="logo-marquees__link">
+            <img src="/src/assets/images/info.png" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-investment.html" class="logo-marquees__link">
+            <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-soft.html" class="logo-marquees__link">
+            <img src="/src/assets/images/prox.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+</swiper-container>
+</div>
+
+<div class="marquee-track-slider">
+<swiper-container webc:root="override" class="marquee-carousel" slides-per-view="5"
+    loop="false"
+>
+    <swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+    		<a href="industry-investment.html" class="logo-marquees__link">
+                <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+            </a>
+    </swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-dating.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logoD.svg" width="200" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-gaming.html" class="logo-marquees__link">
+            <img src="/src/assets/images/alure.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-infoproducts.html" class="logo-marquees__link">
+            <img src="/src/assets/images/info.png" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-investment.html" class="logo-marquees__link">
+            <img src="/src/assets/images/utip.svg" width="164" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-soft.html" class="logo-marquees__link">
+            <img src="/src/assets/images/prox.png" width="260" height="46" alt="Linebet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+
+	<swiper-slide class="marquee-carousel__item">
+		<a href="case.html" class="logo-marquees__link">
+            <img src="/src/assets/images/logo05.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-adult.html" class="logo-marquees__link">
+            <img src="/src/assets/images/bongacams.svg" width="164" height="45" alt="Utip" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-betting.html" class="logo-marquees__link">
+            <img src="/src/assets/images/betwinner.svg" width="260" height="30" alt="Mostbet" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+	<swiper-slide class="marquee-carousel__item">
+		<a href="industry-crypto.html" class="logo-marquees__link">
+            <img src="/src/assets/images/cr.png" width="164" height="46" alt="Po Trade" class="logo-marquees__logo">
+        </a>
+	</swiper-slide>
+
+
+</swiper-container>
+</div>

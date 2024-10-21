@@ -1,0 +1,12 @@
+<section webc:root="override" class="section figure-card-columns-section">
+	<div class="container">
+		<hgroup class="figure-card-columns-section__headings">
+			<app-heading class="figure-card-columns-section__heading" @structure-level="2" @visual-level="2" :content="heading"></app-heading>
+			<p webc:if="subheading" class="figure-card-columns-section__subheading" @text="subheading"></p>
+		</hgroup>
+			
+		<app-figure-card-columns class="figure-card-columns-section__columns" :@items="items" :@size="size" :@justify="justify"></app-figure-card-columns>
+		<app-figure-card-columns webc:if="itemsSecond && sizeSecond && justifySecond" class="figure-card-columns-section__columns" :@items="itemsSecond" :@size="sizeSecond" :@justify="justifySecond"></app-figure-card-columns>
+	</div>
+	<slot></slot>
+</section>

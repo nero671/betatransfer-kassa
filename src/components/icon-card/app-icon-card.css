@@ -1,0 +1,50 @@
+.icon-card {
+	display: grid;
+	grid-template-areas: 
+		'icon heading'
+		'text text   '
+	;
+	grid-template-columns: 3rem auto;
+	gap: 2rem 1.5rem;
+	max-width: 21.25rem;
+}
+
+.icon-card__icon {
+	grid-area: 'icon';
+	align-self: center;
+	width: 3rem;
+	height: 3rem;
+}
+
+.icon-card__heading {
+	grid-area: heading;
+	align-self: center;
+	font: var(--font-inter-tight-sub1);
+	letter-spacing: -0.02em;
+}
+
+.icon-card__text {
+	grid-area: text;
+	font: var(--font-inter-tight-sub3);
+	letter-spacing: -0.02em;
+	opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+	.icon-card {
+		grid-template-columns: 2.375rem auto;
+	}
+
+	.icon-card__icon {
+		width: 2.375rem;
+		height: 2.375rem;
+	}
+
+	.icon-card__heading {
+		font: var(--font-inter-tight-sub2);
+	}
+
+	.icon-card__text {
+		font: var(--font-inter-tight-base);
+	}
+}

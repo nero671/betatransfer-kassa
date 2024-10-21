@@ -1,0 +1,142 @@
+.investment__intro-section {
+	margin-block-end: 20.9375rem;
+}
+
+.investment__figure-card-columns-section {
+	margin-block-end: 21.25rem;
+}
+
+.investment__media-carousel-section {
+	margin-block-end: 12.5rem;
+}
+
+.investment__logo-marquees-section {
+	margin-block-end: 18.75rem;
+}
+
+.investment__contact-form-section {
+	margin-block-end: 22.75rem;
+}
+
+.investment__decorative-1 {
+
+}
+
+.investment__decorative-2 {
+
+}
+
+.investment-industry__decorative-1,
+.investment-industry__decorative-2 {
+	width: 30rem;
+}
+
+.investment__decorative-3 {
+	bottom: -30.5rem;
+	left: 50%;
+	translate: -50% 0;
+}
+
+.investment__decorative-4 {
+	right: -40rem;
+	bottom: -32rem;
+}
+
+.investment__decorative-5 {
+	bottom: -35rem;
+  left: -54rem;
+}
+
+.investment__decorative-1 {
+	top: 3rem;
+	left: -16rem;
+}
+
+.investment__decorative-2 {
+	top: 30rem;
+	right: -16rem;
+	transform: scaleX(-1);
+}
+
+.investment-industry__decorative-2 {
+	top: 25rem;
+}
+
+@media (max-width: 1300px) {
+	.investment__decorative-1 {
+		width: 30.625rem;
+		height: 30.625rem;
+		left: -10rem;
+	}
+
+	.investment__decorative-2 {
+		width: 30.625rem;
+		height: 30.625rem;
+		right: -10rem;
+		top: 40rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.investment__intro-section {
+		margin-block-end: 20rem;
+	}
+
+	.investment__figure-card-columns-section {
+		margin-block-end: 8.75rem;
+	}
+
+	.investment__media-carousel-section {
+		margin-block-end: 7.5rem;
+	}
+
+	.investment__logo-marquees-section {
+		margin-block-end: 21.75rem;
+	}
+
+	.investment__contact-form-section {
+		margin-block-end: 11.375rem;
+	}
+
+	.investment__decorative-3 {
+		width: 119.1875rem;
+		height: auto;
+		bottom: -30rem;
+    right: -34rem;
+		left: unset;
+		translate: unset;
+	}
+
+	.investment__decorative-4 {
+		display: none;
+	}
+
+	.investment__decorative-5 {
+		width: 58.125rem;
+		height: auto;
+		bottom: -22rem;
+    	left: -36rem;
+	}
+}
+
+/*@media (min-width: 800px) and (max-width: 1300px) {*/
+/*	.investment__decorative-2 {*/
+/*		top: 64rem;*/
+/*	}*/
+/*}*/
+
+@media(max-width: 600px) {
+	.investment__decorative-1 {
+		top: auto;
+		width: 20.625rem;
+		height: 20.625rem;
+		bottom: -11rem;
+	}
+
+	.investment__decorative-2 {
+		top: 3rem;
+		width: 20.625rem;
+		height: 20.625rem;
+		bottom: auto;
+	}
+}

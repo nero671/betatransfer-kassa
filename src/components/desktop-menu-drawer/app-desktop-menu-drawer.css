@@ -1,0 +1,65 @@
+.desktop-menu-drawer {
+	--size: auto;
+	--sl-z-index-drawer: 2;
+}
+
+.desktop-menu-drawer[open] ~ * {
+	z-index: 3;
+}
+
+.desktop-menu-drawer::part(panel) {
+	padding: 5.6875rem 0 2.3125rem;
+	background-color: var(--color-maastricht-blue-85);
+	border-end-start-radius: 1.25rem;
+	border-end-end-radius: 1.25rem;
+}
+
+.desktop-menu-drawer__top {
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+	padding-block-start: 3.125rem;
+	border-block-start: 0.0625rem solid var(--color-white-15);
+	margin-block-end: 3.125rem;
+}
+
+.desktop-menu-drawer__separator {
+	width: 0.0625rem;
+	background-color: var(--color-white-15);
+}
+
+.desktop-menu-drawer__columns--right {
+	grid-area: right;
+	padding-inline-start: 6.8125rem;
+}
+
+.desktop-menu-drawer__bottom {
+	grid-area: bottom;
+	display: flex;
+	align-items: center;
+	padding: 3.125rem 0;
+	border-block-start: 0.0625rem solid var(--color-white-15);
+}
+
+.desktop-menu-drawer__contact-text {
+	font: var(--font-inter-tight-sub3);
+	letter-spacing: -0.02em;
+	margin-inline-end: 4.375rem;
+}
+
+.desktop-menu-drawer__contacts {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.desktop-menu-drawer__link {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+@media (max-width: 900px) {
+	.desktop-menu-drawer {
+		display: none;
+	}
+}

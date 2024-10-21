@@ -1,0 +1,48 @@
+<script webc:setup>
+	const downloads = [
+		{
+			heading: 'Betatransfer’s main logo',
+			href: '/src/assets/images/bt-kassa.svg'
+		},
+		{
+			heading: 'Betatransfer Kassa’s logo',
+			href: '/src/assets/images/bt-kassa.svg'
+		},
+		{
+			heading: 'Betatransfer Exchanger’s logo',
+			href: '/src/assets/images/bt-kassa.svg'
+		},
+		{
+			heading: 'Betatransfer Wallet’s logo',
+			href: '/src/assets/images/bt-kassa.svg'
+		},
+		{
+			heading: 'Corporate identity',
+			href: '/src/assets/images/bt-kassa.svg'
+		}
+	];
+</script>
+<app-base webc:nokeep @title="Brand materials" @page-class="brand-materials">
+	<app-intro-section
+		@heading="Brand materials"
+		@subheading="Download the company's logo"
+		class="brand-materials__intro-section"
+	>
+	</app-intro-section>
+
+	<app-downloads-list-section
+		@heading="Downloads"
+		:@items="downloads"
+		class="brand-materials__downloads-list-section"
+	>
+		<app-decorative src="/src/assets/images/backgrounds/background06.png" class="brand-materials__decorative-1"></app-decorative>
+		<app-decorative src="/src/assets/images/backgrounds/background05.png" class="brand-materials__decorative-2"></app-decorative>
+	</app-downloads-list-section>
+
+	<app-contact-form-section
+		@heading="Any questions about using corporate identity?"
+		@subheading="Write to our marketing department"
+		:@stars="true"
+		class="brand-materials__contact-form-section"
+	></app-contact-form-section>
+</app-base>

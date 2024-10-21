@@ -1,0 +1,57 @@
+:root {
+	/* Colors */
+	--color-white: #FFFFFF;
+	--color-white-15: color-mix(in srgb, var(--color-white) 15%, transparent);
+	--color-white-20: color-mix(in srgb, var(--color-white) 20%, transparent);
+	--color-white-40: color-mix(in srgb, var(--color-white) 40%, transparent);
+	--color-water: #CCECFF;
+	--color-light-silver: #D9D9D9;
+	--color-pastel-blue: #B1BDCC;
+	--color-roman-silver: #818E9F;
+	--color-imperial-blue: #021D7C;
+	--color-dark-imperial-blue: #060A62;
+	--color-maastricht-blue: #0A213D;
+	--color-maastricht-blue-60: color-mix(in srgb, var(--color-maastricht-blue) 60%, transparent);
+	--color-maastricht-blue-85: color-mix(in srgb, var(--color-maastricht-blue) 85%, transparent);
+	--color-brilliant-azure: #3B95FF;
+	--color-sunny: #EBFF6E;
+	--color-black: #000000;
+
+	/* Gradients */
+	--gradient-header: linear-gradient(to bottom, var(--color-imperial-blue), transparent);
+	--gradient-text: linear-gradient(264.9deg, var(--color-water) 13.13%, #FFFFFF 64.83%);
+
+	/* Fonts */
+	--base-font-size-divider: 16;
+	--font-inter-tight-sub1: 400 calc(27 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+	--font-inter-tight-sub2: 400 calc(23 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+	--font-inter-tight-sub3: 400 calc(19 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+	--font-inter-tight-input: 400 calc(19 / var(--base-font-size-divider) * 1rem)/1rem InterTight;
+	--font-inter-tight-signup: 500 calc(17 / var(--base-font-size-divider) * 1rem)/1 InterTight;
+	--font-inter-tight-base: 400 calc(16 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+	--font-inter-tight-button: 500 calc(16 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+	--font-inter-tight-menu: 500 calc(14 / var(--base-font-size-divider) * 1rem)/1 InterTight;
+	--font-inter-tight-small: 400 calc(13 / var(--base-font-size-divider) * 1rem)/1.2 InterTight;
+
+	--font-craftwork-grotesk-heading-1: 700 calc(88 / var(--base-font-size-divider) * 1rem) / 1.2 CraftworkGrotesk;
+	--font-craftwork-grotesk-heading-2: 700 calc(67 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	--font-craftwork-grotesk-heading-3: 700 calc(57 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	--font-craftwork-grotesk-heading-4: 700 calc(47 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	--font-craftwork-grotesk-heading-5: 700 calc(39 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	--font-craftwork-grotesk-heading-6: 700 calc(32 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	
+	/* Transitions */
+	--base-transition: 300ms;
+}
+
+@media (max-width: 900px) {
+	:root {
+		/* Fonts */
+		--font-craftwork-grotesk-heading-1: 700 calc(38 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+		--font-craftwork-grotesk-heading-2: 700 calc(32 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+		--font-craftwork-grotesk-heading-3: 700 calc(28 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+		--font-craftwork-grotesk-heading-4: 700 calc(26 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+		--font-craftwork-grotesk-heading-5: 700 calc(22 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+		--font-craftwork-grotesk-heading-6: 700 calc(18 / var(--base-font-size-divider) * 1rem)/1.2 CraftworkGrotesk;
+	}
+}

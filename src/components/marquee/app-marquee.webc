@@ -1,0 +1,16 @@
+<div 
+	webc:root="override" 
+	class="marquee" 
+	:class="variant ? 'marquee--' + variant : ''; lines ? 'marquee--lines' : ''" 
+	:style="speed ? `--speed: ${speed};` : ''; direction ? `--direction: ${direction}` : ''">
+	<div class="marquee__track">
+		<p class="marquee__content">
+			<span webc:nokeep webc:if="content" @text="content"></span>
+			<slot webc:else></slot>
+		</p>
+		<p class="marquee__content">
+			<span webc:nokeep webc:if="content" @text="content"></span>
+			<slot webc:else></slot>
+		</p>
+	</div>
+</div>
