@@ -24,8 +24,15 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
-      - name: Point publicUrl to GitHub Pages (build-time only)
-        run: node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.targets.default.publicUrl='/betatransfer-kassa/';fs.writeFileSync('package.json',JSON.stringify(p,null,2));"
+      - name: CI-only fixes (repo files are not changed)
+        run: |
+          # src/components/animations/ was never committed (.gitignore has "animations"),
+          # but index.css and index.js import from it -> create empty placeholders if missing
+          mkdir -p src/components/animations
+          [ -f src/components/animations/animation.css ] || echo "/* placeholder: original file is not in the repo */" > src/components/animations/animation.css
+          [ -f src/components/animations/animations.js ] || echo "export default {};" > src/components/animations/animations.js
+          # pages reference Acquiring.mp4, repo has acquiring.mp4 (macOS is case-insensitive, Linux is not)
+          [ -f src/assets/video/Acquiring.mp4 ] || cp src/assets/video/acquiring.mp4 src/assets/video/Acquiring.mp4
       - name: Build
         run: |
           npm run sprites
