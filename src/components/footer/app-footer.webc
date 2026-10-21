@@ -160,7 +160,7 @@
 			</div>
 		</div>
 		<div class="footer__middle">
-			<a href="/" class="footer__logo-link">
+			<a href="home.html" class="footer__logo-link">
 				<img src="/src/assets/images/betatransfer-kassa.svg" class="footer__logo" width="143" height="30" loading="lazy" decoding="async" alt="Betatransfer kassa.">
 			</a>
 
