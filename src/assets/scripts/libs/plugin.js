@@ -31,7 +31,7 @@
 
             // Create text
             // var text = $("<video autoplay loop muted playsinline role=\"presentation\" class=\"preloader-video\" preload='auto'>\n" +
-            //     "                    <source src=\"https://html.miks-soft.com/betatransfer-kassa/Blue.8efe7981.mp4\" type=\"video/mp4\">\n" +
+            //     "                    <source src=\"/src/assets/video/Blue.mp4\" type=\"video/mp4\">\n" +
             //     "                    Your browser does not support the video tag.\n" +
             //     "                </video>");
             //
