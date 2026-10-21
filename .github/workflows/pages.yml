@@ -34,7 +34,7 @@ jobs:
           # but index.css and index.js import from it -> create empty placeholders if missing
           mkdir -p src/components/animations
           [ -f src/components/animations/animation.css ] || echo "/* placeholder: original file is not in the repo */" > src/components/animations/animation.css
-          [ -f src/components/animations/animations.js ] || echo "export default {};" > src/components/animations/animations.js
+          [ -f src/components/animations/animations.js ] || echo "export default function animations() {}" > src/components/animations/animations.js
           # pages reference Acquiring.mp4, repo has acquiring.mp4 (macOS is case-insensitive, Linux is not)
           [ -f src/assets/video/Acquiring.mp4 ] || cp src/assets/video/acquiring.mp4 src/assets/video/Acquiring.mp4
       - name: Build
