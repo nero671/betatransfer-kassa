@@ -15,7 +15,7 @@
 		},
 		{
 			name: 'Blog',
-			href: 'https://html.miks-soft.com/betatransfer/blog.html'
+			href: 'https://nero671.github.io/betatransfer/blog.html'
 		},
 		{
 			name: 'Help',
@@ -184,7 +184,7 @@
 		},
 		{
 			name: 'Blog',
-			href: 'https://html.miks-soft.com/betatransfer/blog.html'
+			href: 'https://nero671.github.io/betatransfer/blog.html'
 		},
 		{
 			name: 'Help',
@@ -241,7 +241,7 @@
 	];
 </script>
 <nav webc:root="override" class="nav">
-    <a href="https://html.miks-soft.com/betatransfer/" class="redirect-link">
+    <a href="https://nero671.github.io/betatransfer/" class="redirect-link">
         <img src="/src/assets/images/r.svg">
     </a>
 	<ul webc:if="type === 'desktop'" class="nav__list">
