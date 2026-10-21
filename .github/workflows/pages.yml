@@ -23,7 +23,10 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          # current Parcel image transformer needs sharp ^0.33 (package.json pins ^0.31) - CI only
+          npm install --no-save sharp@^0.33.5
       - name: CI-only fixes (repo files are not changed)
         run: |
           # src/components/animations/ was never committed (.gitignore has "animations"),
