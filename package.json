@@ -18,15 +18,15 @@
   "targets": {
     "default": {
       "distDir": "./dist",
-      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa"
+      "publicUrl": "/betatransfer-kassa/"
     },
     "static": {
       "distDir": "./static",
-      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa"
+      "publicUrl": "/betatransfer-kassa/"
     },
     "animations": {
       "distDir": "./animations",
-      "publicUrl": "https://html.miks-soft.com/betatransfer-kassa-animations"
+      "publicUrl": "/betatransfer-kassa-animations/"
     }
   },
   "@parcel/transformer-css": {
